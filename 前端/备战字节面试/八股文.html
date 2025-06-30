@@ -1,0 +1,1903 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang xml:lang>
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>八股文</title>
+  <style>
+html {
+color: #1a1a1a;
+background-color: #fdfdfd;
+}
+body {
+margin: 0 auto;
+max-width: 36em;
+padding-left: 50px;
+padding-right: 50px;
+padding-top: 50px;
+padding-bottom: 50px;
+hyphens: auto;
+overflow-wrap: break-word;
+text-rendering: optimizeLegibility;
+font-kerning: normal;
+}
+@media (max-width: 600px) {
+body {
+font-size: 0.9em;
+padding: 12px;
+}
+h1 {
+font-size: 1.8em;
+}
+}
+@media print {
+html {
+background-color: white;
+}
+body {
+background-color: transparent;
+color: black;
+font-size: 12pt;
+}
+p, h2, h3 {
+orphans: 3;
+widows: 3;
+}
+h2, h3, h4 {
+page-break-after: avoid;
+}
+}
+p {
+margin: 1em 0;
+}
+a {
+color: #1a1a1a;
+}
+a:visited {
+color: #1a1a1a;
+}
+img {
+max-width: 100%;
+}
+svg {
+height: auto;
+max-width: 100%;
+}
+h1, h2, h3, h4, h5, h6 {
+margin-top: 1.4em;
+}
+h5, h6 {
+font-size: 1em;
+font-style: italic;
+}
+h6 {
+font-weight: normal;
+}
+ol, ul {
+padding-left: 1.7em;
+margin-top: 1em;
+}
+li > ol, li > ul {
+margin-top: 0;
+}
+blockquote {
+margin: 1em 0 1em 1.7em;
+padding-left: 1em;
+border-left: 2px solid #e6e6e6;
+color: #606060;
+}
+code {
+font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+font-size: 85%;
+margin: 0;
+hyphens: manual;
+}
+pre {
+margin: 1em 0;
+overflow: auto;
+}
+pre code {
+padding: 0;
+overflow: visible;
+overflow-wrap: normal;
+}
+.sourceCode {
+background-color: transparent;
+overflow: visible;
+}
+hr {
+background-color: #1a1a1a;
+border: none;
+height: 1px;
+margin: 1em 0;
+}
+table {
+margin: 1em 0;
+border-collapse: collapse;
+width: 100%;
+overflow-x: auto;
+display: block;
+font-variant-numeric: lining-nums tabular-nums;
+}
+table caption {
+margin-bottom: 0.75em;
+}
+tbody {
+margin-top: 0.5em;
+border-top: 1px solid #1a1a1a;
+border-bottom: 1px solid #1a1a1a;
+}
+th {
+border-top: 1px solid #1a1a1a;
+padding: 0.25em 0.5em 0.25em 0.5em;
+}
+td {
+padding: 0.125em 0.5em 0.25em 0.5em;
+}
+header {
+margin-bottom: 4em;
+text-align: center;
+}
+#TOC li {
+list-style: none;
+}
+#TOC ul {
+padding-left: 1.3em;
+}
+#TOC > ul {
+padding-left: 0;
+}
+#TOC a:not(:hover) {
+text-decoration: none;
+}
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+
+ul.task-list[class]{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+font-size: inherit;
+width: 0.8em;
+margin: 0 0.8em 0.2em -1.6em;
+vertical-align: middle;
+}
+
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+{ counter-reset: source-line 0; }
+pre.numberSource code > span
+{ position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+{ content: counter(source-line);
+position: relative; left: -1em; text-align: right; vertical-align: baseline;
+border: none; display: inline-block;
+-webkit-touch-callout: none; -webkit-user-select: none;
+-khtml-user-select: none; -moz-user-select: none;
+-ms-user-select: none; user-select: none;
+padding: 0 4px; width: 4em;
+color: #aaaaaa;
+}
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa; padding-left: 4px; }
+div.sourceCode
+{ }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } 
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } 
+code span.at { color: #7d9029; } 
+code span.bn { color: #40a070; } 
+code span.bu { color: #008000; } 
+code span.cf { color: #007020; font-weight: bold; } 
+code span.ch { color: #4070a0; } 
+code span.cn { color: #880000; } 
+code span.co { color: #60a0b0; font-style: italic; } 
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } 
+code span.do { color: #ba2121; font-style: italic; } 
+code span.dt { color: #902000; } 
+code span.dv { color: #40a070; } 
+code span.er { color: #ff0000; font-weight: bold; } 
+code span.ex { } 
+code span.fl { color: #40a070; } 
+code span.fu { color: #06287e; } 
+code span.im { color: #008000; font-weight: bold; } 
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } 
+code span.kw { color: #007020; font-weight: bold; } 
+code span.op { color: #666666; } 
+code span.ot { color: #007020; } 
+code span.pp { color: #bc7a00; } 
+code span.sc { color: #4070a0; } 
+code span.ss { color: #bb6688; } 
+code span.st { color: #4070a0; } 
+code span.va { color: #19177c; } 
+code span.vs { color: #4070a0; } 
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } 
+</style>
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">八股文</h1>
+</header>
+<h1 id="准备的面试八股文">准备的面试八股文</h1>
+<h2 id="js的数据类型">1、JS的数据类型</h2>
+<ul>
+<li>基本数据类型：Number,String,null,undefined,Boolen</li>
+<li>引用类型：function,Date,Array,Object</li>
+<li>es6新增：symbol,set等</li>
+</ul>
+<p><em>两者区别</em>:
+基本数据类型占用内存少，在栈内存中，方便查找，没有相互赋值共享问题。
+引用类型在堆内存中，用引用指向，有赋值共享问题</p>
+<h2 id="变量类型检测">2、变量类型检测</h2>
+<p>typeof:基本数据类型 instanceof:包装类String() Number() constructor
+局限性 Object.prototype.toStrong.call()</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="kw">var</span> opt <span class="op">=</span> <span class="bu">Object</span><span class="op">.</span><span class="at">prototype</span><span class="op">.</span><span class="at">toString</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(opt<span class="op">.</span><span class="fu">call</span>(<span class="st">&#39;123&#39;</span>))</span></code></pre></div>
+<p>包装类：为了访问不报错，临时创建包装类，销毁</p>
+<h2 id="手动实现一个instanceof">3、手动实现一个instanceof</h2>
+<div class="sourceCode" id="cb2"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="kw">function</span> <span class="fu">instanceof2</span>(Op<span class="op">,</span>Yp){</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>    <span class="kw">let</span> O <span class="op">=</span> Op</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>    <span class="kw">let</span> Y <span class="op">=</span> Yp<span class="op">.</span><span class="at">prototype</span></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>    <span class="cf">while</span>(O <span class="op">!==</span> <span class="kw">null</span>){</span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span>(O <span class="op">===</span> Y){</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>            <span class="cf">return</span> <span class="kw">true</span></span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>        }</span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>        Op <span class="op">=</span> Op<span class="op">.</span><span class="at">__proto__</span></span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> <span class="kw">false</span></span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div>
+<h2 id="http和https的区别">4、http和https的区别</h2>
+<ul>
+<li>http是超文本传输协议，基于请求-响应，是明文传输，端口80</li>
+<li>https是安全超文本传输协议，使用ssl加密传输协议，ssl需要ca发放的证书，是非对称加密，确保数据传输的安全，端口443</li>
+</ul>
+<h2 id="http状态码">5、http状态码</h2>
+<ul>
+<li>1XX：正在请求</li>
+<li>2XX：请求成功</li>
+<li>3XX：重定向</li>
+<li>4XX：客户端错误</li>
+<li>5XX：服务端错误</li>
+</ul>
+<h2 id="说一下闭包">6、说一下闭包</h2>
+<p>函数嵌套函数，内层函数访问外层函数的作用域，内层函数的返回会被保存下来，</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="kw">function</span> <span class="fu">init</span>(name){</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> <span class="kw">function</span> <span class="fu">displayname</span>(){</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>        <span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(name)</span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a><span class="kw">var</span> fo <span class="op">=</span> <span class="fu">init</span>(<span class="st">&#39;123&#39;</span>)</span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a><span class="fu">fo</span>()</span></code></pre></div>
+<p>应用场景： - 创建私有变量 - 延长变量的生命周期，可重复使用的变量 -
+防抖，节流 - 函数嵌套函数避免全局污染</p>
+<p>优缺点： - 一直存在内存中，不会被垃圾回收机制回收 -
+避免全局变量的污染 - 私有变量的存在 -
+闭包较多时，会消耗内存，导致性能下降，在IE浏览器中可能导致内存泄露 -
+用完赋值为null</p>
+<p>垃圾回收机制 - 标记清除：变量离开环境标记为离开环境，被回收内存 -
+引用计数：计数为0被清除，声明后次数+1，同一个值被赋值给另一个变量，次数+1，引用类型值被赋值为其他引用则-1</p>
+<h2 id="说一下this指向">7、说一下this指向</h2>
+<p>指向函数当前的调用者 - 定时器中的this指向window -
+找不到调用者指向window - 箭头函数指向</p>
+<p>固定函数的执行者 - bind()返回新的函数 - call() - apply()</p>
+<h2 id="防抖和节流">8、防抖和节流</h2>
+<p>防抖(Debounce)： - 在一定时间内只执行最后一次 - 搜索框搜索输入 -
+文本保存 - 使用定时器</p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="kw">let</span> timerId <span class="op">=</span> <span class="kw">null</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="kw">function</span> <span class="fu">debounce</span>(){</span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span>(timerId <span class="op">!==</span> <span class="kw">null</span>){</span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>        <span class="pp">clearTimeout</span>(timerId)</span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>    timerId <span class="op">=</span> <span class="pp">setTimeout</span>(()<span class="kw">=&gt;</span>{</span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a>        <span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(<span class="dv">123</span>)</span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>    }<span class="op">,</span> <span class="dv">1000</span>)</span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div>
+<p>节流（Throttle）: - 在一定时间内只执行一次函数 -
+快速点击，鼠标滑动，scroll事件，resize事件，下拉加载，视频播放时间记录</p>
+<div class="sourceCode" id="cb5"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="kw">let</span> timerId <span class="op">=</span> <span class="kw">null</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="kw">function</span> <span class="fu">Throttle</span>(){</span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span>(timerId <span class="op">!==</span> <span class="kw">null</span>){</span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span></span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a>    timerId <span class="op">=</span> <span class="pp">setTimeout</span>(()<span class="kw">=&gt;</span>{</span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a>        <span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(<span class="dv">123</span>)</span>
+<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a>        timerId <span class="op">=</span> <span class="kw">null</span></span>
+<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a>    }<span class="op">,</span><span class="dv">100</span>)</span>
+<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div>
+<ul>
+<li>lodash库中的Debounce和Throttle</li>
+</ul>
+<h2 id="说一说事件循环">9、说一说事件循环</h2>
+<ol type="1">
+<li>单线程，同步异步</li>
+<li>同步给js引擎（微任务），异步给宿主环境（宏任务）</li>
+<li>同步放入执行栈，异步等待时机放入任务队列排队</li>
+<li>执行栈完成后，完成任务队列，反复循环查看执行，就是事件循环
+主线程先执行同步任务，然后再去执行任务队列里的任务，如果在执行宏任务之前有微任务，就先执行微任务，全部执行完后等待主线程调用，调用完后再去任务队列中查看是否有异步任务，这样一个循环往复的过程就是事件循环
+## 10、说一说原型和原型链以及其查找过程</li>
+</ol>
+<ul>
+<li>原型就是每个对象隐藏的Prototype属性指向原型对象</li>
+<li>使用__proto__访问，原型链是属性查找的路径，从对象沿原型链向上直至null</li>
+<li>使用prototype共享方法，new绑定原型</li>
+<li>所有对象最终继承自Object.prototype</li>
+<li>函数才有prototype属性（构造函数），对象有__proto__</li>
+<li>class语法糖，ES6，本质还是原型链</li>
+</ul>
+<h2 id="说一下promise">11、说一下Promise</h2>
+<ul>
+<li>promise主要有两个参数，三个状态，resolve参数是个函数，同时表示请求成功，执行.then函数，reject是表示请求失败，执行.catch，状态分为pedding初始状态，fulfilled操作成功，rejected操作失败，状态一经改变，不会再变。</li>
+<li>.then返回的也是一个promise对象 .then(onFulfilled,onRejected)</li>
+<li>一旦创建立即执行回调</li>
+<li>当处于pedding状态时，无法确定目前在哪个阶段</li>
+</ul>
+<h2 id="tcp三次握手四次挥手">12、TCP三次握手四次挥手</h2>
+<p><strong>三次握手</strong> 1.
+客户端发送SYN=1（同步标识），ACK=0(确认标识)，随机序号seq=x 2.
+服务端接收到消息，发送SYN=1，ACK=1，ack=x+1（确认号）,seq=y 3.
+客户端收到服务端的确认后，检查ACK==1，ack==x+1,是的话则发送ACK=1,ack=y+1,让服务端再确认</p>
+<p><strong>四次挥手</strong></p>
+<p>两端都能发起 1. 客户端发起FIN+1 ACK=0,seq = x 2. 服务端确认后发送ACK
+= 1，ack=x+1 ,seq=y 3. 等待剩余数据传输完成，服务端发送ACK=1 FIN=1
+ack=x+1 seq=y 4. 客户端收到FIN=1和ACK=1后发送ACK=1，ack=y+1 seq=y+1</p>
+<h2 id="osi七层模型">13、OSI七层模型</h2>
+<ul>
+<li>应用层：为软件之间的通信设的接口</li>
+<li>表示层：把数据转化为兼容的格式</li>
+<li>会话层：不同机器上建立的会话点，维护连接通信</li>
+<li>传输层：把传输表头加至数据形成数据包</li>
+<li>网络层：将网络表头加至数据包，决定数据的路径选择和转寄</li>
+<li>数据链路层：网络寻址，错误侦测和改错</li>
+<li>物理层：使用线缆，针脚，电压等方式传输原始比特流数据 ##
+14、TCP/IP四层模型</li>
+<li>应用层：是直接为应用进程提供服务的层</li>
+<li>传输层：主要是有可靠传输的TCP协议，特别高效的UDP协议。主要负责传输应用层的数据包。</li>
+<li>网络层：寻址建立网络连接</li>
+<li>链路层：在物理链路上传输数据帧 ## 15、手写深拷贝
+完全拷贝一个新的对象，在堆内存中开辟新的空间</li>
+</ul>
+<ol type="1">
+<li>扩展运算符</li>
+<li>JSON.parse(JSON.stringify())</li>
+<li>利用递归函数实现</li>
+</ol>
+<div class="sourceCode" id="cb6"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="kw">function</span> <span class="fu">exten</span>(origin<span class="op">,</span> deep){</span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>    <span class="kw">let</span> obj <span class="op">=</span> {}</span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span>( origin <span class="kw">instanceof</span> <span class="bu">Array</span>){</span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>        obg <span class="op">=</span> []</span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span>(<span class="kw">let</span> key <span class="kw">in</span> origin){</span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a>        <span class="kw">let</span> value <span class="op">=</span> origin[key]</span>
+<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a>        obj[key] <span class="op">=</span> (<span class="op">!!</span>deep <span class="op">&amp;&amp;</span> <span class="kw">typeof</span> value <span class="op">===</span> <span class="st">&#39;object&#39;</span> <span class="op">&amp;&amp;</span> value <span class="op">!==</span> <span class="kw">null</span> ) <span class="op">?</span> <span class="fu">exten</span>(value<span class="op">,</span>deep) <span class="op">:</span> value</span>
+<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> obj</span>
+<span id="cb6-11"><a href="#cb6-11" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div>
+<ul>
+<li>循环引用导致无限递归</li>
+<li>特殊类型，日期对象，正则表达式，原型链没保留，都指向的Object.prototype</li>
+<li>无法复制Symbol属性</li>
+<li>使用lodash库中的_.cloneDeep</li>
+</ul>
+<h2 id="promise.all">16、promise.all</h2>
+<p>ES6中将多个Promise实例包装成一个Promise实例的方法</p>
+<div class="sourceCode" id="cb7"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="kw">let</span> p1 <span class="op">=</span> <span class="kw">new</span> <span class="bu">Promise</span>((resolve<span class="op">,</span>reject) <span class="kw">=&gt;</span> {</span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>    <span class="fu">resolve</span>(<span class="st">&quot;p1&quot;</span>)</span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>})</span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a><span class="kw">let</span> p2 <span class="op">=</span> <span class="kw">new</span> <span class="bu">Promise</span>((resolve<span class="op">,</span>reject) <span class="kw">=&gt;</span> {</span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a>    <span class="fu">reject</span>(<span class="st">&quot;p2&quot;</span>)</span>
+<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a>})<span class="op">.</span><span class="fu">catch</span>((resolve)<span class="kw">=&gt;</span>{</span>
+<span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a>    <span class="fu">resolve</span>(<span class="st">&#39;p22&#39;</span>)</span>
+<span id="cb7-8"><a href="#cb7-8" aria-hidden="true" tabindex="-1"></a>})</span>
+<span id="cb7-9"><a href="#cb7-9" aria-hidden="true" tabindex="-1"></a><span class="kw">let</span> p3 <span class="op">=</span> <span class="kw">new</span> <span class="bu">Promise</span>((resolve<span class="op">,</span>reject) <span class="kw">=&gt;</span> {</span>
+<span id="cb7-10"><a href="#cb7-10" aria-hidden="true" tabindex="-1"></a>    <span class="fu">resolve</span>(<span class="st">&quot;p3&quot;</span>)</span>
+<span id="cb7-11"><a href="#cb7-11" aria-hidden="true" tabindex="-1"></a>})</span>
+<span id="cb7-12"><a href="#cb7-12" aria-hidden="true" tabindex="-1"></a><span class="kw">let</span> pAll <span class="op">=</span> <span class="bu">Promise</span><span class="op">.</span><span class="fu">all</span>([p1<span class="op">,</span>p2<span class="op">,</span>p3])</span>
+<span id="cb7-13"><a href="#cb7-13" aria-hidden="true" tabindex="-1"></a>pAll<span class="op">.</span><span class="fu">then</span>(res<span class="kw">=&gt;</span>{</span>
+<span id="cb7-14"><a href="#cb7-14" aria-hidden="true" tabindex="-1"></a>    <span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(res)</span>
+<span id="cb7-15"><a href="#cb7-15" aria-hidden="true" tabindex="-1"></a>})</span></code></pre></div>
+<p>pAll的状态是由三个共同决定的，都成功pAll才成功，多个失败只会捕获第一个</p>
+<h2 id="手写一个promise.all">17、手写一个promise.all</h2>
+<div class="sourceCode" id="cb8"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="kw">const</span> myPromiseAll <span class="op">=</span> (arr) <span class="kw">=&gt;</span> {</span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> <span class="kw">new</span> <span class="bu">Promise</span>((resolve<span class="op">,</span>reject) <span class="kw">=&gt;</span> {</span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span>(<span class="op">!</span><span class="bu">Array</span><span class="op">.</span><span class="fu">isArray</span>(arr)){</span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a>            <span class="cf">throw</span> <span class="kw">new</span> <span class="bu">TypeError</span>(<span class="st">&#39;arguments must be a array&#39;</span>)</span>
+<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a>        }</span>
+<span id="cb8-6"><a href="#cb8-6" aria-hidden="true" tabindex="-1"></a>        <span class="kw">var</span> len <span class="op">=</span> arr<span class="op">.</span><span class="at">length</span></span>
+<span id="cb8-7"><a href="#cb8-7" aria-hidden="true" tabindex="-1"></a>        <span class="kw">var</span> resolveResult <span class="op">=</span> []</span>
+<span id="cb8-8"><a href="#cb8-8" aria-hidden="true" tabindex="-1"></a>        <span class="cf">for</span>(<span class="kw">let</span> i <span class="op">=</span> <span class="dv">0</span> <span class="op">;</span> i <span class="op">&lt;</span> len <span class="op">;</span> i<span class="op">++</span>){</span>
+<span id="cb8-9"><a href="#cb8-9" aria-hidden="true" tabindex="-1"></a>            arr[i]<span class="op">.</span><span class="fu">then</span>(data <span class="kw">=&gt;</span> {</span>
+<span id="cb8-10"><a href="#cb8-10" aria-hidden="true" tabindex="-1"></a>                resolveResult<span class="op">.</span><span class="fu">push</span>(data)</span>
+<span id="cb8-11"><a href="#cb8-11" aria-hidden="true" tabindex="-1"></a>                <span class="cf">if</span>(i <span class="op">==</span> len <span class="op">-</span> <span class="dv">1</span>) <span class="fu">resolve</span>(resolveResult)</span>
+<span id="cb8-12"><a href="#cb8-12" aria-hidden="true" tabindex="-1"></a>            })<span class="op">.</span><span class="fu">catch</span>(err <span class="kw">=&gt;</span> {</span>
+<span id="cb8-13"><a href="#cb8-13" aria-hidden="true" tabindex="-1"></a>                <span class="cf">return</span> <span class="fu">reject</span>(err)</span>
+<span id="cb8-14"><a href="#cb8-14" aria-hidden="true" tabindex="-1"></a>            })</span>
+<span id="cb8-15"><a href="#cb8-15" aria-hidden="true" tabindex="-1"></a>        }</span>
+<span id="cb8-16"><a href="#cb8-16" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb8-17"><a href="#cb8-17" aria-hidden="true" tabindex="-1"></a>    })</span>
+<span id="cb8-18"><a href="#cb8-18" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div>
+<h2 id="http1.1-http2-http3-区别">18、HTTP/1.1 HTTP/2 HTTP/3 区别</h2>
+<ol type="1">
+<li>传输协议：
+<ul>
+<li>HTTP/1.1 基于TCP文本传输</li>
+<li>HTTP/2 基于TCP二进制分帧</li>
+<li>HTTP/3 基于UDP+QUIC（新传输协议）</li>
+</ul></li>
+<li>核心问题（队头阻塞）
+<ul>
+<li>HTTP/1.1 存在队头阻塞</li>
+<li>HTTP/2 使用多路复用缓解，没有彻底解决</li>
+<li>HTTP/3 基于QUIC，彻底解决</li>
+</ul></li>
+<li>关键特性：
+<ul>
+<li>HTTP/1.1 持久连接，管道化</li>
+<li>HTTP/2 头部压缩，多路复用，服务器推送，需要HTTPS配个</li>
+<li>HTTP/3 更快的握手，连接迁移，网络切断不断连，TLS加密</li>
+</ul></li>
+</ol>
+<p>从TCP到UDP+QUIC，从文本到二进制，从解决应用层阻塞到彻底消除传输层阻塞，逐步优化弱网体验</p>
+<h2 id="vue和react的区别">19、Vue和React的区别</h2>
+<ul>
+<li>Vue采用模板语法和声明式渲染，上手门槛低；react使用JSX和函数式组件，强调组件组合与单向数据流，更注重逻辑复用和底层灵活
+## 20、Vue3的生命周期 组件从创建到销毁的过程 创建</li>
+<li>beforCreate：实例创建之前，数据是未加载状态，属性和方法都不能使用</li>
+<li>created：在实例、数据加载后，能初始化数据，DOM渲染之前执行，修改数据不会更新视图
+挂载</li>
+<li>beforeMounted：完成模板的编译，虚拟DOM已经创建完毕，在数据渲染前最后一次更改数据，修改数据不会更新视图</li>
+<li>mounted：页面、数据渲染完成，编译好的模板挂载完毕，可访问DOM节点
+更新</li>
+<li>beforeUpdate：组件数据更新之前使用，数据是新的，页面上的数据是旧的，组件即将更新，准备渲染，可修改数据</li>
+<li>updated：render函数重新做了渲染，这时数据和页面都是新的，避免更新数据造成循环
+销毁</li>
+<li>beforeUnmount：实例销毁之前，可以消除定时器等副作用函数</li>
+<li>unounted：实例销毁后执行 使用keep-alive会多出两个属性</li>
+<li>activated：组件被激活时</li>
+<li>deactivited：组件被销毁时 ## 21、说一下MVVM</li>
+<li>是一种软件架构模式，核心是ViewModel作为桥梁实现数据与视图的双向绑定，避免开发者直接操作DOM，让数据变化自动反映到视图，视图交互也能自动更新数据，从而简化前端开发中的状态管理和视图更新逻辑。</li>
+<li>核心组成部分：
+<ul>
+<li>Model：数据模型，负责存储和管理业务数据</li>
+<li>View: 用户界面，负责展示数据和接收用户交互</li>
+<li>ViewModel:
+连接二者的中间层，通过数据绑定将Model的变化自动同步到View，同时将View的交互转化为对Model的操作</li>
+</ul></li>
+<li>核心优势：解耦数据与视图，提升代码的可维护性，简化复杂交互场景的卡发
+## 22、Vue-Router是干什么的
+是Vue的官方路由管理器，用于实现单页面应用的路由功能，它通过路径与组件映射实现页面切换，支持路由参数，导航守卫，懒加载等功能。让单页面应用在不刷新整个页面的情况下更新视图
+## 23、Vue-Router的路由模式</li>
+<li>hash模式，在URL后带#
+<ul>
+<li>兼容性好，无需服务器配置</li>
+<li>带#不够美观</li>
+<li>SEO（搜索引擎优化）效果差，爬虫无法正确解析，难以跟踪用户行为</li>
+</ul></li>
+<li>history模式
+<ul>
+<li>URL更加美观，不带#</li>
+<li>需要服务端配置支持，兼容性较差</li>
+<li>SEO效果好</li>
+</ul></li>
+</ul>
+<p><em>拓展问题</em>：如何优化SEO？ - 使用服务端渲染SSR -
+使用预渲染技术生成静态HTML页面 -
+使用合适的meta标签描述网页内容，包括标题，描述，关键字 -
+通过robots.txt文件确保SPA中的页面内容能够被搜索引擎爬虫访问到</p>
+<h2 id="js跨域问题">24、js跨域问题</h2>
+<p>浏览器的同源策略限制（协议、域名、端口不同）的跨域请求 解决方法： 1.
+CORS(跨域资源共享) 服务器设置响应头Access-Control-Allow-Origin 2. JSONP
+利用<code>&lt;script&gt;</code>标签不受同源限制，只支持GET请求 3.
+代理服务器 开发环境用Dev Server代理，生产环境用Nginx反向代理 4.
+WebSocket 基于TCP协议，不受同源策略限制 ## 25、事件模型，事件委托
+<strong>事件模型</strong>: - 原始事件模型 -
+直接在HTML标签或JS中绑定事件（onclick） -
+每个元素只能绑定一个同类事件，会被覆盖 - DOM2级事件模型 -
+使用addEventListener绑定事件，支持多个回调 -
+事件流分为三个阶段：捕获-&gt;目标-&gt;冒泡 <strong>事件委托</strong>： -
+利用事件冒泡，将事件监听器绑定到父级元素，通过event.target判断触发源 -
+减少DOM操作 - 列表项点击 - 使用event.stopPropagation()阻止事件冒泡 -
+addEventListion(‘click’
+,Func,true/false)，false是事件冒泡，true是事件捕获</p>
+<div class="sourceCode" id="cb9"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="bu">document</span><span class="op">.</span><span class="fu">querySelector</span>(<span class="st">&#39;ul&#39;</span>)<span class="op">.</span><span class="fu">addEventListener</span>(<span class="st">&#39;click&#39;</span><span class="op">,</span>(e)<span class="kw">=&gt;</span>{</span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span>(e<span class="op">.</span><span class="at">target</span><span class="op">.</span><span class="at">tagName</span> <span class="op">===</span> <span class="st">&#39;li&#39;</span>){</span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>        <span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(e<span class="op">.</span><span class="at">target</span><span class="op">.</span><span class="at">textContent</span>)</span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a>})</span></code></pre></div>
+<h2 id="实现trim方法">26、实现trim方法</h2>
+<div class="sourceCode" id="cb10"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="bu">String</span><span class="op">.</span><span class="at">prototype</span><span class="op">.</span><span class="at">trimFunc</span> <span class="op">=</span> <span class="kw">function</span>(){</span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span>(<span class="kw">this</span> <span class="op">===</span> <span class="kw">null</span>){</span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> <span class="kw">undefined</span></span>
+<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a>    <span class="kw">let</span> temp <span class="op">=</span> <span class="kw">this</span><span class="op">.</span><span class="fu">slice</span>(<span class="dv">0</span><span class="op">,-</span><span class="dv">1</span>)</span>
+<span id="cb10-6"><a href="#cb10-6" aria-hidden="true" tabindex="-1"></a>    <span class="kw">let</span> i <span class="op">=</span> <span class="dv">0</span></span>
+<span id="cb10-7"><a href="#cb10-7" aria-hidden="true" tabindex="-1"></a>    <span class="kw">let</span> j <span class="op">=</span> temp<span class="op">.</span><span class="at">length</span> <span class="op">-</span> <span class="dv">1</span></span>
+<span id="cb10-8"><a href="#cb10-8" aria-hidden="true" tabindex="-1"></a>    <span class="cf">while</span>(i<span class="op">&lt;</span>j){</span>
+<span id="cb10-9"><a href="#cb10-9" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span>(temp<span class="op">.</span><span class="fu">charAt</span>(i) <span class="op">===</span> <span class="st">&#39; &#39;</span>) i<span class="op">++;</span></span>
+<span id="cb10-10"><a href="#cb10-10" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span>(temp<span class="op">.</span><span class="fu">charAt</span>(j) <span class="op">===</span> <span class="st">&#39; &#39;</span>) j<span class="op">--;</span></span>
+<span id="cb10-11"><a href="#cb10-11" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span>(temp<span class="op">.</span><span class="fu">charAt</span>(i) <span class="op">!==</span> <span class="st">&#39; &#39;</span> <span class="op">&amp;&amp;</span> temp<span class="op">.</span><span class="fu">charAt</span>(j) <span class="op">!==</span> <span class="st">&#39; &#39;</span>) <span class="cf">break</span><span class="op">;</span></span>
+<span id="cb10-12"><a href="#cb10-12" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb10-13"><a href="#cb10-13" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> <span class="kw">this</span><span class="op">.</span><span class="fu">slice</span>(i<span class="op">,</span>j<span class="op">+</span><span class="dv">1</span>)</span>
+<span id="cb10-14"><a href="#cb10-14" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div>
+<h2 id="实现模板字符串的过程">27、实现模板字符串的过程</h2>
+<div class="sourceCode" id="cb11"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="kw">function</span> <span class="fu">render</span>(template<span class="op">,</span>data){</span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>    <span class="kw">const</span> regex <span class="op">=</span> <span class="ss">/</span><span class="sc">\$\{([^}]+)\}</span><span class="ss">/g</span></span>
+<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> template<span class="op">.</span><span class="fu">replace</span>(regex<span class="op">,</span>(_<span class="op">,</span>variable)<span class="kw">=&gt;</span>{</span>
+<span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> data[variable<span class="op">.</span><span class="fu">trim</span>()] <span class="op">||</span> <span class="st">&#39;&#39;</span><span class="op">;</span></span>
+<span id="cb11-5"><a href="#cb11-5" aria-hidden="true" tabindex="-1"></a>    })</span>
+<span id="cb11-6"><a href="#cb11-6" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div>
+<h2 id="css实现三栏布局双翼飞圣杯布局">28、css实现三栏布局（双翼飞，圣杯布局）</h2>
+<ul>
+<li>float+负边距</li>
+</ul>
+<div class="sourceCode" id="cb12"><pre class="sourceCode html"><code class="sourceCode html"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;</span><span class="kw">body</span><span class="dt">&gt;</span></span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>    <span class="dt">&lt;</span><span class="kw">div</span><span class="ot"> class</span><span class="op">=</span><span class="st">&quot;container&quot;</span><span class="dt">&gt;</span></span>
+<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a>        <span class="dt">&lt;</span><span class="kw">div</span><span class="ot"> class</span><span class="op">=</span><span class="st">&quot;left&quot;</span><span class="dt">&gt;&lt;/</span><span class="kw">div</span><span class="dt">&gt;</span></span>
+<span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a>        <span class="dt">&lt;</span><span class="kw">div</span><span class="ot"> class</span><span class="op">=</span><span class="st">&quot;mid&quot;</span><span class="dt">&gt;&lt;/</span><span class="kw">div</span><span class="dt">&gt;</span></span>
+<span id="cb12-5"><a href="#cb12-5" aria-hidden="true" tabindex="-1"></a>        <span class="dt">&lt;</span><span class="kw">div</span><span class="ot"> class</span><span class="op">=</span><span class="st">&quot;right&quot;</span><span class="dt">&gt;&lt;/</span><span class="kw">div</span><span class="dt">&gt;</span></span>
+<span id="cb12-6"><a href="#cb12-6" aria-hidden="true" tabindex="-1"></a>    <span class="dt">&lt;/</span><span class="kw">div</span><span class="dt">&gt;</span></span>
+<span id="cb12-7"><a href="#cb12-7" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb12-8"><a href="#cb12-8" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;/</span><span class="kw">body</span><span class="dt">&gt;</span></span>
+<span id="cb12-9"><a href="#cb12-9" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;</span><span class="kw">style</span><span class="dt">&gt;</span></span>
+<span id="cb12-10"><a href="#cb12-10" aria-hidden="true" tabindex="-1"></a>    <span class="fu">.container</span>{</span>
+<span id="cb12-11"><a href="#cb12-11" aria-hidden="true" tabindex="-1"></a>        <span class="kw">padding</span><span class="ch">:</span><span class="dv">0</span> <span class="dv">400</span><span class="dt">px</span><span class="op">;</span></span>
+<span id="cb12-12"><a href="#cb12-12" aria-hidden="true" tabindex="-1"></a>        <span class="kw">background-color</span><span class="ch">:</span> <span class="cn">aqua</span><span class="op">;</span></span>
+<span id="cb12-13"><a href="#cb12-13" aria-hidden="true" tabindex="-1"></a>        <span class="kw">overflow</span><span class="ch">:</span> <span class="dv">hidden</span><span class="op">;</span></span>
+<span id="cb12-14"><a href="#cb12-14" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb12-15"><a href="#cb12-15" aria-hidden="true" tabindex="-1"></a>    <span class="fu">.left</span>{</span>
+<span id="cb12-16"><a href="#cb12-16" aria-hidden="true" tabindex="-1"></a>        <span class="kw">position</span><span class="ch">:</span> <span class="dv">relative</span><span class="op">;</span></span>
+<span id="cb12-17"><a href="#cb12-17" aria-hidden="true" tabindex="-1"></a>        <span class="kw">height</span><span class="ch">:</span><span class="dv">400</span><span class="dt">px</span><span class="op">;</span></span>
+<span id="cb12-18"><a href="#cb12-18" aria-hidden="true" tabindex="-1"></a>        <span class="kw">width</span><span class="ch">:</span><span class="dv">400</span><span class="dt">px</span><span class="op">;</span></span>
+<span id="cb12-19"><a href="#cb12-19" aria-hidden="true" tabindex="-1"></a>        <span class="kw">background-color</span><span class="ch">:</span><span class="cn">blue</span><span class="op">;</span></span>
+<span id="cb12-20"><a href="#cb12-20" aria-hidden="true" tabindex="-1"></a>        <span class="kw">float</span><span class="ch">:</span><span class="dv">left</span><span class="op">;</span></span>
+<span id="cb12-21"><a href="#cb12-21" aria-hidden="true" tabindex="-1"></a>        <span class="kw">margin-left</span><span class="ch">:</span> <span class="dv">-400</span><span class="dt">px</span><span class="op">;</span></span>
+<span id="cb12-22"><a href="#cb12-22" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb12-23"><a href="#cb12-23" aria-hidden="true" tabindex="-1"></a>    <span class="fu">.mid</span>{</span>
+<span id="cb12-24"><a href="#cb12-24" aria-hidden="true" tabindex="-1"></a>        <span class="kw">height</span><span class="ch">:</span><span class="dv">400</span><span class="dt">px</span><span class="op">;</span></span>
+<span id="cb12-25"><a href="#cb12-25" aria-hidden="true" tabindex="-1"></a>        <span class="kw">width</span><span class="ch">:</span> <span class="dv">100</span><span class="dt">%</span><span class="op">;</span></span>
+<span id="cb12-26"><a href="#cb12-26" aria-hidden="true" tabindex="-1"></a>        <span class="kw">background-color</span><span class="ch">:</span><span class="cn">yellow</span><span class="op">;</span></span>
+<span id="cb12-27"><a href="#cb12-27" aria-hidden="true" tabindex="-1"></a>        <span class="kw">float</span><span class="ch">:</span> <span class="dv">left</span><span class="op">;</span></span>
+<span id="cb12-28"><a href="#cb12-28" aria-hidden="true" tabindex="-1"></a>        <span class="kw">min-width</span><span class="ch">:</span> <span class="dv">100</span><span class="dt">px</span><span class="op">;</span></span>
+<span id="cb12-29"><a href="#cb12-29" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb12-30"><a href="#cb12-30" aria-hidden="true" tabindex="-1"></a>    <span class="fu">.right</span>{</span>
+<span id="cb12-31"><a href="#cb12-31" aria-hidden="true" tabindex="-1"></a>        <span class="kw">position</span><span class="ch">:</span> <span class="dv">relative</span><span class="op">;</span></span>
+<span id="cb12-32"><a href="#cb12-32" aria-hidden="true" tabindex="-1"></a>        <span class="kw">height</span><span class="ch">:</span><span class="dv">400</span><span class="dt">px</span><span class="op">;</span></span>
+<span id="cb12-33"><a href="#cb12-33" aria-hidden="true" tabindex="-1"></a>        <span class="kw">width</span><span class="ch">:</span><span class="dv">400</span><span class="dt">px</span><span class="op">;</span></span>
+<span id="cb12-34"><a href="#cb12-34" aria-hidden="true" tabindex="-1"></a>        <span class="kw">float</span><span class="ch">:</span><span class="dv">left</span><span class="op">;</span></span>
+<span id="cb12-35"><a href="#cb12-35" aria-hidden="true" tabindex="-1"></a>        <span class="kw">background-color</span><span class="ch">:</span><span class="cn">green</span><span class="op">;</span></span>
+<span id="cb12-36"><a href="#cb12-36" aria-hidden="true" tabindex="-1"></a>        <span class="kw">margin-right</span><span class="ch">:</span> <span class="dv">-400</span><span class="dt">px</span><span class="op">;</span></span>
+<span id="cb12-37"><a href="#cb12-37" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb12-38"><a href="#cb12-38" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;/</span><span class="kw">style</span><span class="dt">&gt;</span></span></code></pre></div>
+<p><em>注意</em>：三个盒子都要设置成float属性 ## 29、实现一个继承 -
+class语法糖</p>
+<div class="sourceCode" id="cb13"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="kw">class</span> Person{</span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a>    <span class="fu">constructor</span>(name){</span>
+<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a>        <span class="kw">this</span><span class="op">.</span><span class="at">name</span> <span class="op">=</span> name</span>
+<span id="cb13-4"><a href="#cb13-4" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb13-5"><a href="#cb13-5" aria-hidden="true" tabindex="-1"></a>    <span class="fu">speak</span>(){</span>
+<span id="cb13-6"><a href="#cb13-6" aria-hidden="true" tabindex="-1"></a>        <span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(<span class="st">&quot;My name is &quot;</span> <span class="op">+</span> <span class="kw">this</span><span class="op">.</span><span class="at">name</span>)</span>
+<span id="cb13-7"><a href="#cb13-7" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb13-8"><a href="#cb13-8" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb13-9"><a href="#cb13-9" aria-hidden="true" tabindex="-1"></a><span class="kw">class</span> Student <span class="kw">extends</span> Person{</span>
+<span id="cb13-10"><a href="#cb13-10" aria-hidden="true" tabindex="-1"></a>    <span class="fu">constructor</span>(name<span class="op">,</span> age){</span>
+<span id="cb13-11"><a href="#cb13-11" aria-hidden="true" tabindex="-1"></a>        <span class="kw">super</span>(name)<span class="co">//调用父类构造器</span></span>
+<span id="cb13-12"><a href="#cb13-12" aria-hidden="true" tabindex="-1"></a>        <span class="kw">this</span><span class="op">.</span><span class="at">age</span> <span class="op">=</span> age</span>
+<span id="cb13-13"><a href="#cb13-13" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb13-14"><a href="#cb13-14" aria-hidden="true" tabindex="-1"></a>    <span class="fu">newSpeak</span>(){</span>
+<span id="cb13-15"><a href="#cb13-15" aria-hidden="true" tabindex="-1"></a>        <span class="kw">this</span><span class="op">.</span><span class="fu">speak</span>()</span>
+<span id="cb13-16"><a href="#cb13-16" aria-hidden="true" tabindex="-1"></a>        <span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(<span class="kw">this</span><span class="op">.</span><span class="at">age</span>)</span>
+<span id="cb13-17"><a href="#cb13-17" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb13-18"><a href="#cb13-18" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div>
+<ul>
+<li>寄生组合继承（<code>Object.create(原型对象)</code>）</li>
+</ul>
+<div class="sourceCode" id="cb14"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="kw">function</span> <span class="fu">Person</span>(name){</span>
+<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a>    <span class="kw">this</span><span class="op">.</span><span class="at">name</span> <span class="op">=</span> name</span>
+<span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb14-4"><a href="#cb14-4" aria-hidden="true" tabindex="-1"></a>Person<span class="op">.</span><span class="at">prototype</span><span class="op">.</span><span class="at">speak</span> <span class="op">=</span> <span class="kw">function</span>(){</span>
+<span id="cb14-5"><a href="#cb14-5" aria-hidden="true" tabindex="-1"></a>    <span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(<span class="st">&quot;My name is &quot;</span> <span class="op">+</span> <span class="kw">this</span><span class="op">.</span><span class="at">name</span>)</span>
+<span id="cb14-6"><a href="#cb14-6" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb14-7"><a href="#cb14-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-8"><a href="#cb14-8" aria-hidden="true" tabindex="-1"></a><span class="kw">function</span> <span class="fu">Student</span>(name<span class="op">,</span> age){</span>
+<span id="cb14-9"><a href="#cb14-9" aria-hidden="true" tabindex="-1"></a>    Person<span class="op">.</span><span class="fu">call</span>(<span class="kw">this</span><span class="op">,</span> name)</span>
+<span id="cb14-10"><a href="#cb14-10" aria-hidden="true" tabindex="-1"></a>    <span class="kw">this</span><span class="op">.</span><span class="at">age</span> <span class="op">=</span> age</span>
+<span id="cb14-11"><a href="#cb14-11" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb14-12"><a href="#cb14-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-13"><a href="#cb14-13" aria-hidden="true" tabindex="-1"></a>Student<span class="op">.</span><span class="at">prototype</span> <span class="op">=</span> <span class="bu">Object</span><span class="op">.</span><span class="fu">create</span>(Person<span class="op">.</span><span class="at">prototype</span>)</span>
+<span id="cb14-14"><a href="#cb14-14" aria-hidden="true" tabindex="-1"></a>Student<span class="op">.</span><span class="at">prototype</span><span class="op">.</span><span class="at">constructor</span> <span class="op">=</span> Student</span>
+<span id="cb14-15"><a href="#cb14-15" aria-hidden="true" tabindex="-1"></a>Student<span class="op">.</span><span class="at">prototype</span><span class="op">.</span><span class="at">newSpeak</span> <span class="op">=</span> <span class="kw">function</span>(){</span>
+<span id="cb14-16"><a href="#cb14-16" aria-hidden="true" tabindex="-1"></a>    <span class="kw">this</span><span class="op">.</span><span class="fu">speak</span>()</span>
+<span id="cb14-17"><a href="#cb14-17" aria-hidden="true" tabindex="-1"></a>    <span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(<span class="kw">this</span><span class="op">.</span><span class="at">age</span>)</span>
+<span id="cb14-18"><a href="#cb14-18" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div>
+<h2 id="求一下二叉树高度">30、求一下二叉树高度</h2>
+<div class="sourceCode" id="cb15"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="kw">var</span> maxDepth <span class="op">=</span> <span class="kw">function</span>(<span class="bu">root</span>) {</span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> (<span class="bu">root</span> <span class="op">===</span> <span class="kw">undefined</span> <span class="op">||</span> <span class="bu">root</span> <span class="op">===</span> <span class="kw">null</span>) <span class="cf">return</span> <span class="dv">0</span></span>
+<span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a>    <span class="kw">var</span> maxDepth <span class="op">=</span> <span class="dv">0</span></span>
+<span id="cb15-4"><a href="#cb15-4" aria-hidden="true" tabindex="-1"></a>    <span class="kw">function</span> <span class="fu">findDepth</span>(chNode<span class="op">,</span>Depth){</span>
+<span id="cb15-5"><a href="#cb15-5" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> (chNode <span class="op">===</span> <span class="kw">undefined</span> <span class="op">||</span> chNode <span class="op">===</span> <span class="kw">null</span>) <span class="cf">return</span></span>
+<span id="cb15-6"><a href="#cb15-6" aria-hidden="true" tabindex="-1"></a>        Depth<span class="op">++</span></span>
+<span id="cb15-7"><a href="#cb15-7" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span>(Depth <span class="op">&gt;</span> maxDepth) maxDepth <span class="op">=</span> Depth</span>
+<span id="cb15-8"><a href="#cb15-8" aria-hidden="true" tabindex="-1"></a>        <span class="fu">findDepth</span>(chNode<span class="op">.</span><span class="at">left</span><span class="op">,</span>Depth)</span>
+<span id="cb15-9"><a href="#cb15-9" aria-hidden="true" tabindex="-1"></a>        <span class="fu">findDepth</span>(chNode<span class="op">.</span><span class="at">right</span><span class="op">,</span>Depth)</span>
+<span id="cb15-10"><a href="#cb15-10" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb15-11"><a href="#cb15-11" aria-hidden="true" tabindex="-1"></a>    <span class="fu">findDepth</span>(<span class="bu">root</span><span class="op">,</span><span class="dv">0</span>)</span>
+<span id="cb15-12"><a href="#cb15-12" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> maxDepth</span>
+<span id="cb15-13"><a href="#cb15-13" aria-hidden="true" tabindex="-1"></a>}<span class="op">;</span></span></code></pre></div>
+<h2 id="快速排序">31、快速排序</h2>
+<div class="sourceCode" id="cb16"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="kw">var</span> sortArray <span class="op">=</span> <span class="kw">function</span>(nums) {</span>
+<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span>(nums<span class="op">.</span><span class="at">length</span> <span class="op">&lt;=</span> <span class="dv">1</span>) <span class="cf">return</span> nums</span>
+<span id="cb16-3"><a href="#cb16-3" aria-hidden="true" tabindex="-1"></a>    <span class="kw">let</span> newNums <span class="op">=</span> [<span class="op">...</span>nums]</span>
+<span id="cb16-4"><a href="#cb16-4" aria-hidden="true" tabindex="-1"></a>    <span class="kw">function</span> <span class="fu">sortFunc</span>(left<span class="op">,</span>right){</span>
+<span id="cb16-5"><a href="#cb16-5" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span>(left <span class="op">&gt;=</span> right) <span class="cf">return</span> </span>
+<span id="cb16-6"><a href="#cb16-6" aria-hidden="true" tabindex="-1"></a>        <span class="kw">let</span> i <span class="op">=</span> left</span>
+<span id="cb16-7"><a href="#cb16-7" aria-hidden="true" tabindex="-1"></a>        <span class="kw">let</span> j <span class="op">=</span> right</span>
+<span id="cb16-8"><a href="#cb16-8" aria-hidden="true" tabindex="-1"></a>        <span class="kw">const</span> temp <span class="op">=</span> newNums[i]</span>
+<span id="cb16-9"><a href="#cb16-9" aria-hidden="true" tabindex="-1"></a>        <span class="cf">while</span>(i <span class="op">&lt;</span> j){</span>
+<span id="cb16-10"><a href="#cb16-10" aria-hidden="true" tabindex="-1"></a>            <span class="cf">while</span>(i <span class="op">&lt;</span> j <span class="op">&amp;&amp;</span> newNums[j] <span class="op">&gt;</span> temp) j<span class="op">--</span></span>
+<span id="cb16-11"><a href="#cb16-11" aria-hidden="true" tabindex="-1"></a>            <span class="cf">if</span>(i <span class="op">&lt;</span> j) newNums[i<span class="op">++</span>] <span class="op">=</span> newNums[j]</span>
+<span id="cb16-12"><a href="#cb16-12" aria-hidden="true" tabindex="-1"></a>            <span class="cf">while</span>(i <span class="op">&lt;</span> j <span class="op">&amp;&amp;</span> newNums[i] <span class="op">&lt;</span> temp) i<span class="op">++</span></span>
+<span id="cb16-13"><a href="#cb16-13" aria-hidden="true" tabindex="-1"></a>            <span class="cf">if</span>(i <span class="op">&lt;</span> j) newNums[j<span class="op">--</span>] <span class="op">=</span> newNums[i]</span>
+<span id="cb16-14"><a href="#cb16-14" aria-hidden="true" tabindex="-1"></a>        }</span>
+<span id="cb16-15"><a href="#cb16-15" aria-hidden="true" tabindex="-1"></a>        newNums[i] <span class="op">=</span> temp</span>
+<span id="cb16-16"><a href="#cb16-16" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb16-17"><a href="#cb16-17" aria-hidden="true" tabindex="-1"></a>        <span class="fu">sortFunc</span>(left<span class="op">,</span>i <span class="op">-</span> <span class="dv">1</span>)</span>
+<span id="cb16-18"><a href="#cb16-18" aria-hidden="true" tabindex="-1"></a>        <span class="fu">sortFunc</span>(i <span class="op">+</span> <span class="dv">1</span><span class="op">,</span>right)</span>
+<span id="cb16-19"><a href="#cb16-19" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb16-20"><a href="#cb16-20" aria-hidden="true" tabindex="-1"></a>    <span class="fu">sortFunc</span>(<span class="dv">0</span><span class="op">,</span> newNums<span class="op">.</span><span class="at">length</span> <span class="op">-</span> <span class="dv">1</span>)</span>
+<span id="cb16-21"><a href="#cb16-21" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> newNums</span>
+<span id="cb16-22"><a href="#cb16-22" aria-hidden="true" tabindex="-1"></a>}<span class="op">;</span></span></code></pre></div>
+<h2 id="讲一下双向绑定原理实现vue双向绑定">32、讲一下双向绑定原理，实现vue双向绑定</h2>
+<p>基于数据劫持+发布-订阅模式，核心是通过Object.defineProperty()(es5)
+或Proxy(es6)
+监听数据变化，劫持各个属性的getter和setter，并在DOM更新时同步数据，核心原理是数据劫持，发布订阅模式，模板编译</p>
+<p><strong>第一步</strong>：需要observer的数据对象进行递归遍历，包含子属性对象的属性，都加上getter和setter
+<strong>第二步</strong>：compile模板解析指令，把模板中的变量替换成数据，然后初始化渲染视图，同时把每个指令对应的节点绑定上更新函数，添加订阅者，如果数据变化，收到通知，更新视图
+<strong>第三步</strong>：Watcher订阅者是Observer和Compile之间的通信桥梁：
+1. 在自身实例化的时候往订阅器内添加自己 2. 自身要有一个update()方法 3.
+等待属性变动时，调用自身的update()方法，触发compile这种的回调
+<strong>第四步</strong>：MVVM作为数据绑定的入口，这个和Observer、compile和watcher三者，通过observer来监听自己的数据变化，通过compile解析模板指令，最后利用watcher把Observer和compile联系起来，最终达到数据更新视图更新，视图更新数据更新的效果
+## 33、TCP拥塞控制和双全工通信具体过程？
+<strong>TCP拥塞控制</strong>：通过慢启动，拥塞避免，快速重传，快速恢复，动态调整发送窗口的大小，防止网络拥塞
+<strong>全双工通信</strong>:通信双方可以同时发送消息，TCP通过两条独立的数据通道（发送和接收）实现，双方各自维护发送/接收缓冲区，通过ACK确认机制确保双向通信的可靠性
+## 34、整个数组去重 1. ES6的Set</p>
+<div class="sourceCode" id="cb17"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="kw">function</span> <span class="fu">unique</span>(arr){</span>
+<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> [<span class="op">...</span><span class="kw">new</span> <span class="bu">Set</span>(arr)]</span>
+<span id="cb17-3"><a href="#cb17-3" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div>
+<h2 id="手写bind函数">35、手写bind函数</h2>
+<ol type="1">
+<li>解构参数</li>
+<li>赋值返回新函数</li>
+</ol>
+<div class="sourceCode" id="cb18"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="bu">Function</span><span class="op">.</span><span class="at">prototype</span><span class="op">.</span><span class="at">bindFn</span> <span class="op">=</span> <span class="kw">function</span>(){</span>
+<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a>    <span class="kw">const</span> args <span class="op">=</span> [<span class="op">...</span><span class="kw">arguments</span>]</span>
+<span id="cb18-3"><a href="#cb18-3" aria-hidden="true" tabindex="-1"></a>    <span class="kw">const</span> t <span class="op">=</span> args<span class="op">.</span><span class="fu">shift</span>()</span>
+<span id="cb18-4"><a href="#cb18-4" aria-hidden="true" tabindex="-1"></a>    <span class="kw">const</span> self <span class="op">=</span> <span class="kw">this</span></span>
+<span id="cb18-5"><a href="#cb18-5" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> <span class="kw">function</span>(){</span>
+<span id="cb18-6"><a href="#cb18-6" aria-hidden="true" tabindex="-1"></a>        self<span class="op">.</span><span class="fu">apply</span>(t<span class="op">,</span>args)</span>
+<span id="cb18-7"><a href="#cb18-7" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb18-8"><a href="#cb18-8" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div>
+<h2 id="vue组件通信">36、Vue组件通信</h2>
+<ol type="1">
+<li>父传子 通过属性传递数据</li>
+</ol>
+<pre class="vue"><code>&lt;!--Parent.vue--&gt;
+&lt;template&gt;
+    &lt;ChildComponent :message=&quot;parentMsg&quot; :count=&quot;100&quot;/&gt;
+&lt;/template&gt;
+&lt;script setup&gt;
+import { ref } from &#39;vue&#39;
+const parentMsg = ref(&#39;来自父组件的消息&#39;)
+&lt;/script&gt;</code></pre>
+<pre class="vue"><code>&lt;!--child.vue--&gt;
+&lt;template&gt;
+    &lt;div&gt;{{ message }} - {{ count }}&lt;/div&gt;
+&lt;/template&gt;
+&lt;script setup&gt;
+const props = defineProps({
+    message: string,
+    count:{
+        type: Number,
+        default: 0
+    }
+})
+&lt;/script&gt;</code></pre>
+<ol start="2" type="1">
+<li>子传父 通过自定义事件</li>
+</ol>
+<pre class="vue"><code>&lt;!--Child.vue--&gt;
+&lt;template&gt;
+    &lt;button @click=&#39;sendMsg&#39;&gt;&lt;/button&gt;
+&lt;script setup&gt;
+const emit = defineEmits([&#39;update&#39;,&#39;delete&#39;])
+const sendMsg = () =&gt; {
+    emit(&#39;update&#39;,{ id: 1 , name:&#39;666&#39;})\
+    emit(&#39;delete&#39;,1234)
+}
+&lt;/script&gt;</code></pre>
+<pre class="vue"><code>&lt;!-- Parent.vue --&gt;
+&lt;template&gt;
+  &lt;ChildComponent @update=&quot;handleUpdate&quot; @delete=&quot;handleDelete&quot; /&gt;
+&lt;/template&gt;
+&lt;script setup&gt;
+const handleUpdate = (data) =&gt; {
+  console.log(&#39;子组件更新数据:&#39;, data); // { id: 1, name: &#39;666&#39; }
+};
+
+const handleDelete = (id) =&gt; {
+  console.log(&#39;删除ID:&#39;, id); // 123
+};
+&lt;/script&gt;</code></pre>
+<ol start="3" type="1">
+<li>使用Pinia跨层级</li>
+<li>兄弟传 子-&gt;父-&gt;子 事件总线</li>
+<li>mitt实现任意组件通信 npm安装mitt</li>
+</ol>
+<div class="sourceCode" id="cb23"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a><span class="co">// emitter.js</span></span>
+<span id="cb23-2"><a href="#cb23-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> mitt <span class="im">from</span> <span class="st">&#39;mitt&#39;</span></span>
+<span id="cb23-3"><a href="#cb23-3" aria-hidden="true" tabindex="-1"></a><span class="im">export</span> <span class="im">default</span> <span class="fu">mitt</span>()</span></code></pre></div>
+<ol start="3" type="1">
+<li>v-model ## 37、Vue2和3的区别</li>
+<li>性能优化：改Object.defineProperty为Proxy，虚拟DOM重写，diff算法优化</li>
+<li>增加了组合式API，setup语法</li>
+<li>在生命周期上，将vue2的beforeCreate/created两个钩子函数改为了setup()，beforeDistory/distoryed更名为beforeMount/moubted，钩子函数是在前面加on</li>
+<li>更好的支持TS</li>
+<li>打包体积更小 ## 38、解释一下虚拟DOM和diff算法</li>
+</ol>
+<p><strong>虚拟DOM</strong>：是轻量的JS对象，描述元素和元素之间的关系，表示真实的DOM结构，能避免直接操作DOM，提升性能。数据发生变化时，render函数会生成一个新的虚拟DOM去和旧的虚拟DOM使用Diff算法进行比对，返回一个patch对象存储两个DOM不同的节点位置，最后用patch里的信息去更新真实的DOM
+<strong>Diff算法</strong>： 1. 同级对比：只对比同层级的节点 2.
+Key优化：复用相同的Key节点 3.
+双端对比（3的优化：头头、尾尾、头尾、尾头对比 4.
+批量更新：最后统一patch到真实的DOM</p>
+<p>核心是最小化DOM操作 ## 39、解释一下服务端渲染</p>
+<ol type="1">
+<li>原理是在服务端生成完整的HTML直接返回给浏览器，不是在客户端js动态渲染CSR</li>
+<li>首屏加载更快，SEO友好，低网络环境体验更好</li>
+<li>实现方式有vue的Nuxt.js，React的Next.js，原生Node+模板引擎</li>
+<li>代价是服务器压力大，开发复杂度大</li>
+<li>常见于 <em>内容型网站</em> ## 40、如何指定 vite 插件 的执行顺序？
+添加enforce字段，pre是在Vite核心插件前执行，默认（不填）是在vite核心插件后执行，post是在Vite构建流程最后执行
+## 41、vite 插件 常见的 hook 有哪些？</li>
+<li>通用Hook有config,configResolved,transform,load</li>
+<li>构建用Hook，buildStart,buildEnd,renderChunk,generateBundle</li>
+<li>开发服务器Hook，configureServer,transformIndexHtml ##
+42、Vite是否支持 commonjs 写法？
+<strong>开发模式</strong>默认不支持，需要使用插件@originjs/vite-plugin-commonjs转换
+<strong>生产环境</strong>构建时会通过Rollup将其转换为ESM ## 43、为什么说
+vite 比 webpack 要快</li>
+<li>开发服务器启动快：webpack需要先打包再启动，vite是直接启动，按需编译</li>
+<li>webpack在文件修改后重新打包整个bundle，vite只编译修改的文件，其他的不变利用浏览器直接加载ES模块，跳过打包步骤</li>
+<li>vite用go编写的Esbuild进行预构建和转换</li>
+<li>缓存优化：依赖预构建，源码以http缓存头提供
+Bundle是最终打包出的完整文件，包含源码+依赖+runtime
+Chunk是构建过程中的代码片段，分为Initial Chunk和Async Chunk
+Rollup是专注于ES
+Module的JavaScript打包工具，输出简洁，与Vite共享插件生态 ## 44、vite
+对比 webpack ，优缺点在哪
+vite：开发速度快，优化生产构建，配置简单，原生支持ESM，TS，动态导入。
+缺点是插件数量少，旧项目的兼容性差，相比WebPack的SSR方案更手动化 ##
+45、说一下iframe标签，以及优缺点
+iframe可以在当前页面中嵌入另一个独立的html文档，具有隔离性（独立渲染），懒加载优化（延迟加载节省带宽），跨域通信（通过postMessage实现安全数据传递），兼容性强等优点
+但是也有性能问题（占用额外的内存或CPU）阻塞父页面加载，对SEO不友好，布局问题，引发安全风险（如XSS或点击劫持）
+## 46、说一下CSS中的选择器及其优先级 !important &gt; 内联 &gt; ID选择器
+&gt; 伪类选择器 &gt; 属性选择器 &gt; 类选择器 &gt; 标签元素选择器 &gt;
+通配符* 优先级由权重值决定格式为（A，B，C，D） A:!important 有则1 无则0
+B:ID 选择器的数量 C:类/伪类/属性 的数量 D: 元素/伪元素的数量</li>
+</ol>
+<p>从左往右逐级对比 相同级别后出现的覆盖 * 和继承样式级别为0
+内联样式为(1,0,0,0)</p>
+<h2 id="说一下canvas和svg画布的区别优缺点">47、说一下Canvas和SVG画布的区别，优缺点</h2>
+<p>Canvas是位图画布，SVG是矢量图画布
+Canvas是JS动态逐帧绘制，SVG是用DOM节点渲染
+Canvas放大后会失真，SVG不会失真
+Canvas在交互上需要手动计算坐标，SVG支持DOM事件
+Canvas在性能上适合高频渲染如游戏，动画，SVG在节点多时性能较差
+Canvas内容无法被搜索引擎抓取SEO较差，SVG创建的文本可被搜索 ##
+48、了解vite的构建流程吗 vite的构建分为开发模式和生产模式
+<strong>开发模式</strong>：利用浏览器原生ESM实现快速启动和热更新
+流程为：启动服务器（使用ESbuild预构建依赖），按需编译，热更新
+<strong>生产模式</strong>： 利用Rollup打包，生成优化后的静态资源
+流程为：依赖项构建，Rollup打包，资源处理（CSS抽离，静态资源处理），输出到dist目录
+## 49、什么是ESM ESM是ECMAScript
+Modules，是Javascript官方模块化方案，逐步取代commonjs，核心优势是静态分析，编译时就能确定依赖关系，打包时能自动删除未使用的代码，浏览器原生支持。
+使用import/export声明式语法，模块是异步加载的，严格模式下顶层的this是undefined
+## 50、说一下浏览器缓存策略
+浏览器缓存是提升网页性能的关键机制，主要通过HTTP缓存头和缓存策略控制，核心分为
+<strong>强缓存</strong> 和 <strong>协商缓存</strong>
+<strong>强缓存</strong>：无需服务器验证，浏览器直接使用本地缓存，不发送请求到服务器
+通过设置Cache-Control参数，max-age=xxx 缓存有效期，no-cache
+禁用强制缓存（走协商缓存）
+，no-store完全禁用缓存，public允许代理服务器缓存，private仅浏览器缓存
+<strong>协商缓存</strong>：浏览器携带缓存表示询问服务器，若资源未变则返回304，否则返回新资源
+使用ETag+If-None-Match，首次请求，服务器返回ETag，值为哈希值，再次请求浏览器发送If-None-Match值为上次ETag的值，服务器通过对比文件哈希值，内容不变则缓存</p>
+<p>敏感数据需要设置Cache-Control为no-store
+用户正常访问二者皆生效，手动刷新强缓存不生效，强制刷新都不生效
+请求头设置Cache-Control:max-age=0可以强制重新认证 ##
+51、了解XSS攻击吗，如何防止。
+XSS是跨站脚本攻击，攻击者通过在网页中注入恶意脚本JS，当用户访问该页面时，脚本在浏览器中执行导致窃取Cookie，Session，篡改页面内容，发起恶意请求，劫持用户会话
+XSS分为存储型XSS（恶意脚本存入数据库）将<code>&lt;script&gt;&lt;/script&gt;</code>插入评论区、反射性XSS（通过URL参数注入）、DOM型XSS（js动态插入恶意内容）使用document.write()
+<strong>防御措施</strong>: -
+输入过滤、输出转义，去除提交数据中的<code>&lt;script&gt;</code>标签，输出时将特殊字符转义，<code>&lt;</code>用<code>&amp;lt;</code>
+<code>&gt;</code>用<code>&amp;gt;</code>将<code>&quot;</code>转移成<code>\x22</code>
+- 使用CSP内容安全策略，通过HTTP头限制资源加载，阻止内联脚本执行 -
+使用框架内置防御vue{{ date }}插值，v-html需显声明 -
+使用工具扫描漏洞或手动测试</p>
+<h2 id="js由哪三部分组成">52、JS由哪三部分组成</h2>
+<ul>
+<li>ECMAScript：JS的核心内容，描述了基础语法，数据类型</li>
+<li>文档对象模型（DOM）：DOM把整合HTML页面规划为元素构成的文档</li>
+<li>浏览器对象模型（BOM）：对浏览器窗口进行访问和操作</li>
+</ul>
+<h2 id="js有哪些内置对象">53、JS有哪些内置对象</h2>
+<p>String Boolean Number Array Object Function Math Date RegExp
+Math:abs() sqrt() max() min() Date:new Date() getYear() Array
+String:concat() length slice() split()</p>
+<h2 id="操作数组的方法">54、操作数组的方法</h2>
+<p>push() pop() sort() unshift() shift() reverse() concat() join()
+filter() ervery() some() reduce() isArray() findIndex() splice() slice()
+哪些方法会改变原数组： push() pop() unshift() shift() sort() reverse()
+splice()</p>
+<h2 id="怎么理解内存泄露">55、怎么理解内存泄露</h2>
+<p>JS里面已经分配内存地址的对象，由于长时间没有释放或没办法清除，造成长期占用内存的现象，造成内存资源大幅度浪费，减缓运行速度
+垃圾回收机制
+因素：一些未声明直接赋值的变量，一些未清空的定时器，过度的闭包，一些引用的元素没有清除</p>
+<h2 id="new操作符具体做了什么">56、new操作符具体做了什么？</h2>
+<ol type="1">
+<li>先创建一个空对象</li>
+<li>把空对象和构造函数通过原型链链接</li>
+<li>把构造函数的this绑定到新的空对象上</li>
+<li>根据构建函数返回的类型推断，如果是值类型，则返回对象，如果是引用类型，则返回这个引用类型</li>
+</ol>
+<div class="sourceCode" id="cb24"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a><span class="kw">function</span> <span class="fu">newFunc</span>(Fun<span class="op">,...</span>args){</span>
+<span id="cb24-2"><a href="#cb24-2" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span>(<span class="kw">typeof</span> Fun <span class="op">!==</span> <span class="st">&#39;function&#39;</span>) <span class="cf">throw</span> <span class="kw">new</span> <span class="bu">TypeError</span>(<span class="st">&#39;&#39;</span>)</span>
+<span id="cb24-3"><a href="#cb24-3" aria-hidden="true" tabindex="-1"></a>    <span class="kw">const</span> newObj <span class="op">=</span> <span class="bu">Object</span><span class="op">.</span><span class="fu">create</span>(Fun<span class="op">.</span><span class="at">prototype</span>)</span>
+<span id="cb24-4"><a href="#cb24-4" aria-hidden="true" tabindex="-1"></a>    <span class="kw">const</span> result <span class="op">=</span> Fun<span class="op">.</span><span class="fu">apply</span>(newObj<span class="op">,</span>args)</span>
+<span id="cb24-5"><a href="#cb24-5" aria-hidden="true" tabindex="-1"></a>    <span class="kw">const</span> getType <span class="op">=</span> (value) <span class="kw">=&gt;</span> {</span>
+<span id="cb24-6"><a href="#cb24-6" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> <span class="bu">Object</span><span class="op">.</span><span class="at">prototype</span><span class="op">.</span><span class="at">toString</span><span class="op">.</span><span class="fu">call</span>(value)<span class="op">.</span><span class="fu">slice</span>(<span class="dv">8</span><span class="op">,-</span><span class="dv">1</span>)</span>
+<span id="cb24-7"><a href="#cb24-7" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb24-8"><a href="#cb24-8" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> (<span class="fu">getType</span>(result) <span class="op">===</span> <span class="st">&#39;Object&#39;</span> <span class="op">&amp;&amp;</span> result <span class="op">!==</span> <span class="kw">null</span> ) <span class="op">||</span> <span class="fu">getType</span>(result) <span class="op">===</span> <span class="st">&#39;Function&#39;</span>  <span class="op">?</span> result <span class="op">:</span> newObj</span>
+<span id="cb24-9"><a href="#cb24-9" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div>
+<h2 id="有没有用过css预处理器">57、有没有用过CSS预处理器？</h2>
+<p>预处理器增加了变量，函数，混入等强大的功能 有SASS,LESS 最新的变为SCSS
+选择器的嵌套，定义全局变量(<span class="citation" data-cites="global">@global</span> : #eee 定义全局变量@global值为#eee)
+## 58、JS的设计原理 JS引擎：V8引擎，把代码转换成电脑可执行的代码
+运行上下文：通过js的API让浏览器可以运行
+调用栈、事件循环、回调：：js是单线程，当事件循环监听到调用栈为空时，将任务队列的回调函数添加到调用栈执行
+## 59、script标签里的async和defer有什么区别
+没有这两个属性是，浏览器会立即加载执行指定的脚本
+有async：加载和渲染后面元素的过程将script的加载和执行并行进行，异步
+有defer：也是异步但是要等待所有元素解析完成后才会执行script 减少阻塞渲染
+## 60、setTimeout的最小执行时间是多少
+setTimeout是4ms，setInterval的最小执行时间是10ms ## 61、ES5和ES6的区别
+js的组成ECMAScript DOM BOM ECMAScript5 2009第五次修订ECMAScript2009
+ECMAScript6 2015第六次修订,是JS的下一个版本标准ECMAScript2015 ##
+62、ES6的新特性 1. 新增块级作用域（let const) 不存在变量提升
+存在暂时性死区的问题 块级作用域的内容 不能再同一个作用域中重复声明 2.
+新增定义类的语法糖（class） 3. 新增了一种基本数据类型（symbol） 4.
+新增了解构赋值 从数组或对象中取值，然后给变量赋值 5.
+新增了函数参数的默认值（在形参上赋值） 6. 给数组新增了API 7.
+对象和数组新增了扩展运算符 8. Promise 解决回调地狱的问题
+自身有all,resolve,reject,race方法 原型上有then，catch，finally
+把异步操作队列化
+三种状态：pedding初始状态，fulfilled操作成功，rejected操作失败
+状态改变后凝固 async await 同步代码做异步操作，二者搭配使用，返回Promise
+如果await返回的Promise是reject状态，整个async都会被中断，后边的不执行 9.
+新增了模块化（import,export) 10. 新增set和map数据结构 11. 新增generator
+12. 新增箭头函数 不能作为构造函数使用 箭头函数没有原型
+箭头函数没有arguments 箭头函数不能用call apply bind 改变this指向
+this指向外层第一个函数的this</p>
+<h2 id="什么是暂时性死区">63、什么是暂时性死区</h2>
+<p>暂时性死区是指在代码块内，使用let或const命令声明变量之前，该变量处于不可用状态，只要一进入当前作用域，所要使用的变量就已经存在了，但是不可获取，只有等到声明变量的那一行代码出现，才可以获取和使用该变量。提高代码的可靠性</p>
+<h2 id="json是什么">64、JSON是什么？</h2>
+<p>轻量级的文本数据交换格式，本身不会提供任何的方法，适合在网络中进行传输。
+JSON数据存在.json文件中，也可以把JSON数据以字符串的形式保存在数据库，Cookie中
+JS 使用<code>JSON.parse()</code> <code>JSON.stringify()</code>
+什么时候使用JSON：定义接口、序列化；生成token，配置文件。</p>
+<h2 id="callbindapply">65、call，bind，apply</h2>
+<p>都是改变this指向和函数的调用，call和apply的功能类似，只是传参的方法不同，
+bind传参不会立即执行，返回一个改变了this指向的函数，这个函数可以传参
+call性能比apply性能要好</p>
+<h2 id="用递归的时候有没有遇到什么问题">66、用递归的时候有没有遇到什么问题？</h2>
+<p>必须要有退出条件return ## 67、AJAX是什么，怎么实现的
+创建交互式网页应用的网页开发技术，在不重新加载整个网页的情况下，与服务器交换数据并更新内容
+1.
+通过XmlHttpRequest对象向服务器发送异步请求，然后从服务器拿到数据，最后通过JS操作DOM更新页面
+2. 通过xhr对象里的open()方法和服务器建立连接 3.
+构建请求所需要的数据，并通过xhr对象的send()发送给服务器 4.
+通过xhr对象的onreadystate change事件监听服务器和通信状态 5.
+接收并处理服务器响应的数据结果 6. 把处理的数据更新到HTML页面上 ##
+68、get和post的区别 1. get一般是获取数据，post一般是提交数据 2.
+get参数一般放在url上，安全性比较差，post放在body数据长度没有限制 3.
+get请求刷新服务器或退回是没有影响的，post请求退回是会重新提交数据 4.
+get请求时会被缓存，post不会被缓存 5.
+get请求可以保存在历史记录里，post不会 6.
+get只能进行url编码，post支持很多种</p>
+<h2 id="监控埋点日志上传">69、监控、埋点、日志上传</h2>
+<ol type="1">
+<li>监测应用运行状态，像js错误，API失败等，保障稳定性</li>
+<li>收集用户行为，如点击，曝光次数，转换率等，用于产品优化</li>
+<li>记录运行时信息（调试，故障排查等），排除问题
+监控确保系统健康，埋点洞察用户行为，日志辅助问题定位，三者结合提升应用质量和用户体验</li>
+</ol>
+<h2 id="浏览器的存储方式有哪些">70、浏览器的存储方式有哪些</h2>
+<ol type="1">
+<li>cookie:
+兼容性好，请求头自带cookie，存储量小，永久存储，资源浪费，使用麻烦</li>
+<li>localstorage
+键值对的存储方式，操作方便，永久存储，兼容性好，保存值的类型被限定，隐私模式不可读取，不可爬取</li>
+<li>sessionstorage 页面关闭后清除，会话级别的存储方式</li>
+<li>indexedDB H5标准的存储方式，以键值对进行存储，快速读取 ##
+71、token是存在哪里的
+验证身份的令牌，一般是用户通过账户密码登录后，服务端把这些凭证，通过加密等一系列操作后得到的字符串</li>
+<li>存在localstorage里，后期每次请求接口都需要把它当成一个字段传给后台</li>
+<li>存在cookie中，会自动发送，缺点是不能跨域
+如果存在localstorage中容易XSS攻击，如果做好了对应的措施，是利大于弊
+如果存在cookie中会有CSRF攻击</li>
+</ol>
+<h2 id="你了解过jwt吗">72、你了解过JWT吗</h2>
+<p><strong>JSON Web
+Token</strong>，通过JSON形式作为在web应用中的令牌，可以在各方之间安全的把信息作为JSON对象传输
+信息传输，授权，单点登录
+传统的session认证在每次认证后都要在服务端做一次记录，在认证量较大的时候，会增加开销；认证的记录保存在服务端内存，下一次访问要访问对应的服务端才能获取资源，在分布式的应用上限制了负载均衡的能力和扩展能力
+JWT的认证流程 1. 前端把账号密码发给后端 2.
+后端核对成功后把用户id等其他信息作为JWT负载，把它和头部分别进行base64编码拼接后签名，形成一个JWT
+3. 前端每次请求时会把JWT放在HTTP请求头的Authorzation字段内 4.
+后端检查是否存在，如果存在就验证JWT的有效性（签名是否正确，token是否过期）
+5. 验证通过后后端使用JWT中包含的用户信息进行其他操作，并返回对应的结果
+简洁、包含性、Token是JSON加密的形式保存在客户端，所以JWT是跨语言的，原则上是任何Web形式都支持</p>
+<h2 id="token的登录流程">73、Token的登录流程</h2>
+<ol type="1">
+<li>客户端用账户密码请求登录</li>
+<li>服务器收到请求后，验证账户和密码</li>
+<li>客户端收到tocken后保存起来，可以放在cookie也可以放在localstorage</li>
+<li>客服端每次发起资源请求时，都会携带这个token</li>
+<li>服务器收到请求后，先验证客户端里的token，验证成功才会返回请求的数据
+## 74、无感登录</li>
+</ol>
+<p>无感登录是指在用户无感知的情况下，自动完成登录状态保持，避免频繁输入账号密码。核心是通过 <strong>Token</strong> 或 <strong>Session</strong> 机制实现
+三种方法 - 判断token过期后，调用刷新token的接口 -
+登录成功后保存token和refresh_token -
+在响应拦截器中对401状态码引入刷新token的接口 - 替换保存本地新的token -
+把错误对象里的token替换掉 - 再次发送未完成的请求 -
+如果refresh_token过期了，就清除所有的token并重新登录 -
+后端返回过期时间，前端判断token的过期时间，去调用刷印token的接口 -
+写定时器，定时刷印token接口 ## 75、页面渲染的过程是怎样的 DNS解析
+建立TCP连接 发送HTTP请求 服务器处理请求 渲染页面
+浏览器会获取HTML和CSS资源，然后把HTML解析成DOM树 再把CSS解析成CSSOM
+把DOM和CSSOM合并成渲染树 计算布局 把渲染树的每个节点渲染到屏幕上
+断开TCP连接 ## 76、DOM树和渲染树有什么区别？
+DOM树和HTML标签一一对应，包含head和隐藏元素
+渲染树是不包含head和隐藏元素的 ## 77、精灵图和base64的区别是什么
+精灵图：把多个小图整合到一张大图上，利用定位的一些属性把小图显式在页面上，当访问页面时可以减少请求，提高加载速度
+base64：传输8bit字节代码的编码方式，把原本的二进制形式转为64个字符的单位，最后组成字符串，base64是会和html
+css一起下载到浏览器中，减少请求，减少跨域问题，一些低版本浏览器不支持，若Base64体积比原图大，不利于css的加载
+## 78、SVG格式了解多少
+基于XML语法格式的图像格式，可缩放矢量图，其他图像是基于像素的，svg是属于对图像形状的描述，本质是文本文件，体积小，并且放大不会失真
+1.
+SVG可直接插入页面中，成为DOM一部分，使用JS或CSS进行操作<code>&lt;svg&gt;&lt;/svg&gt;</code>
+2. 可以作为文件被引入<code>&lt;img src=&quot;pic.svg&quot; /&gt;</code> 3.
+SVG可以转为Base64引入页面 ## 79、npm的底层环境是什么 node package
+manager
+,node的包管理和分发工具，已经成为分发node模块的标准，是js的运行环境
+npm的组成：网站，注册表，命令行工具 ## 80、HTTP协议规定的协议头和请求头
+1. 请求头信息 Accept：浏览器告诉服务器所支持的数据类型
+Host：告诉服务器我想访问服务器的哪台主机
+Referer：浏览器告诉服务器我是从哪里来的（防盗链）
+User-Agent：浏览器类型、版本信息 Date：告诉服务器我是什么时候访问的
+Connection：连接方式 Cookie X-Request-With：请求方式 2. 响应头信息：
+Location：告诉浏览器你要找谁 Server：告诉浏览器服务器的类型
+Content-Type：告诉浏览器返回的数据类型 Refresh：控制定时刷新 ##
+81、说一下什么是同源策略</p>
+<p>浏览器安全的核心，没有这个策略就会遭到网络攻击，指协议域名端口号要保持一致，任意一个不一样就是同源，会产生跨域。
+三个允许跨域的标签 img link script
+跨域是可以发送请求，后端也会正常返回结果，只不过这个结果被浏览器拦截了
+JSONP：利用script标签，浏览器的漏洞
+CORS：设置Access-Control-Allow-Origin
+websocket:H5的持久化协议，建立双向通信 反向代理：Nginx，建立中转站 ##
+82、当数据没有请求过来的时候，该怎么做 可以在渲染数据的地方使用默认的值
+使用if判断有数据就显示没数据就隐藏</p>
+<h2 id="大文件上传是怎么做的">83、大文件上传是怎么做的</h2>
+<p>分片上传： 1. 把需要上传的文件按照一定的规则分割成相同大小的数据块 2.
+初始化一个分片上传任务，返回本次分片上传的唯一标识 3.
+按照一定的规则把各个数据块上传 4.
+发送完成后服务端会判断数据上传的完整性，如果完整，那么就会把数据块合并成原始文件
+断点续传： 服务端告诉浏览器从哪里开始上传 ##
+84、vue中v-for的key值的作用是什么？ key是DOM元素的唯一标识 1.
+提高虚拟DOM更新性能，减少DOM操作 2.
+若不设置Key可能会触发一些BUG，列表更新某一条时影响其他的 3.
+区分相同标签，为了触发过渡效果 ##
+85、Vue在created和mounted中去请求数据有什么区别
+created：在渲染前调用，通常都是先初始化属性，然后被渲染
+mounted：在模板渲染完成后，一般都是初始化页面后，再对元素节点进行操作，在这里请求数据会出现闪屏的问题。
+一般created比较多 请求的数据对DOM有影响，那么使用created
+对DOM无关使用mounted ## 86、Vue中的修饰符有哪些 1. 事件修饰符
+.stop：阻止冒牌 .prevent：阻止默认行为
+.capture：内部元素出发的事件现在此处理
+.self：只有event.target是当前元素是触发 .once：事件只会触发一次
+.passive：立即触发默认行为 .native：把当前元素作为原生标签看待 2.
+按键修饰符 .keyup：按键抬起 .keydow：按键按下 3. 系统修饰符 .ctrl .alt
+.shift .meta 4. 鼠标修饰符 .left .middle .right 5. 表单修饰符
+.lazy：等待输入完后再显示，失去焦点 .trim：删除内容前后两端的空格
+.number：输入的是数字就转为数字 ## 87、Element ui是怎么做表单验证的 1.
+在表单中加rules属性，然后在data里写校验规则 2. 内部添加规则 3.
+自定义函数校验 ## 88、为什么用Tailwindcss 1.
+原子化css，直接使用工具类减少手写代码样式 2.
+响应式设计，内置断点前缀，轻松实现响应式布局 3.
+仅生成实际使用的css，减少冗余代码，优化打包体积 4.
+通过配置文件tailwind.config.js统一管理颜色，间距等规范 5.
+直接在标签中编写样式，减少文件的之间的切换 6.
+适合组件库开发，团队协作，快速开发，提升开发效率</p>
+<h2 id="pinia-集中状态消费逻辑">89、Pinia 集中状态消费逻辑</h2>
+<ol type="1">
+<li>基于 <code>defineStore</code> 创建独立模块（state + actions +
+getters）,天然支持TS，类型推断友好</li>
+<li>组件内使用useStore()直接调用状态/方法</li>
+<li>相比Vuex有更简洁的API，能够使用组合式Store设计</li>
+<li>适合 <strong>集中管理</strong>、<strong>跨组件共享</strong> 或 <strong>复杂状态逻辑</strong>的场景</li>
+<li>购物车中的商品列表，总价计算优惠券等，用户详情信息，商品详情信息</li>
+</ol>
+<h2 id="keep-alive是什么怎么用">90、Keep-alive是什么，怎么用</h2>
+<p>Vue的一个内置组件，包裹组件时，会缓存不活跃的组件实例，并不是销毁他们
+作用：把组件切换的状态保存在内存中，防止重复渲染DOM节点，减少加载时间和性能消耗，提升用户体验
+在Router中的meta属性中将keepAlive设置成true，不需要的设置成false，再在页面中使用v-for添加两个相同的router-view标签，一个被keep-alive包裹另一个不被包裹，再去判断route.meta.keepAlive的值来决定使用哪个
+## 91、axios是怎么做封装的 下载 创建实例 封装请求响应拦截器 抛出
+最后封装接口</p>
+<div class="sourceCode" id="cb25"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a><span class="co">// axios.js</span></span>
+<span id="cb25-2"><a href="#cb25-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> axios <span class="im">from</span> <span class="st">&#39;axios&#39;</span></span>
+<span id="cb25-3"><a href="#cb25-3" aria-hidden="true" tabindex="-1"></a><span class="kw">const</span> api <span class="op">=</span> axios<span class="op">.</span><span class="fu">create</span>({</span>
+<span id="cb25-4"><a href="#cb25-4" aria-hidden="true" tabindex="-1"></a>    <span class="dt">baseURL</span><span class="op">:</span><span class="st">&#39;&#39;</span><span class="op">,</span></span>
+<span id="cb25-5"><a href="#cb25-5" aria-hidden="true" tabindex="-1"></a>    <span class="dt">timeout</span><span class="op">:</span><span class="dv">3000</span></span>
+<span id="cb25-6"><a href="#cb25-6" aria-hidden="true" tabindex="-1"></a>})</span>
+<span id="cb25-7"><a href="#cb25-7" aria-hidden="true" tabindex="-1"></a>api<span class="op">.</span><span class="at">interceptors</span><span class="op">.</span><span class="at">request</span><span class="op">.</span><span class="fu">use</span>(config <span class="kw">=&gt;</span> {</span>
+<span id="cb25-8"><a href="#cb25-8" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> config</span>
+<span id="cb25-9"><a href="#cb25-9" aria-hidden="true" tabindex="-1"></a>} <span class="op">,</span>err <span class="kw">=&gt;</span> {</span>
+<span id="cb25-10"><a href="#cb25-10" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> err</span>
+<span id="cb25-11"><a href="#cb25-11" aria-hidden="true" tabindex="-1"></a>})</span>
+<span id="cb25-12"><a href="#cb25-12" aria-hidden="true" tabindex="-1"></a>api<span class="op">.</span><span class="at">interceptors</span><span class="op">.</span><span class="at">reponse</span><span class="op">.</span><span class="fu">use</span>(res <span class="kw">=&gt;</span> {</span>
+<span id="cb25-13"><a href="#cb25-13" aria-hidden="true" tabindex="-1"></a>    <span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(res)</span>
+<span id="cb25-14"><a href="#cb25-14" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> <span class="bu">Promise</span><span class="op">.</span><span class="fu">resolve</span>(res)</span>
+<span id="cb25-15"><a href="#cb25-15" aria-hidden="true" tabindex="-1"></a>}<span class="op">,</span> err <span class="kw">=&gt;</span> {</span>
+<span id="cb25-16"><a href="#cb25-16" aria-hidden="true" tabindex="-1"></a>    <span class="bu">Promise</span><span class="op">.</span><span class="fu">reject</span>(err)</span>
+<span id="cb25-17"><a href="#cb25-17" aria-hidden="true" tabindex="-1"></a>})</span>
+<span id="cb25-18"><a href="#cb25-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb25-19"><a href="#cb25-19" aria-hidden="true" tabindex="-1"></a><span class="im">export</span> <span class="im">default</span> api</span></code></pre></div>
+<div class="sourceCode" id="cb26"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a><span class="co">// request.js</span></span>
+<span id="cb26-2"><a href="#cb26-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> api <span class="im">from</span> <span class="st">&#39;axios.js&#39;</span></span>
+<span id="cb26-3"><a href="#cb26-3" aria-hidden="true" tabindex="-1"></a><span class="im">export</span> <span class="kw">const</span> login <span class="op">=</span> () <span class="kw">=&gt;</span> <span class="fu">api</span>({</span>
+<span id="cb26-4"><a href="#cb26-4" aria-hidden="true" tabindex="-1"></a>    <span class="dt">url</span><span class="op">:</span><span class="st">&#39;www.bilibili.com&#39;</span><span class="op">,</span></span>
+<span id="cb26-5"><a href="#cb26-5" aria-hidden="true" tabindex="-1"></a>    <span class="dt">method</span><span class="op">:</span><span class="st">&#39;get&#39;</span><span class="op">,</span></span>
+<span id="cb26-6"><a href="#cb26-6" aria-hidden="true" tabindex="-1"></a>    <span class="dt">parmas</span><span class="op">:</span>params</span>
+<span id="cb26-7"><a href="#cb26-7" aria-hidden="true" tabindex="-1"></a>})</span></code></pre></div>
+<h2 id="vue路由怎么传参的">92、vue路由怎么传参的</h2>
+<ol type="1">
+<li>params传参</li>
+</ol>
+<div class="sourceCode" id="cb27"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> { useRoute <span class="op">,</span> useRouter } <span class="im">from</span> <span class="st">&#39;vue-router&#39;</span></span>
+<span id="cb27-2"><a href="#cb27-2" aria-hidden="true" tabindex="-1"></a><span class="kw">const</span> route <span class="op">=</span> <span class="fu">useRoute</span>()</span>
+<span id="cb27-3"><a href="#cb27-3" aria-hidden="true" tabindex="-1"></a><span class="kw">const</span> router <span class="op">=</span> <span class="fu">useRouter</span>()</span>
+<span id="cb27-4"><a href="#cb27-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-5"><a href="#cb27-5" aria-hidden="true" tabindex="-1"></a><span class="co">// 带参数跳转</span></span>
+<span id="cb27-6"><a href="#cb27-6" aria-hidden="true" tabindex="-1"></a>router<span class="op">.</span><span class="fu">push</span>({<span class="dt">name</span><span class="op">:</span> <span class="st">&#39;user&#39;</span><span class="op">,</span> <span class="dt">params</span><span class="op">:</span> { <span class="dt">id</span><span class="op">:</span> <span class="dv">2977</span> }})</span>
+<span id="cb27-7"><a href="#cb27-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-8"><a href="#cb27-8" aria-hidden="true" tabindex="-1"></a><span class="co">//获取参数</span></span>
+<span id="cb27-9"><a href="#cb27-9" aria-hidden="true" tabindex="-1"></a><span class="kw">const</span> id <span class="op">=</span> route<span class="op">.</span><span class="at">params</span><span class="op">.</span><span class="at">id</span></span></code></pre></div>
+<ol start="2" type="1">
+<li>路由属性传参 <code>router.push({name:&#39;/index/${item.id}})</code>
+路由配置：<code>{path:&#39;/index:id&#39;}</code></li>
+<li>query传参（可以解决页面刷新参数丢失的问题）</li>
+</ol>
+<div class="sourceCode" id="cb28"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a>router<span class="op">.</span><span class="fu">push</span>({</span>
+<span id="cb28-2"><a href="#cb28-2" aria-hidden="true" tabindex="-1"></a>    <span class="dt">name</span><span class="op">:</span><span class="st">&#39;index&#39;</span><span class="op">,</span></span>
+<span id="cb28-3"><a href="#cb28-3" aria-hidden="true" tabindex="-1"></a>    <span class="dt">query</span><span class="op">:</span>{<span class="dt">id</span><span class="op">:</span>item<span class="op">.</span><span class="at">id</span>}</span>
+<span id="cb28-4"><a href="#cb28-4" aria-hidden="true" tabindex="-1"></a>})</span></code></pre></div>
+<h2 id="说一说动态路由">93、说一说动态路由</h2>
+<p>在路由配置中设置meta属性，扩展权限相关的字段，在路由导航守卫里通过判断这个权限标识，实现路由的动态增加和跳转
+根据用户登录的账号，返回当前的用户角色
+前端管理角色，根据路由表中的meta.role进行匹配
+把匹配搭配的路由形成可访问的路由</p>
+<h2 id="解决刷新后二次加载路由">94、解决刷新后二次加载路由</h2>
+<ol type="1">
+<li>window.location.reload()</li>
+<li>matcher</li>
+</ol>
+<div class="sourceCode" id="cb29"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a><span class="kw">const</span> router <span class="op">=</span> createRouter</span>
+<span id="cb29-2"><a href="#cb29-2" aria-hidden="true" tabindex="-1"></a><span class="im">export</span> <span class="kw">function</span> <span class="fu">resetRouter</span>(){</span>
+<span id="cb29-3"><a href="#cb29-3" aria-hidden="true" tabindex="-1"></a>    <span class="kw">const</span> newRouter <span class="op">=</span> <span class="fu">createRouter</span>()</span>
+<span id="cb29-4"><a href="#cb29-4" aria-hidden="true" tabindex="-1"></a>    router<span class="op">.</span><span class="at">matcher</span> <span class="op">=</span> newRouter<span class="op">.</span><span class="at">matcher</span></span>
+<span id="cb29-5"><a href="#cb29-5" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div>
+<ol start="3" type="1">
+<li>使用keep-alive包裹路由出口</li>
+<li>router.removeRoute()显式移除动态路由 ##
+95、pinia在什么场景下会去使用，属性有哪些</li>
+</ol>
+<h2 id="vue和jquery的区别">96、vue和jquery的区别</h2>
+<ol type="1">
+<li>vue是数据绑定，jquery是先获取dom再处理</li>
+<li>vue是数据驱动，jq是着重于页面</li>
+<li>操作不同，vue会自动更新DOM元素，只需要关注数据。</li>
+<li>未来发展不同，vue需求量大，完整的框架，jquery是js的库</li>
+</ol>
+<h2 id="vue遍历全局的方法有哪些">97、vue遍历全局的方法有哪些</h2>
+<ol type="1">
+<li>普通遍历 对象.forEach()</li>
+</ol>
+<div class="sourceCode" id="cb30"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb30-1"><a href="#cb30-1" aria-hidden="true" tabindex="-1"></a>arr<span class="op">.</span><span class="fu">forEach</span>((item<span class="op">,</span>index)<span class="kw">=&gt;</span>{</span>
+<span id="cb30-2"><a href="#cb30-2" aria-hidden="true" tabindex="-1"></a>    <span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(item<span class="op">,</span>index)</span>
+<span id="cb30-3"><a href="#cb30-3" aria-hidden="true" tabindex="-1"></a>})</span></code></pre></div>
+<ol start="2" type="1">
+<li>对元素统一操作 对象.map()</li>
+</ol>
+<div class="sourceCode" id="cb31"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a><span class="kw">var</span> newArr <span class="op">=</span> arr<span class="op">.</span><span class="fu">map</span>((item) <span class="kw">=&gt;</span> {</span>
+<span id="cb31-2"><a href="#cb31-2" aria-hidden="true" tabindex="-1"></a><span class="cf">return</span> item <span class="op">+</span> <span class="dv">1</span></span>
+<span id="cb31-3"><a href="#cb31-3" aria-hidden="true" tabindex="-1"></a>})</span></code></pre></div>
+<ol start="3" type="1">
+<li>查找符合条件的元素 对象.filter()</li>
+</ol>
+<div class="sourceCode" id="cb32"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb32-1"><a href="#cb32-1" aria-hidden="true" tabindex="-1"></a>arr<span class="op">.</span><span class="fu">filter</span>((item) <span class="kw">=&gt;</span> {</span>
+<span id="cb32-2"><a href="#cb32-2" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span>(item <span class="op">&gt;</span> <span class="dv">2</span>){</span>
+<span id="cb32-3"><a href="#cb32-3" aria-hidden="true" tabindex="-1"></a>         <span class="cf">return</span> <span class="kw">false</span></span>
+<span id="cb32-4"><a href="#cb32-4" aria-hidden="true" tabindex="-1"></a>    }<span class="cf">else</span>{</span>
+<span id="cb32-5"><a href="#cb32-5" aria-hidden="true" tabindex="-1"></a>         <span class="cf">return</span> <span class="kw">true</span>    </span>
+<span id="cb32-6"><a href="#cb32-6" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb32-7"><a href="#cb32-7" aria-hidden="true" tabindex="-1"></a>})</span></code></pre></div>
+<ol start="4" type="1">
+<li>查询符合条件的元素返回索引 对象.findIndex()</li>
+</ol>
+<div class="sourceCode" id="cb33"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb33-1"><a href="#cb33-1" aria-hidden="true" tabindex="-1"></a>arr<span class="op">.</span><span class="fu">findIndex</span>((item)<span class="kw">=&gt;</span>{</span>
+<span id="cb33-2"><a href="#cb33-2" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span>(item <span class="op">&gt;</span> <span class="dv">1</span>){</span>
+<span id="cb33-3"><a href="#cb33-3" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> <span class="kw">true</span></span>
+<span id="cb33-4"><a href="#cb33-4" aria-hidden="true" tabindex="-1"></a>    }<span class="cf">else</span>{</span>
+<span id="cb33-5"><a href="#cb33-5" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> <span class="kw">false</span></span>
+<span id="cb33-6"><a href="#cb33-6" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb33-7"><a href="#cb33-7" aria-hidden="true" tabindex="-1"></a>})</span></code></pre></div>
+<p>对象.evening()找到不符合的对象会停止
+对象.some()找到符合条件的对象会停止 ## 98、如何搭建脚手架
+目前我对脚手架搭建的具体实现细节接触较少，但我理解他的核心目标是标准化项目初始化流程，是解决重复配置的问题。在我实际开发中我会使用<code>npm init vite@latest</code>快速生成项目。如果有机会的话我会深入研究他的实现原理，虽然目前我更多是使用现成脚手架，但理解其设计思想。如果有实际需求，我能通过查阅文档快速实现基础功能，并逐步优化
+脚手架的核心设计思想是 <strong>通过自动化工具减少重复劳动</strong>，标准化前端项目的初始化流程，它的本质是一个 <strong>工程化解决方案</strong>，主要是<strong>统一项目结构</strong>、<strong>集成最佳实践</strong>、<strong>依赖管理自动化</strong>、<strong>动态生成配置</strong>、<strong>隐藏复杂细节</strong></p>
+<h2 id="如何封装一个组件">99、如何封装一个组件</h2>
+<ol type="1">
+<li>使用vue.extend()创建一个组件</li>
+<li>使用vue.component()方法注册组件</li>
+<li>如果子组件需要数据，可以在props中接收定义</li>
+<li>子组件修改好数据，要把数据传递给父组件，可以使用emit()方法 原则：
+把功能拆开 尽量让组件原子化，一个组件只做一件事情
+容器组件管数据，展示组件管视图</li>
+</ol>
+<h2 id="vue的过滤器如何使用vue3已经移除使用计算属性或方法替代">100、Vue的过滤器如何使用，Vue3已经移除使用计算属性或方法替代</h2>
+<p>vue的特性，用来对文本进行格式化的处理 插值表达式，v-bind 分类： 1.
+全局过滤器</p>
+<div class="sourceCode" id="cb34"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb34-1"><a href="#cb34-1" aria-hidden="true" tabindex="-1"></a>Vue<span class="op">.</span><span class="fu">filter</span>(<span class="st">&#39;add&#39;</span><span class="op">,</span>(v) <span class="kw">=&gt;</span> {</span>
+<span id="cb34-2"><a href="#cb34-2" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> v <span class="op">&lt;</span> <span class="dv">10</span> <span class="op">?</span> <span class="st">&#39;0&#39;</span> <span class="op">+</span> v <span class="op">:</span> v</span>
+<span id="cb34-3"><a href="#cb34-3" aria-hidden="true" tabindex="-1"></a>}) </span>
+<span id="cb34-4"><a href="#cb34-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb34-5"><a href="#cb34-5" aria-hidden="true" tabindex="-1"></a>{{ message <span class="op">|</span> add }}</span></code></pre></div>
+<h2 id="vue如何做强制刷新">101、vue如何做强制刷新</h2>
+<ol type="1">
+<li>localtion.reload()</li>
+<li>router.go(0)</li>
+<li>provide和inject 小型项目可用 <code>provide/inject</code> 替代
+Pinia/Vuex。 跨层级组件通信</li>
+</ol>
+<pre class="vue"><code>&lt;!-- Parent.vue --&gt;
+&lt;script setup&gt;
+import { provide , ref } from &#39;vue&#39;
+const refreshKey = ref(0)
+const forceUpdate = () =&gt; refreshKey.value++;
+provide(&#39;forceUpdate&#39;, forceUpdate);
+&lt;/script&gt;</code></pre>
+<pre class="vue"><code>&lt;!-- Child.vue --&gt;
+&lt;script setup&gt;
+import { inject } from &#39;vue&#39;
+const forceUpdate = inject(&#39;forceUpdate&#39;)
+&lt;/script&gt;
+&lt;template&gt;
+&lt;button @click=&quot;forceUpdate&quot;&gt;强制刷新子组件&lt;/button&gt;
+&lt;/template&gt;</code></pre>
+<ol start="4" type="1">
+<li><p>v-if 销毁再创建</p></li>
+<li><p>修改key值（最佳） ## 102、vue性能优化怎么做</p></li>
+<li><p>编码优化 不要把所有数据都放在data中 v-for时给每个元素绑定事件代理
+keep-alive缓存组件 尽可能拆分组件，提高复用性、维护性 key值要保证唯一
+合理利用路由懒加载，异步组件
+数据持久化存储是尽量使用防抖和节流优化</p></li>
+<li><p>加载优化 按需加载 内容加载 图片加载</p></li>
+<li><p>用户体验 骨架屏</p></li>
+<li><p>SEO优化 预渲染 SSR</p></li>
+<li><p>打包优化 CDN形式加载第三方模块 多线程打包 抽离公共文件</p></li>
+<li><p>缓存和压缩 客户端缓存、服务端缓存 服务端Gzip压缩 ##
+103、首屏优化该如何去做</p></li>
+<li><p>使用路由懒加载</p></li>
+<li><p>非首屏组件使用异步组件</p></li>
+<li><p>首屏中不要的组件延迟加载</p></li>
+<li><p>一些静态资源放在CDN上</p></li>
+<li><p>减少首屏上js css等资源文件的大小</p></li>
+<li><p>使用服务端渲染ssr</p></li>
+<li><p>简历使用DOM的数量和层级</p></li>
+<li><p>使用精灵图请求</p></li>
+<li><p>做一些loading</p></li>
+<li><p>开启Gzip压缩</p></li>
+<li><p>图片懒加载 ## 104、vue3的性能为什么比vue2好</p></li>
+<li><p>diff算法的优化，对比新旧DOM的优化，对更新的位置打上标记，这样就避免了重复对比</p></li>
+<li><p>静态提升，没有参与到更新的元素不会重复渲染</p></li>
+<li><p>事件侦听缓存，对于动态绑定进行缓存，直接复用提升性能 ##
+105、vue3为什么用proxy</p></li>
+<li><p>proxy可以代理整个对象，defineproperty只代理对象上的某个属性</p></li>
+<li><p>proxy对代理对象的监听更加丰富</p></li>
+<li><p>proxy代理对象会生成新的对象，不会修改代理对象</p></li>
+<li><p>proxy不兼容IE浏览器（逐步淘汰 ## 106、说一说你对组件的理解
+可以重复的VUE实例，独一无二的组件名称 可以抽离单独的公共模块
+提高代码的复用率 ## 107、你是如何规划项目文件的 public/
+图标、index.html、img src/ api、assets components按分类再次划分子目录
+plugins router static styles utils views(pages) App.vue main.js
+package.json vue.config.js ## 108、是否使用过nuxt.js
+它是基于VUE应用框架，关注的是渲染，可以开发
+服务器端渲染（ssr）应用的配置，多页面应用 优势：
+SSR生成的是有内容的HTML页面，有利于搜索引擎的搜索 优化了首屏加载事件
+SEO:搜索引擎优化，增加流量 SAP的应用不利于搜索引擎SEO的操作</p></li>
+</ol>
+<h2 id="src-href-url区别">109、src href url区别</h2>
+<p>都是与资源引用相关，适用场景不同 1.
+src适合嵌入外部资源，成为页面的一部分，会有阻塞性 2.
+href建立关联链接，不会嵌入文档，是非阻塞性，导航，关联 3. url
+通用的资源定位符，动态加载，表示资源的路径或地址，协议等</p>
+<h2 id="echarts有用过吗常用的组件有哪些">110、echarts有用过吗？常用的组件有哪些</h2>
+<ol type="1">
+<li>title标题组件show text link</li>
+<li>toolbox工具栏 导出图片 数据视图 切换 缩放 show orient feature</li>
+<li>tooltip tigger 触发类型</li>
+<li>markPoint标注点</li>
+<li>markLine图标的标线</li>
+<li></li>
+</ol>
+<h2 id="git如何合并拉取代码">111、git如何合并，拉取代码</h2>
+<ol type="1">
+<li>拉取代码 <code>git pull</code> 仓库地址</li>
+<li>查看状态<code>git status</code></li>
+<li>提交到本地缓存区<code>git add .</code></li>
+<li>提交到本地仓库 <code>git commit -m &#39;修改描述&#39;</code></li>
+<li>提交到远程仓库<code>git push &#39;仓库地址&#39; master</code></li>
+<li>创建分支<code>git branch -b xxx</code></li>
+<li>合并分支<code>git merge &#39;分支名字&#39;</code></li>
+</ol>
+<h2 id="git如何解决冲突问题">112、git如何解决冲突问题</h2>
+<ol type="1">
+<li>两个分支中修改了同一个文件</li>
+<li>两个分支中修改了同一个文件的名字 在当前分支上，直接修改代码 add
+commit 在本地当前分支上修改冲突代码 add commit push ##
+113、你的优势在哪里</li>
+<li>尽量不要暴露自己的缺点</li>
+<li>不要过度美化自己 ## 114、如何协同工作</li>
+<li>开发前会开个会议，确定开发文档，规定代码规范，变量名称等。</li>
+<li>利用工具保证项目的正常进度，规范化git、github等 ##
+115、路由拦截是怎么实现的 路由拦截、axios拦截
+需要在路由配置中添加一个字段，它是用于判断路由是否需要拦截</li>
+</ol>
+<div class="sourceCode" id="cb37"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb37-1"><a href="#cb37-1" aria-hidden="true" tabindex="-1"></a>{</span>
+<span id="cb37-2"><a href="#cb37-2" aria-hidden="true" tabindex="-1"></a>    <span class="dt">name</span><span class="op">:</span><span class="st">&#39;index&#39;</span><span class="op">,</span></span>
+<span id="cb37-3"><a href="#cb37-3" aria-hidden="true" tabindex="-1"></a>    <span class="dt">path</span><span class="op">:</span><span class="st">&#39;/index&#39;</span><span class="op">,</span></span>
+<span id="cb37-4"><a href="#cb37-4" aria-hidden="true" tabindex="-1"></a>    <span class="dt">component</span><span class="op">:</span><span class="bu">Index</span><span class="op">,</span></span>
+<span id="cb37-5"><a href="#cb37-5" aria-hidden="true" tabindex="-1"></a>    <span class="dt">meta</span><span class="op">:</span>{</span>
+<span id="cb37-6"><a href="#cb37-6" aria-hidden="true" tabindex="-1"></a>        <span class="dt">requirAuth</span><span class="op">:</span><span class="kw">true</span></span>
+<span id="cb37-7"><a href="#cb37-7" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb37-8"><a href="#cb37-8" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb37-9"><a href="#cb37-9" aria-hidden="true" tabindex="-1"></a>router<span class="op">.</span><span class="fu">beforeEach</span>((to<span class="op">,</span><span class="im">from</span><span class="op">,</span>next) <span class="kw">=&gt;</span> {</span>
+<span id="cb37-10"><a href="#cb37-10" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span>(to<span class="op">.</span><span class="at">meta</span><span class="op">.</span><span class="at">requirAuth</span>){</span>
+<span id="cb37-11"><a href="#cb37-11" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span>(store<span class="op">.</span><span class="at">getter</span><span class="op">.</span><span class="at">token</span>){</span>
+<span id="cb37-12"><a href="#cb37-12" aria-hidden="true" tabindex="-1"></a>            <span class="fu">next</span>()</span>
+<span id="cb37-13"><a href="#cb37-13" aria-hidden="true" tabindex="-1"></a>        }<span class="cf">else</span>{</span>
+<span id="cb37-14"><a href="#cb37-14" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb37-15"><a href="#cb37-15" aria-hidden="true" tabindex="-1"></a>        }</span>
+<span id="cb37-16"><a href="#cb37-16" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb37-17"><a href="#cb37-17" aria-hidden="true" tabindex="-1"></a>})</span></code></pre></div>
+<h2 id="html5新增了那些标签">116、HTML5新增了那些标签</h2>
+<ol type="1">
+<li><strong>布局标签（语义化标签）</strong>
+<strong>语义化的优点如下：</strong>
+在没有CSS样式情况下也能够让页面呈现出清晰的结构
+有利于SEO和搜索引擎建立良好的沟通，有助于爬虫抓取更多的有效信息，爬虫是依赖于标签来确定上下文和各个关键字的权重
+方便团队开发和维护，语义化更具可读性，遵循W3C标准的团队都遵循这个标准，可以减少差异化</li>
+<li><strong>视频标签(video)</strong></li>
+<li><strong>音频标签(audio)</strong></li>
+<li><strong>图片标签（img）</strong></li>
+<li><strong>新的 API</strong> canvas</li>
+</ol>
+<h2 id="vue-router-有哪几种路由守卫">117、Vue-Router
+有哪几种路由守卫?</h2>
+<p>Vue-Router
+提供了 <strong>三类路由守卫</strong>，用于在路由跳转前后执行逻辑（如权限校验、数据预加载）
+1. 全局守卫 -
+<strong><code>router.beforeEach</code>（全局前置守卫）</strong>
+路由跳转 <strong>前</strong> 调用 -
+<strong><code>router.beforeResolve</code>（全局解析守卫）</strong>导航被确认 <strong>前</strong>，所有组件内守卫和异步组件已解析
+- <strong><code>router.afterEach</code>（全局后置守卫）</strong>
+路由跳转 <strong>完成后</strong> ,日志记录、页面标题更新 2.
+路由独享守卫（作用于特定的路由） - <code>beforeEnter</code>
+对单个路由进行校验 3. 组件内守卫（作用于组件） -
+<code>beforeRouteEnter</code> 组件实例创建前调用，通过回调获取组件实例 -
+<code>beforeRouteUpdate</code>当路由改变，但组件被复用时调用 -
+<code>beforeRouteLeave</code>离开当前路由前调用 守卫执行顺序 - 导航触发
+- beforeRouteLeave（上一个组件的组件内守卫） - 全局 - beforeEach -
+路由独享 - beforeEnter - 组件内 - beforeRouterEnter - 全局 -
+beforeResolve - 导航确认 - 更新视图 - 全局 - afterEach ## 118、
+Vue-Router 的钩子函数都有哪些?</p>
+<h2 id="computed和watch的区别">119、computed和watch的区别</h2>
+<ol type="1">
+<li>computed是计算属性，watch是监听data中数据的变化</li>
+<li>computed是支持缓存，依赖的属性值发生变化，计算属性才会重新计算，否则缓存；watch不支持缓存</li>
+<li>computed是第一次加载就监听，watch是不监听的</li>
+<li>computed函数中必须有return ,watch不用</li>
+</ol>
+<h2 id="封装一个可复用的组件需要满足什么条件">120、封装一个可复用的组件，需要，满足什么条件？</h2>
+<ol type="1">
+<li>低耦合，组件之间的依赖越小越好</li>
+<li>最好从父级传入信息，不要再公共组件中请求数据</li>
+<li>传入的数据一定要进行校验</li>
+<li>处理事件的方法写在父组件中</li>
+</ol>
+<h2 id="ref-reactive区别">121、ref reactive区别</h2>
+<ul>
+<li>ref是适合所有类型，使用.value访问，方便重新赋值</li>
+<li>reactive只支持对象类型，可以直接访问属性，适合复杂对象或嵌套结构，但是解构会丢失响应性</li>
+<li>ref自动解包，reactive保持响应式嵌套
+当响应式的数据为基本类型值、需要替换整个对象、在模板中直接使用的简单值时用ref
+当数据为复杂对象或嵌套的数据结构时，需要保持引用一致性的对象，或者逻辑相关的多个属性结合的时候用reactive</li>
+</ul>
+<p>使用<code>toRefs</code>结构保持响应性 ##
+122、项目中遇到最难的问题是什么，怎么解决的 1. 不要回答没有问题 2.
+不要说一些简单的问题。比如：数据请求不过来，渲染页面时出现问题，跳转路由不会，这些不要说
+解决问题：首先检查自己的思路和代码有没有逻辑漏洞，然后再去CSDN或稀土掘金查询资料解决办法，如果身边没有经验丰富的人，我会去问AI，判断AI的方案的可行性后我会尝试对其优化，修改自己的思路或代码，解决问题后我会将其记录在笔记中以便之后遇到再次解决</p>
+<h2 id="说一说分布式原理">123、说一说分布式原理</h2>
+<p>分布式系统是由多台计算机通过网络互联协同工作的系统，其设计目标是解决单机计算能力，存储容量和可靠性瓶颈等问题
+分布式原理的核心目标是：高可用，可扩展，容错性 关键技术有 - 数据分片 -
+一致性协议 - 负载均衡 -
+CAP理论：只能满足其中一两项（一致性，可用性，分区容错性） 典型场景：
+微服务架构 分布式存储 HDFS 分布式计算（MapReduce、Spark）
+总结来说是通过分片，复制，一致性协议实现高可用和扩展性，权衡CAP满足业务需求</p>
+<h2 id="说一说操作系统原理">124、说一说操作系统原理</h2>
+<p>操作系统是管理计算机硬件与软件资源的核心程序，是用户与计算机之间的接口，设计目标是高效安全的调度资源</p>
+<h2 id="面试开场白">125、面试开场白：</h2>
+<ul>
+<li>面试官您好，我是郭尚勋，是辽宁科技大学数据科学与大数据技术专业2026届本科生，非常荣幸参加这次字节跳动<strong>抖音电商团队前端开发实习生</strong>的面试，感谢您抽出时间给予这次宝贵的机会。</li>
+<li>我了解到目前抖音电商致力于打造<strong>用户发现优价好物的首选平台</strong>，通过<strong>卓越的用户体验</strong>连接用户与商品。在我的课程涵盖Web开发、数据结构等计算机核心领域**，并通过项目积累了丰富的前端实践经验，我对加入这个充满活力的团队是十分向往的。</li>
+<li>我的技术学习和项目实践，是着重于为构建高性能，互动性强，视觉效果好的前端应用，这与岗位描述中强调的<strong>提升用户体验，开发Web应用/组件库/数据可视化</strong>等方向高度相关：
+<ul>
+<li>在我的虚拟博物馆项目，我负责使用vue3、ts、pinia以及Three.js开发3D展示和交互功能，采用 <code>SCSS</code> 嵌套规则管理复杂样式，提升组件可维护性，并且利用GSAP实现流畅的滚动动画和交互效果。这电商中商品展示的需求有相同之处。</li>
+<li>在我的国防教育仿真系统中，我负责使用Vue3、Ts、Element
+Plus、Tailwindcss构建前端，利用Tailwindcss实现动态主题切换以及响应式布局，保证了前端在不同尺寸屏幕的效果一致。</li>
+<li>最后一个项目是本地图片管理工具我最近开发的一个个人全栈项目，目的是能够在网页中的浏览本地文件夹中的图片，并且批量编辑图片。也是使用Vue3+Ts构建，使用Pinia管理元数据，并且使用虚拟滚动技术通过动态计算滚动位置按需要渲染图片来减少DOM节点提升性能，后端使用异步并发提高图片处理速度。
+以上就是我的自我介绍和项目介绍。</li>
+</ul></li>
+</ul>
+<p>11个接口</p>
+<h2 id="为什么使用ts">126、为什么使用TS</h2>
+<ol type="1">
+<li>能够在开发初期就规避上线BUG</li>
+<li>提高多人协作效率</li>
+<li>降低代码阅读与维护成本</li>
+<li>强IDE支持和重构安全性</li>
+<li>更适合复杂项目和长期维护 <strong>TS
+的价值不是跟风</strong>，而是通过类型系统建立代码的”显式契约”。可以在开发阶段就暴露接口不匹配的问题，避免线上故障，对于团队协作来说，类型定义本身就是最好文档，能大幅降低维护成本
+## 127、TS的类型</li>
+</ol>
+<ul>
+<li>基础类型：<code>string，number，boolean，null，undefined，symbol，bigint</code></li>
+<li><code>any，void，never</code></li>
+<li><code>number[]/Array&lt;number&gt;</code></li>
+<li>元组<code>[string,number]</code></li>
+<li>对象</li>
+</ul>
+<div class="sourceCode" id="cb38"><pre class="sourceCode ts"><code class="sourceCode typescript"><span id="cb38-1"><a href="#cb38-1" aria-hidden="true" tabindex="-1"></a><span class="kw">interface</span> User{</span>
+<span id="cb38-2"><a href="#cb38-2" aria-hidden="true" tabindex="-1"></a>    name<span class="op">:</span> <span class="dt">string</span><span class="op">,</span></span>
+<span id="cb38-3"><a href="#cb38-3" aria-hidden="true" tabindex="-1"></a>    age<span class="op">?:</span> <span class="dt">number</span></span>
+<span id="cb38-4"><a href="#cb38-4" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div>
+<ul>
+<li>函数</li>
+</ul>
+<div class="sourceCode" id="cb39"><pre class="sourceCode ts"><code class="sourceCode typescript"><span id="cb39-1"><a href="#cb39-1" aria-hidden="true" tabindex="-1"></a><span class="kw">type</span> Add <span class="op">=</span> (a<span class="op">:</span> <span class="dt">number</span> <span class="op">,</span>b<span class="op">:</span> <span class="dt">number</span>) <span class="kw">=&gt;</span> <span class="dt">number</span></span></code></pre></div>
+<ul>
+<li>联合类型 <code>string | number</code></li>
+<li>交叉类型 <code>A &amp; B</code>合并多个类型</li>
+<li>字面量类型 <code>&#39;success&#39; | &#39;error&#39;</code></li>
+<li>泛型</li>
+</ul>
+<div class="sourceCode" id="cb40"><pre class="sourceCode ts"><code class="sourceCode typescript"><span id="cb40-1"><a href="#cb40-1" aria-hidden="true" tabindex="-1"></a><span class="kw">type</span> Response<span class="op">&lt;</span>T<span class="op">&gt;</span> <span class="op">=</span> { data<span class="op">:</span> T }<span class="op">;</span></span>
+<span id="cb40-2"><a href="#cb40-2" aria-hidden="true" tabindex="-1"></a><span class="kw">const</span> res<span class="op">:</span> Response<span class="op">&lt;</span>User<span class="op">&gt;</span> <span class="op">=</span> <span class="op">...</span></span></code></pre></div>
+<h2 id="为什么使用gsap">128、为什么使用GSAP</h2>
+<p>首先GSAP全名是GreenSock Animation
+Platform，是一个成熟且适用于<strong>现代浏览器</strong>的专业动画库。而且现在GSAP已经完全免费，一些付费才能用的高级插件如SplitText、MorphSVG等已经免费开放，且可以用在商业上。他的核心优势，极致的性能，直接操作DOM的变换属性，绕过浏览器的重排以及内置动画队列优化；具有精准的控制能力，利于时间轴，可以连是调用、并行动画、时序控制等。有着跨浏览器的兼容性以及强大的插件生态，比如我项目中使用的ScrollTrigger滚动驱动动画。
+## 129、为什么使用Three.js
+我选择使用Three.js是因为他能快速构建高性能的Web
+3D应用，比如产品的展示和交互式可视化。它封装了WebGL的接口，减少了复杂性，同时提供了光照、模型加载等开箱即用的功能，大幅降低了开发门槛。</p>
+<h2 id="了解过webgl吗">130、了解过WebGL吗</h2>
+<p>我了解 <strong>WebGL</strong>（Web Graphics Library），它是一种基于
+JavaScript 的 API，用于在网页浏览器中渲染交互式 2D 和 3D
+图形，而无需使用插件，拥有<strong>GPU
+加速</strong>调用显卡来加速性能，跨平台的兼容性，而且与web技术集成。典型应用是3D网页游戏，3D数据可视化，虚拟现实等
+## 131、为什么用SCSS而不是纯CSS
+在虚拟博物馆的展品展示组件中，<strong>多层级嵌套的控件样式</strong>维护成本很高。我采用SCSS，通过统一的变量管理主题色或者间距，使用嵌套语法能清晰表达父子组件的样式关系，也避免了类名冲突。我还可以使用混入器复用动画，比如项目中展品放大效果就使用了一段@mixin，方便快速调整效果</p>
+<div class="sourceCode" id="cb41"><pre class="sourceCode scss"><code class="sourceCode scss"><span id="cb41-1"><a href="#cb41-1" aria-hidden="true" tabindex="-1"></a><span class="im">@mixin</span> <span class="fu">hover-scale(</span><span class="va">$scale-ratio</span><span class="ch">:</span> <span class="dv">1.1</span><span class="fu">)</span>{</span>
+<span id="cb41-2"><a href="#cb41-2" aria-hidden="true" tabindex="-1"></a>    <span class="kw">transition</span><span class="ch">:</span> transform <span class="dv">0.3</span><span class="dt">s</span> <span class="dv">ease-in-out</span><span class="op">;</span></span>
+<span id="cb41-3"><a href="#cb41-3" aria-hidden="true" tabindex="-1"></a>    <span class="op">&amp;</span><span class="in">:hover</span>{</span>
+<span id="cb41-4"><a href="#cb41-4" aria-hidden="true" tabindex="-1"></a>        <span class="kw">transform</span><span class="ch">:</span> <span class="fu">scale(</span><span class="va">$scale-ratio</span><span class="fu">)</span></span>
+<span id="cb41-5"><a href="#cb41-5" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb41-6"><a href="#cb41-6" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div>
+<div class="sourceCode" id="cb42"><pre class="sourceCode scss"><code class="sourceCode scss"><span id="cb42-1"><a href="#cb42-1" aria-hidden="true" tabindex="-1"></a><span class="fu">.exhibit-item</span>{</span>
+<span id="cb42-2"><a href="#cb42-2" aria-hidden="true" tabindex="-1"></a>    <span class="kw">width</span><span class="ch">:</span> <span class="dv">200</span><span class="dt">px</span><span class="op">;</span></span>
+<span id="cb42-3"><a href="#cb42-3" aria-hidden="true" tabindex="-1"></a>    <span class="kw">height</span><span class="ch">:</span> <span class="dv">200</span><span class="dt">px</span><span class="op">;</span></span>
+<span id="cb42-4"><a href="#cb42-4" aria-hidden="true" tabindex="-1"></a>    <span class="im">@include</span> <span class="fu">hover-scale()</span></span>
+<span id="cb42-5"><a href="#cb42-5" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div>
+<h2 id="如何理解电商前端">132、<strong>如何理解电商前端</strong></h2>
+<h2 id="为什么选择我们公司">133、为什么选择我们公司</h2>
+<p>其实这是我第一次投递简历，我非常珍惜这次机会。选择字节跳动的电商业务，主要是因为学长的推荐和我的技术兴趣点以及项目经历比较契合。虽然我对团队具体的技术栈了解的还不够深，但我的项目经历和岗位描述中的技能高度匹配。我特别喜欢字节跳动的的“字节范”这样的企业文化和价值观——始终创业，多元兼容，坦诚清晰，求真务实，敢为极致，共同进步。如果有幸加入，我会快速学习业务细节，尽全力贡献我的技术能力、
+## 134、为什么选择出省去杭州</p>
+<h2 id="期望薪资是多少">135、期望薪资是多少</h2>
+<h2 id="双指针">136、双指针</h2>
+<h3 id="力扣16-最接近的三数之和">力扣16 <a href="https://leetcode.cn/problems/3sum-closest/">最接近的三数之和</a></h3>
+<div class="sourceCode" id="cb43"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb43-1"><a href="#cb43-1" aria-hidden="true" tabindex="-1"></a><span class="kw">var</span> threeSumClosest <span class="op">=</span> <span class="kw">function</span>(nums<span class="op">,</span> target) {</span>
+<span id="cb43-2"><a href="#cb43-2" aria-hidden="true" tabindex="-1"></a>    <span class="kw">let</span> length <span class="op">=</span> nums<span class="op">.</span><span class="at">length</span></span>
+<span id="cb43-3"><a href="#cb43-3" aria-hidden="true" tabindex="-1"></a>    <span class="kw">let</span> res <span class="op">=</span> <span class="kw">Infinity</span></span>
+<span id="cb43-4"><a href="#cb43-4" aria-hidden="true" tabindex="-1"></a>    nums<span class="op">.</span><span class="fu">sort</span>((a<span class="op">,</span> b) <span class="kw">=&gt;</span> a <span class="op">-</span> b)</span>
+<span id="cb43-5"><a href="#cb43-5" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span>(<span class="kw">let</span> i <span class="op">=</span> <span class="dv">0</span><span class="op">;</span> i <span class="op">&lt;</span> length<span class="op">;</span> i<span class="op">++</span>){</span>
+<span id="cb43-6"><a href="#cb43-6" aria-hidden="true" tabindex="-1"></a>        <span class="kw">let</span> left <span class="op">=</span> i <span class="op">+</span> <span class="dv">1</span></span>
+<span id="cb43-7"><a href="#cb43-7" aria-hidden="true" tabindex="-1"></a>        <span class="kw">let</span> right <span class="op">=</span> length <span class="op">-</span> <span class="dv">1</span></span>
+<span id="cb43-8"><a href="#cb43-8" aria-hidden="true" tabindex="-1"></a>        <span class="cf">while</span>(left <span class="op">&lt;</span> right){</span>
+<span id="cb43-9"><a href="#cb43-9" aria-hidden="true" tabindex="-1"></a>            <span class="kw">let</span> sum <span class="op">=</span> nums[i] <span class="op">+</span> nums[left] <span class="op">+</span> nums[right]</span>
+<span id="cb43-10"><a href="#cb43-10" aria-hidden="true" tabindex="-1"></a>            <span class="cf">if</span>(<span class="bu">Math</span><span class="op">.</span><span class="fu">abs</span>(target <span class="op">-</span> sum) <span class="op">&lt;</span> <span class="bu">Math</span><span class="op">.</span><span class="fu">abs</span>(target <span class="op">-</span> res)){</span>
+<span id="cb43-11"><a href="#cb43-11" aria-hidden="true" tabindex="-1"></a>                res <span class="op">=</span> sum</span>
+<span id="cb43-12"><a href="#cb43-12" aria-hidden="true" tabindex="-1"></a>            }</span>
+<span id="cb43-13"><a href="#cb43-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb43-14"><a href="#cb43-14" aria-hidden="true" tabindex="-1"></a>            <span class="cf">if</span>(sum <span class="op">&lt;</span> target){</span>
+<span id="cb43-15"><a href="#cb43-15" aria-hidden="true" tabindex="-1"></a>                left<span class="op">++</span></span>
+<span id="cb43-16"><a href="#cb43-16" aria-hidden="true" tabindex="-1"></a>            }<span class="cf">else</span> <span class="cf">if</span>(sum <span class="op">&gt;</span> target){</span>
+<span id="cb43-17"><a href="#cb43-17" aria-hidden="true" tabindex="-1"></a>                right<span class="op">--</span></span>
+<span id="cb43-18"><a href="#cb43-18" aria-hidden="true" tabindex="-1"></a>            }<span class="cf">else</span>{</span>
+<span id="cb43-19"><a href="#cb43-19" aria-hidden="true" tabindex="-1"></a>                <span class="cf">return</span> sum</span>
+<span id="cb43-20"><a href="#cb43-20" aria-hidden="true" tabindex="-1"></a>            }</span>
+<span id="cb43-21"><a href="#cb43-21" aria-hidden="true" tabindex="-1"></a>        }</span>
+<span id="cb43-22"><a href="#cb43-22" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb43-23"><a href="#cb43-23" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> res</span>
+<span id="cb43-24"><a href="#cb43-24" aria-hidden="true" tabindex="-1"></a>}<span class="op">;</span></span></code></pre></div>
+<h3 id="力扣524-通过删除字母匹配到字典里最长单词">力扣524 <a href="https://leetcode.cn/problems/longest-word-in-dictionary-through-deleting/">通过删除字母匹配到字典里最长单词</a></h3>
+<div class="sourceCode" id="cb44"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb44-1"><a href="#cb44-1" aria-hidden="true" tabindex="-1"></a><span class="kw">var</span> findLongestWord <span class="op">=</span> <span class="kw">function</span>(s<span class="op">,</span> dictionary) {</span>
+<span id="cb44-2"><a href="#cb44-2" aria-hidden="true" tabindex="-1"></a>    <span class="kw">let</span> left <span class="op">=</span> <span class="dv">0</span></span>
+<span id="cb44-3"><a href="#cb44-3" aria-hidden="true" tabindex="-1"></a>    <span class="kw">let</span> right <span class="op">=</span> <span class="dv">0</span></span>
+<span id="cb44-4"><a href="#cb44-4" aria-hidden="true" tabindex="-1"></a>    <span class="kw">let</span> str <span class="op">=</span> <span class="st">&#39;&#39;</span></span>
+<span id="cb44-5"><a href="#cb44-5" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span>(<span class="kw">let</span> i <span class="kw">in</span> dictionary){</span>
+<span id="cb44-6"><a href="#cb44-6" aria-hidden="true" tabindex="-1"></a>        left <span class="op">=</span> <span class="dv">0</span></span>
+<span id="cb44-7"><a href="#cb44-7" aria-hidden="true" tabindex="-1"></a>        right <span class="op">=</span> <span class="dv">0</span></span>
+<span id="cb44-8"><a href="#cb44-8" aria-hidden="true" tabindex="-1"></a>        <span class="cf">while</span>(left <span class="op">&lt;</span> s<span class="op">.</span><span class="at">length</span> <span class="op">&amp;&amp;</span> dictionary[i]<span class="op">.</span><span class="at">length</span>){</span>
+<span id="cb44-9"><a href="#cb44-9" aria-hidden="true" tabindex="-1"></a>            <span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(left<span class="op">,</span>right)</span>
+<span id="cb44-10"><a href="#cb44-10" aria-hidden="true" tabindex="-1"></a>            <span class="cf">if</span>(s<span class="op">.</span><span class="fu">charAt</span>(left) <span class="op">===</span> dictionary[i]<span class="op">.</span><span class="fu">charAt</span>(right)){</span>
+<span id="cb44-11"><a href="#cb44-11" aria-hidden="true" tabindex="-1"></a>                left<span class="op">++</span></span>
+<span id="cb44-12"><a href="#cb44-12" aria-hidden="true" tabindex="-1"></a>                right<span class="op">++</span></span>
+<span id="cb44-13"><a href="#cb44-13" aria-hidden="true" tabindex="-1"></a>                <span class="cf">if</span>(right <span class="op">&gt;=</span> dictionary[i]<span class="op">.</span><span class="at">length</span>){</span>
+<span id="cb44-14"><a href="#cb44-14" aria-hidden="true" tabindex="-1"></a>                    <span class="cf">if</span>(str <span class="op">===</span> <span class="st">&#39;&#39;</span>) {</span>
+<span id="cb44-15"><a href="#cb44-15" aria-hidden="true" tabindex="-1"></a>                        str <span class="op">=</span> dictionary[i]</span>
+<span id="cb44-16"><a href="#cb44-16" aria-hidden="true" tabindex="-1"></a>                    }<span class="cf">else</span> <span class="cf">if</span>(str<span class="op">.</span><span class="at">length</span> <span class="op">===</span> dictionary[i]<span class="op">.</span><span class="at">length</span>){</span>
+<span id="cb44-17"><a href="#cb44-17" aria-hidden="true" tabindex="-1"></a>                        str <span class="op">=</span> str <span class="op">&gt;</span> dictionary[i] <span class="op">?</span> dictionary[i] <span class="op">:</span> str</span>
+<span id="cb44-18"><a href="#cb44-18" aria-hidden="true" tabindex="-1"></a>                    }<span class="cf">else</span>{</span>
+<span id="cb44-19"><a href="#cb44-19" aria-hidden="true" tabindex="-1"></a>                        str <span class="op">=</span> str<span class="op">.</span><span class="at">length</span> <span class="op">&lt;</span> dictionary[i]<span class="op">.</span><span class="at">length</span> <span class="op">?</span> dictionary[i] <span class="op">:</span> str</span>
+<span id="cb44-20"><a href="#cb44-20" aria-hidden="true" tabindex="-1"></a>                    }</span>
+<span id="cb44-21"><a href="#cb44-21" aria-hidden="true" tabindex="-1"></a>                    <span class="cf">break</span></span>
+<span id="cb44-22"><a href="#cb44-22" aria-hidden="true" tabindex="-1"></a>                }</span>
+<span id="cb44-23"><a href="#cb44-23" aria-hidden="true" tabindex="-1"></a>            }<span class="cf">else</span>{</span>
+<span id="cb44-24"><a href="#cb44-24" aria-hidden="true" tabindex="-1"></a>                left<span class="op">++</span></span>
+<span id="cb44-25"><a href="#cb44-25" aria-hidden="true" tabindex="-1"></a>            }</span>
+<span id="cb44-26"><a href="#cb44-26" aria-hidden="true" tabindex="-1"></a>        }</span>
+<span id="cb44-27"><a href="#cb44-27" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb44-28"><a href="#cb44-28" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> str</span>
+<span id="cb44-29"><a href="#cb44-29" aria-hidden="true" tabindex="-1"></a>}<span class="op">;</span></span></code></pre></div>
+<h2 id="力扣3-无重复字符的最长子串滑动窗口">137、力扣3 <a href="https://leetcode.cn/problems/longest-substring-without-repeating-characters/">无重复字符的最长子串</a>（滑动窗口）</h2>
+<div class="sourceCode" id="cb45"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb45-1"><a href="#cb45-1" aria-hidden="true" tabindex="-1"></a><span class="kw">var</span> lengthOfLongestSubstring <span class="op">=</span> <span class="kw">function</span>(s) {</span>
+<span id="cb45-2"><a href="#cb45-2" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span>(s<span class="op">.</span><span class="at">length</span> <span class="op">&lt;=</span> <span class="dv">1</span>) <span class="cf">return</span> s<span class="op">.</span><span class="at">length</span></span>
+<span id="cb45-3"><a href="#cb45-3" aria-hidden="true" tabindex="-1"></a>    <span class="kw">let</span> maxLength <span class="op">=</span> <span class="dv">0</span></span>
+<span id="cb45-4"><a href="#cb45-4" aria-hidden="true" tabindex="-1"></a>    <span class="kw">let</span> left <span class="op">=</span> <span class="dv">0</span></span>
+<span id="cb45-5"><a href="#cb45-5" aria-hidden="true" tabindex="-1"></a>    <span class="kw">let</span> right <span class="op">=</span> <span class="dv">1</span></span>
+<span id="cb45-6"><a href="#cb45-6" aria-hidden="true" tabindex="-1"></a>    <span class="cf">while</span>(right <span class="op">&lt;</span> s<span class="op">.</span><span class="at">length</span>){</span>
+<span id="cb45-7"><a href="#cb45-7" aria-hidden="true" tabindex="-1"></a>        temp <span class="op">=</span> s<span class="op">.</span><span class="fu">slice</span>(left<span class="op">,</span>right)</span>
+<span id="cb45-8"><a href="#cb45-8" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span>(temp<span class="op">.</span><span class="fu">indexOf</span>(s<span class="op">.</span><span class="fu">charAt</span>(right)) <span class="op">!==</span> <span class="op">-</span><span class="dv">1</span>){</span>
+<span id="cb45-9"><a href="#cb45-9" aria-hidden="true" tabindex="-1"></a>            maxLength <span class="op">=</span> temp<span class="op">.</span><span class="at">length</span> <span class="op">&gt;</span> maxLength <span class="op">?</span> temp<span class="op">.</span><span class="at">length</span> <span class="op">:</span> maxLength</span>
+<span id="cb45-10"><a href="#cb45-10" aria-hidden="true" tabindex="-1"></a>            left <span class="op">+=</span> temp<span class="op">.</span><span class="fu">indexOf</span>(s<span class="op">.</span><span class="fu">charAt</span>(right)) <span class="op">+</span> <span class="dv">1</span></span>
+<span id="cb45-11"><a href="#cb45-11" aria-hidden="true" tabindex="-1"></a>        }</span>
+<span id="cb45-12"><a href="#cb45-12" aria-hidden="true" tabindex="-1"></a>        right<span class="op">++</span></span>
+<span id="cb45-13"><a href="#cb45-13" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb45-14"><a href="#cb45-14" aria-hidden="true" tabindex="-1"></a>    maxLength <span class="op">=</span> s<span class="op">.</span><span class="at">length</span> <span class="op">-</span> left <span class="op">&gt;</span> maxLength <span class="op">?</span> s<span class="op">.</span><span class="at">length</span> <span class="op">-</span> left <span class="op">:</span> maxLength</span>
+<span id="cb45-15"><a href="#cb45-15" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> maxLength</span>
+<span id="cb45-16"><a href="#cb45-16" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div>
+<h2 id="力扣236-二叉树的最近公共祖先二叉树">138、力扣236 <a href="https://leetcode.cn/problems/lowest-common-ancestor-of-a-binary-tree/">二叉树的最近公共祖先</a>（二叉树）</h2>
+<div class="sourceCode" id="cb46"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb46-1"><a href="#cb46-1" aria-hidden="true" tabindex="-1"></a><span class="kw">var</span> lowestCommonAncestor <span class="op">=</span> <span class="kw">function</span>(<span class="bu">root</span><span class="op">,</span> p<span class="op">,</span> q) {</span>
+<span id="cb46-2"><a href="#cb46-2" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span>(<span class="bu">root</span> <span class="op">==</span> <span class="kw">null</span>) <span class="cf">return</span> <span class="kw">null</span></span>
+<span id="cb46-3"><a href="#cb46-3" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span>(<span class="bu">root</span> <span class="op">==</span> p <span class="op">||</span> <span class="bu">root</span> <span class="op">==</span> q){</span>
+<span id="cb46-4"><a href="#cb46-4" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> <span class="bu">root</span></span>
+<span id="cb46-5"><a href="#cb46-5" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb46-6"><a href="#cb46-6" aria-hidden="true" tabindex="-1"></a>    <span class="kw">const</span> left <span class="op">=</span> <span class="fu">lowestCommonAncestor</span>(<span class="bu">root</span><span class="op">.</span><span class="at">left</span><span class="op">,</span> p<span class="op">,</span> q)</span>
+<span id="cb46-7"><a href="#cb46-7" aria-hidden="true" tabindex="-1"></a>    <span class="kw">const</span> right <span class="op">=</span> <span class="fu">lowestCommonAncestor</span>(<span class="bu">root</span><span class="op">.</span><span class="at">right</span><span class="op">,</span> p<span class="op">,</span> q)</span>
+<span id="cb46-8"><a href="#cb46-8" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span>(left <span class="op">&amp;&amp;</span> right){</span>
+<span id="cb46-9"><a href="#cb46-9" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> <span class="bu">root</span></span>
+<span id="cb46-10"><a href="#cb46-10" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb46-11"><a href="#cb46-11" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span>(<span class="op">!</span>left) {</span>
+<span id="cb46-12"><a href="#cb46-12" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> right</span>
+<span id="cb46-13"><a href="#cb46-13" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb46-14"><a href="#cb46-14" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span>(<span class="op">!</span>right){</span>
+<span id="cb46-15"><a href="#cb46-15" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> left</span>
+<span id="cb46-16"><a href="#cb46-16" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb46-17"><a href="#cb46-17" aria-hidden="true" tabindex="-1"></a>}<span class="op">;</span></span></code></pre></div>
+<h2 id="复杂度">139、复杂度</h2>
+<p>更短的时间和更少的空间去解决问题 O(n) 算法执行的所用时间 规模 -
+时间复杂度 不是代码真正执行的时间，是随着数据规模的增长所表达的趋势
+取执行量级最大的 循环 嵌套 递归 多个代码块只取影响最大的 -
+空间复杂度</p>
+<h2 id="grid网格布局是什么">140、grid网格布局是什么</h2>
+<p><code>Grid</code> 布局即网格布局，是一个二维的布局方式，由纵横相交的两组网格线形成的框架性布局结构，能够同时处理行与列
+擅长将一个页面划分为几个主要区域，以及定义这些区域的大小、位置、层次等关系
+- display：grid 则该容器是一个块级元素 - display: inline-grid
+则容器元素为行内元素
+<code>grid-template-columns</code> 属性设置列宽，<code>grid-template-rows</code> 属性设置行高
+repeat()简写重复的值 第一个参数是重复的次数 第二个参数是重复的值
+<code>grid-template-columns: 200px 1fr 2fr</code> 表示第一个列宽设置为
+200px，后面剩余的宽度分为两部分，宽度分别为剩余宽度的 1/3 和 2/3
+<code>grid-template-columns: 100px auto 100px</code> 表示第一第三列为
+100px，中间由浏览器决定长度
+<code>grid-row-gap</code> 属性、<code>grid-column-gap</code> 属性分别设置行间距和列间距。<code>grid-gap</code> 属性是两者的简写形式
+grid-template-areas
+<code>justify-items</code> 属性设置单元格内容的水平位置（左中右），<code>align-items</code> 属性设置单元格的垂直位置（上中下）
+## 141、单行文本怎么实现两端对齐?</p>
+<ol type="1">
+<li><strong>使用 <code>text-align: justify</code></strong></li>
+<li><strong>伪元素辅助法（推荐）</strong></li>
+</ol>
+<div class="sourceCode" id="cb47"><pre class="sourceCode css"><code class="sourceCode css"><span id="cb47-1"><a href="#cb47-1" aria-hidden="true" tabindex="-1"></a><span class="fu">.justify-single-line</span> {</span>
+<span id="cb47-2"><a href="#cb47-2" aria-hidden="true" tabindex="-1"></a>  <span class="kw">text-align</span><span class="ch">:</span> <span class="dv">justify</span><span class="op">;</span></span>
+<span id="cb47-3"><a href="#cb47-3" aria-hidden="true" tabindex="-1"></a>  <span class="kw">height</span><span class="ch">:</span> <span class="dv">20</span><span class="dt">px</span><span class="op">;</span> <span class="co">/* 固定高度 */</span></span>
+<span id="cb47-4"><a href="#cb47-4" aria-hidden="true" tabindex="-1"></a>  <span class="kw">overflow</span><span class="ch">:</span> <span class="dv">hidden</span><span class="op">;</span></span>
+<span id="cb47-5"><a href="#cb47-5" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb47-6"><a href="#cb47-6" aria-hidden="true" tabindex="-1"></a><span class="fu">.justify-single-line</span><span class="in">::after</span> {</span>
+<span id="cb47-7"><a href="#cb47-7" aria-hidden="true" tabindex="-1"></a>  <span class="kw">content</span><span class="ch">:</span> <span class="st">&quot;&quot;</span><span class="op">;</span></span>
+<span id="cb47-8"><a href="#cb47-8" aria-hidden="true" tabindex="-1"></a>  <span class="kw">display</span><span class="ch">:</span> <span class="dv">inline-block</span><span class="op">;</span></span>
+<span id="cb47-9"><a href="#cb47-9" aria-hidden="true" tabindex="-1"></a>  <span class="kw">width</span><span class="ch">:</span> <span class="dv">100</span><span class="dt">%</span><span class="op">;</span> <span class="co">/* 撑满剩余空间 */</span></span>
+<span id="cb47-10"><a href="#cb47-10" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div>
+<h2 id="力扣159-库存管理-iii计数排序">142、力扣159 <a href="https://leetcode.cn/problems/zui-xiao-de-kge-shu-lcof/">库存管理
+III</a>（计数排序）</h2>
+<div class="sourceCode" id="cb48"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb48-1"><a href="#cb48-1" aria-hidden="true" tabindex="-1"></a><span class="co">// 计数排序，空间换时间</span></span>
+<span id="cb48-2"><a href="#cb48-2" aria-hidden="true" tabindex="-1"></a><span class="kw">var</span> inventoryManagement <span class="op">=</span> <span class="kw">function</span>(stock<span class="op">,</span> cnt) {</span>
+<span id="cb48-3"><a href="#cb48-3" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> <span class="fu">countingSort</span>(stock<span class="op">,</span> cnt <span class="op">,</span> <span class="dv">10001</span>)</span>
+<span id="cb48-4"><a href="#cb48-4" aria-hidden="true" tabindex="-1"></a>}<span class="op">;</span></span>
+<span id="cb48-5"><a href="#cb48-5" aria-hidden="true" tabindex="-1"></a><span class="kw">function</span> <span class="fu">countingSort</span>(stock<span class="op">,</span> cnt<span class="op">,</span> length){</span>
+<span id="cb48-6"><a href="#cb48-6" aria-hidden="true" tabindex="-1"></a>    <span class="kw">let</span> arrList <span class="op">=</span> <span class="kw">new</span> <span class="bu">Array</span>(length)</span>
+<span id="cb48-7"><a href="#cb48-7" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span>(<span class="kw">let</span> i <span class="kw">of</span> stock){</span>
+<span id="cb48-8"><a href="#cb48-8" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span>(arrList[i] <span class="op">==</span> <span class="kw">undefined</span>){</span>
+<span id="cb48-9"><a href="#cb48-9" aria-hidden="true" tabindex="-1"></a>            arrList[i] <span class="op">=</span> <span class="dv">1</span></span>
+<span id="cb48-10"><a href="#cb48-10" aria-hidden="true" tabindex="-1"></a>        }<span class="cf">else</span>{</span>
+<span id="cb48-11"><a href="#cb48-11" aria-hidden="true" tabindex="-1"></a>            arrList[i]<span class="op">++</span></span>
+<span id="cb48-12"><a href="#cb48-12" aria-hidden="true" tabindex="-1"></a>        }</span>
+<span id="cb48-13"><a href="#cb48-13" aria-hidden="true" tabindex="-1"></a>    } </span>
+<span id="cb48-14"><a href="#cb48-14" aria-hidden="true" tabindex="-1"></a>    <span class="kw">let</span> sel <span class="op">=</span> []</span>
+<span id="cb48-15"><a href="#cb48-15" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span>(<span class="kw">let</span> i <span class="kw">in</span> arrList){</span>
+<span id="cb48-16"><a href="#cb48-16" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span>(arrList[i] <span class="op">!==</span> <span class="kw">undefined</span> <span class="op">&amp;&amp;</span> sel<span class="op">.</span><span class="at">length</span> <span class="op">&lt;</span> cnt) {</span>
+<span id="cb48-17"><a href="#cb48-17" aria-hidden="true" tabindex="-1"></a>            <span class="cf">for</span>(<span class="kw">let</span> t <span class="op">=</span> <span class="dv">0</span> <span class="op">;</span> t <span class="op">&lt;</span> arrList[i] <span class="op">;</span> t<span class="op">++</span>){</span>
+<span id="cb48-18"><a href="#cb48-18" aria-hidden="true" tabindex="-1"></a>                <span class="cf">if</span>(sel<span class="op">.</span><span class="at">length</span> <span class="op">&gt;=</span> cnt) <span class="cf">break</span></span>
+<span id="cb48-19"><a href="#cb48-19" aria-hidden="true" tabindex="-1"></a>                sel<span class="op">.</span><span class="fu">push</span>(<span class="pp">parseInt</span>(i))</span>
+<span id="cb48-20"><a href="#cb48-20" aria-hidden="true" tabindex="-1"></a>            }</span>
+<span id="cb48-21"><a href="#cb48-21" aria-hidden="true" tabindex="-1"></a>        }</span>
+<span id="cb48-22"><a href="#cb48-22" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb48-23"><a href="#cb48-23" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> sel</span>
+<span id="cb48-24"><a href="#cb48-24" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div>
+<h2 id="冒泡排序">143、冒泡排序</h2>
+<h2 id="辽宁科技大学在辽宁省是什么水平">144、辽宁科技大学在辽宁省是什么水平</h2>
+<h2 id="力扣347-前-k-个高频元素使用api">145、力扣347 <a href="https://leetcode.cn/problems/top-k-frequent-elements/">前 K
+个高频元素</a>（使用API）</h2>
+<div class="sourceCode" id="cb49"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb49-1"><a href="#cb49-1" aria-hidden="true" tabindex="-1"></a><span class="co">//使用API</span></span>
+<span id="cb49-2"><a href="#cb49-2" aria-hidden="true" tabindex="-1"></a><span class="kw">var</span> topKFrequent <span class="op">=</span> <span class="kw">function</span>(nums<span class="op">,</span> k) {</span>
+<span id="cb49-3"><a href="#cb49-3" aria-hidden="true" tabindex="-1"></a>    <span class="kw">let</span> map <span class="op">=</span> <span class="kw">new</span> <span class="bu">Map</span>()</span>
+<span id="cb49-4"><a href="#cb49-4" aria-hidden="true" tabindex="-1"></a>    <span class="kw">let</span> arr <span class="op">=</span> [<span class="op">...</span><span class="kw">new</span> <span class="bu">Set</span>(nums)]</span>
+<span id="cb49-5"><a href="#cb49-5" aria-hidden="true" tabindex="-1"></a>    nums<span class="op">.</span><span class="fu">map</span>(num <span class="kw">=&gt;</span> {</span>
+<span id="cb49-6"><a href="#cb49-6" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span>(map<span class="op">.</span><span class="fu">has</span>(num)){</span>
+<span id="cb49-7"><a href="#cb49-7" aria-hidden="true" tabindex="-1"></a>            map<span class="op">.</span><span class="fu">set</span>(num<span class="op">,</span>map<span class="op">.</span><span class="fu">get</span>(num) <span class="op">+</span> <span class="dv">1</span>)</span>
+<span id="cb49-8"><a href="#cb49-8" aria-hidden="true" tabindex="-1"></a>        }<span class="cf">else</span>{</span>
+<span id="cb49-9"><a href="#cb49-9" aria-hidden="true" tabindex="-1"></a>            map<span class="op">.</span><span class="fu">set</span>(num<span class="op">,</span> <span class="dv">1</span>)</span>
+<span id="cb49-10"><a href="#cb49-10" aria-hidden="true" tabindex="-1"></a>        }</span>
+<span id="cb49-11"><a href="#cb49-11" aria-hidden="true" tabindex="-1"></a>    })</span>
+<span id="cb49-12"><a href="#cb49-12" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> arr<span class="op">.</span><span class="fu">sort</span>((a<span class="op">,</span> b) <span class="kw">=&gt;</span> map<span class="op">.</span><span class="fu">get</span>(b) <span class="op">-</span> map<span class="op">.</span><span class="fu">get</span>(a))<span class="op">.</span><span class="fu">slice</span>(<span class="dv">0</span><span class="op">,</span>k)</span>
+<span id="cb49-13"><a href="#cb49-13" aria-hidden="true" tabindex="-1"></a>}<span class="op">;</span></span>
+<span id="cb49-14"><a href="#cb49-14" aria-hidden="true" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(<span class="fu">topKFrequent</span>([<span class="dv">1</span>]<span class="op">,</span><span class="dv">1</span>))</span></code></pre></div>
+<h2 id="力扣215-数组中的第k个最大元素">146、力扣215 <a href="https://leetcode.cn/problems/kth-largest-element-in-an-array/">数组中的第K个最大元素</a></h2>
+<div class="sourceCode" id="cb50"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb50-1"><a href="#cb50-1" aria-hidden="true" tabindex="-1"></a><span class="co">// 快速排序</span></span>
+<span id="cb50-2"><a href="#cb50-2" aria-hidden="true" tabindex="-1"></a><span class="kw">var</span> findKthLargest <span class="op">=</span> <span class="kw">function</span>(nums<span class="op">,</span> k) {</span>
+<span id="cb50-3"><a href="#cb50-3" aria-hidden="true" tabindex="-1"></a>    <span class="fu">quickSort</span>(nums<span class="op">,</span> <span class="dv">0</span><span class="op">,</span>nums<span class="op">.</span><span class="at">length</span> <span class="op">-</span> <span class="dv">1</span>)</span>
+<span id="cb50-4"><a href="#cb50-4" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> nums[k <span class="op">-</span> <span class="dv">1</span>]</span>
+<span id="cb50-5"><a href="#cb50-5" aria-hidden="true" tabindex="-1"></a>}<span class="op">;</span></span>
+<span id="cb50-6"><a href="#cb50-6" aria-hidden="true" tabindex="-1"></a><span class="kw">function</span> <span class="fu">quickSort</span>(nums<span class="op">,</span> left<span class="op">,</span> right){</span>
+<span id="cb50-7"><a href="#cb50-7" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span>(left <span class="op">&gt;=</span> right) <span class="cf">return</span></span>
+<span id="cb50-8"><a href="#cb50-8" aria-hidden="true" tabindex="-1"></a>    <span class="kw">let</span> le <span class="op">=</span> left</span>
+<span id="cb50-9"><a href="#cb50-9" aria-hidden="true" tabindex="-1"></a>    <span class="kw">let</span> ri <span class="op">=</span> right</span>
+<span id="cb50-10"><a href="#cb50-10" aria-hidden="true" tabindex="-1"></a>    <span class="kw">let</span> temp <span class="op">=</span> nums[le]</span>
+<span id="cb50-11"><a href="#cb50-11" aria-hidden="true" tabindex="-1"></a>    <span class="cf">while</span>(le <span class="op">&lt;</span> ri){</span>
+<span id="cb50-12"><a href="#cb50-12" aria-hidden="true" tabindex="-1"></a>        <span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(le<span class="op">,</span>ri)</span>
+<span id="cb50-13"><a href="#cb50-13" aria-hidden="true" tabindex="-1"></a>        <span class="cf">while</span>(nums[ri] <span class="op">&lt;</span> temp <span class="op">&amp;&amp;</span> le <span class="op">&lt;</span> ri) ri<span class="op">--</span></span>
+<span id="cb50-14"><a href="#cb50-14" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span>(le <span class="op">&lt;</span> ri) nums[le<span class="op">++</span>] <span class="op">=</span> nums[ri]</span>
+<span id="cb50-15"><a href="#cb50-15" aria-hidden="true" tabindex="-1"></a>        <span class="cf">while</span>(nums[le] <span class="op">&gt;</span> temp <span class="op">&amp;&amp;</span> le <span class="op">&lt;</span> ri) le<span class="op">++</span></span>
+<span id="cb50-16"><a href="#cb50-16" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span>(le <span class="op">&lt;</span> ri) nums[ri<span class="op">--</span>] <span class="op">=</span> nums[le] </span>
+<span id="cb50-17"><a href="#cb50-17" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb50-18"><a href="#cb50-18" aria-hidden="true" tabindex="-1"></a>    nums[le] <span class="op">=</span> temp</span>
+<span id="cb50-19"><a href="#cb50-19" aria-hidden="true" tabindex="-1"></a>    <span class="fu">quickSort</span>(nums<span class="op">,</span>left<span class="op">,</span>le <span class="op">-</span> <span class="dv">1</span>)</span>
+<span id="cb50-20"><a href="#cb50-20" aria-hidden="true" tabindex="-1"></a>    <span class="fu">quickSort</span>(nums<span class="op">,</span>ri <span class="op">+</span> <span class="dv">1</span><span class="op">,</span>right)</span>
+<span id="cb50-21"><a href="#cb50-21" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div>
+<h2 id="力扣997-找到小镇的法官图">147、力扣997 <a href="https://leetcode.cn/problems/find-the-town-judge/">找到小镇的法官</a>（图）</h2>
+<div class="sourceCode" id="cb51"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb51-1"><a href="#cb51-1" aria-hidden="true" tabindex="-1"></a><span class="kw">var</span> findJudge <span class="op">=</span> <span class="kw">function</span>(n<span class="op">,</span> trust) {</span>
+<span id="cb51-2"><a href="#cb51-2" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span>(trust<span class="op">.</span><span class="at">length</span> <span class="op">==</span> <span class="dv">0</span>){</span>
+<span id="cb51-3"><a href="#cb51-3" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> n <span class="op">==</span> <span class="dv">1</span> <span class="op">?</span> <span class="dv">1</span> <span class="op">:</span> <span class="op">-</span><span class="dv">1</span></span>
+<span id="cb51-4"><a href="#cb51-4" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb51-5"><a href="#cb51-5" aria-hidden="true" tabindex="-1"></a>    <span class="kw">let</span> graph <span class="op">=</span> <span class="bu">Array</span><span class="op">.</span><span class="fu">from</span>({ <span class="dt">length</span><span class="op">:</span> n <span class="op">+</span> <span class="dv">1</span> }<span class="op">,</span>() <span class="kw">=&gt;</span> ({</span>
+<span id="cb51-6"><a href="#cb51-6" aria-hidden="true" tabindex="-1"></a>        <span class="dt">inDegree</span><span class="op">:</span> <span class="dv">0</span><span class="op">,</span></span>
+<span id="cb51-7"><a href="#cb51-7" aria-hidden="true" tabindex="-1"></a>        <span class="dt">outDegree</span><span class="op">:</span> <span class="dv">0</span></span>
+<span id="cb51-8"><a href="#cb51-8" aria-hidden="true" tabindex="-1"></a>    }))</span>
+<span id="cb51-9"><a href="#cb51-9" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span>(<span class="kw">let</span> i <span class="kw">of</span> trust){</span>
+<span id="cb51-10"><a href="#cb51-10" aria-hidden="true" tabindex="-1"></a>        graph[i[<span class="dv">0</span>]]<span class="op">.</span><span class="at">outDegree</span><span class="op">++</span></span>
+<span id="cb51-11"><a href="#cb51-11" aria-hidden="true" tabindex="-1"></a>        graph[i[<span class="dv">1</span>]]<span class="op">.</span><span class="at">inDegree</span><span class="op">++</span></span>
+<span id="cb51-12"><a href="#cb51-12" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb51-13"><a href="#cb51-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb51-14"><a href="#cb51-14" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span>(<span class="kw">let</span> i <span class="kw">in</span> graph){</span>
+<span id="cb51-15"><a href="#cb51-15" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span>(graph[i]<span class="op">.</span><span class="at">inDegree</span> <span class="op">==</span> n <span class="op">-</span> <span class="dv">1</span> <span class="op">&amp;&amp;</span> graph[i]<span class="op">.</span><span class="at">outDegree</span> <span class="op">==</span> <span class="dv">0</span>){</span>
+<span id="cb51-16"><a href="#cb51-16" aria-hidden="true" tabindex="-1"></a>            <span class="cf">return</span> <span class="pp">parseInt</span>(i)</span>
+<span id="cb51-17"><a href="#cb51-17" aria-hidden="true" tabindex="-1"></a>        }</span>
+<span id="cb51-18"><a href="#cb51-18" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb51-19"><a href="#cb51-19" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> <span class="op">-</span><span class="dv">1</span></span>
+<span id="cb51-20"><a href="#cb51-20" aria-hidden="true" tabindex="-1"></a>}<span class="op">;</span></span></code></pre></div>
+<h2 id="力扣207-课程表图">148、力扣207  <a href="https://leetcode.cn/problems/course-schedule/">课程表</a>（图）</h2>
+<div class="sourceCode" id="cb52"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb52-1"><a href="#cb52-1" aria-hidden="true" tabindex="-1"></a><span class="kw">var</span> canFinish <span class="op">=</span> <span class="kw">function</span>(numCourses<span class="op">,</span> prerequisites) {</span>
+<span id="cb52-2"><a href="#cb52-2" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span>(<span class="op">!</span>prerequisites<span class="op">.</span><span class="at">length</span>) <span class="cf">return</span> <span class="kw">true</span></span>
+<span id="cb52-3"><a href="#cb52-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb52-4"><a href="#cb52-4" aria-hidden="true" tabindex="-1"></a>    <span class="kw">let</span> inDegree <span class="op">=</span> <span class="kw">new</span> <span class="bu">Array</span>(numCourses)<span class="op">.</span><span class="fu">fill</span>(<span class="dv">0</span>) <span class="co">// 入度数组</span></span>
+<span id="cb52-5"><a href="#cb52-5" aria-hidden="true" tabindex="-1"></a>    <span class="kw">let</span> adj <span class="op">=</span> <span class="kw">new</span> <span class="bu">Map</span>() <span class="co">// 邻接表</span></span>
+<span id="cb52-6"><a href="#cb52-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb52-7"><a href="#cb52-7" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span>(<span class="kw">let</span> e <span class="kw">of</span> prerequisites){</span>
+<span id="cb52-8"><a href="#cb52-8" aria-hidden="true" tabindex="-1"></a>        inDegree[e[<span class="dv">0</span>]]<span class="op">++</span></span>
+<span id="cb52-9"><a href="#cb52-9" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span>(<span class="op">!</span>adj<span class="op">.</span><span class="fu">has</span>(e[<span class="dv">1</span>])) adj<span class="op">.</span><span class="fu">set</span>(e[<span class="dv">1</span>]<span class="op">,</span>[])</span>
+<span id="cb52-10"><a href="#cb52-10" aria-hidden="true" tabindex="-1"></a>        adj<span class="op">.</span><span class="fu">get</span>(e[<span class="dv">1</span>])<span class="op">.</span><span class="fu">push</span>(e[<span class="dv">0</span>])</span>
+<span id="cb52-11"><a href="#cb52-11" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb52-12"><a href="#cb52-12" aria-hidden="true" tabindex="-1"></a>    <span class="kw">let</span> queue <span class="op">=</span> []</span>
+<span id="cb52-13"><a href="#cb52-13" aria-hidden="true" tabindex="-1"></a>    <span class="co">// 找到入度为0的课</span></span>
+<span id="cb52-14"><a href="#cb52-14" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span>(<span class="kw">let</span> i <span class="op">=</span> <span class="dv">0</span><span class="op">;</span> i <span class="op">&lt;</span> numCourses<span class="op">;</span> i<span class="op">++</span>){</span>
+<span id="cb52-15"><a href="#cb52-15" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span>(inDegree[i] <span class="op">===</span> <span class="dv">0</span>) queue<span class="op">.</span><span class="fu">push</span>(i)</span>
+<span id="cb52-16"><a href="#cb52-16" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb52-17"><a href="#cb52-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb52-18"><a href="#cb52-18" aria-hidden="true" tabindex="-1"></a>    <span class="cf">while</span>(queue<span class="op">.</span><span class="at">length</span> <span class="op">&gt;</span> <span class="dv">0</span>){</span>
+<span id="cb52-19"><a href="#cb52-19" aria-hidden="true" tabindex="-1"></a>        <span class="kw">let</span> v <span class="op">=</span> queue<span class="op">.</span><span class="fu">shift</span>()</span>
+<span id="cb52-20"><a href="#cb52-20" aria-hidden="true" tabindex="-1"></a>        numCourses<span class="op">--</span></span>
+<span id="cb52-21"><a href="#cb52-21" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span>(<span class="op">!</span>adj<span class="op">.</span><span class="fu">has</span>(v)) <span class="cf">continue</span></span>
+<span id="cb52-22"><a href="#cb52-22" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb52-23"><a href="#cb52-23" aria-hidden="true" tabindex="-1"></a>        <span class="cf">for</span>(<span class="kw">let</span> w <span class="kw">of</span> adj<span class="op">.</span><span class="fu">get</span>(v)){</span>
+<span id="cb52-24"><a href="#cb52-24" aria-hidden="true" tabindex="-1"></a>            inDegree[w]<span class="op">--</span></span>
+<span id="cb52-25"><a href="#cb52-25" aria-hidden="true" tabindex="-1"></a>            <span class="cf">if</span>(inDegree[w] <span class="op">===</span> <span class="dv">0</span>) queue<span class="op">.</span><span class="fu">push</span>(w)</span>
+<span id="cb52-26"><a href="#cb52-26" aria-hidden="true" tabindex="-1"></a>        }</span>
+<span id="cb52-27"><a href="#cb52-27" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb52-28"><a href="#cb52-28" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> numCourses <span class="op">===</span> <span class="dv">0</span></span>
+<span id="cb52-29"><a href="#cb52-29" aria-hidden="true" tabindex="-1"></a>}<span class="op">;</span></span></code></pre></div>
+<h2 id="插入排序-on2-o1">149、插入排序 O(n^2)、 O(1)</h2>
+<div class="sourceCode" id="cb53"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb53-1"><a href="#cb53-1" aria-hidden="true" tabindex="-1"></a><span class="kw">function</span> <span class="fu">InsertSort</span>(arr<span class="op">,</span>order <span class="op">=</span> <span class="kw">true</span>){</span>
+<span id="cb53-2"><a href="#cb53-2" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span>(arr<span class="op">.</span><span class="at">length</span> <span class="op">&lt;=</span> <span class="dv">1</span>) <span class="cf">return</span></span>
+<span id="cb53-3"><a href="#cb53-3" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span>(<span class="kw">let</span> i <span class="op">=</span> <span class="dv">1</span><span class="op">;</span>i <span class="op">&lt;</span> arr<span class="op">.</span><span class="at">length</span><span class="op">;</span> i<span class="op">++</span>){</span>
+<span id="cb53-4"><a href="#cb53-4" aria-hidden="true" tabindex="-1"></a>        <span class="cf">for</span>(<span class="kw">let</span> j <span class="op">=</span> i<span class="op">;</span> j <span class="op">&gt;</span> <span class="dv">0</span><span class="op">;</span> j<span class="op">--</span>){</span>
+<span id="cb53-5"><a href="#cb53-5" aria-hidden="true" tabindex="-1"></a>            <span class="cf">if</span>((order <span class="op">&amp;&amp;</span> arr[j] <span class="op">&lt;</span> arr[j <span class="op">-</span> <span class="dv">1</span>]) <span class="op">||</span> (<span class="op">!</span>order <span class="op">&amp;&amp;</span> arr[j] <span class="op">&gt;</span> arr[j <span class="op">-</span> <span class="dv">1</span>])){</span>
+<span id="cb53-6"><a href="#cb53-6" aria-hidden="true" tabindex="-1"></a>                <span class="kw">let</span> temp <span class="op">=</span> arr[j <span class="op">-</span> <span class="dv">1</span>]</span>
+<span id="cb53-7"><a href="#cb53-7" aria-hidden="true" tabindex="-1"></a>                arr[j <span class="op">-</span> <span class="dv">1</span>] <span class="op">=</span> arr[j]</span>
+<span id="cb53-8"><a href="#cb53-8" aria-hidden="true" tabindex="-1"></a>                arr[j] <span class="op">=</span> temp</span>
+<span id="cb53-9"><a href="#cb53-9" aria-hidden="true" tabindex="-1"></a>                <span class="cf">continue</span></span>
+<span id="cb53-10"><a href="#cb53-10" aria-hidden="true" tabindex="-1"></a>            }</span>
+<span id="cb53-11"><a href="#cb53-11" aria-hidden="true" tabindex="-1"></a>        }</span>
+<span id="cb53-12"><a href="#cb53-12" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb53-13"><a href="#cb53-13" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div>
+<h2 id="希尔排序">150、希尔排序</h2>
+<div class="sourceCode" id="cb54"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb54-1"><a href="#cb54-1" aria-hidden="true" tabindex="-1"></a><span class="kw">function</span> <span class="fu">ShellSort</span>(arr<span class="op">,</span>order <span class="op">=</span> <span class="kw">true</span>){</span>
+<span id="cb54-2"><a href="#cb54-2" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span>(arr<span class="op">.</span><span class="at">length</span> <span class="op">&lt;=</span> <span class="dv">1</span>) <span class="cf">return</span></span>
+<span id="cb54-3"><a href="#cb54-3" aria-hidden="true" tabindex="-1"></a>    <span class="kw">let</span> len <span class="op">=</span> arr<span class="op">.</span><span class="at">length</span></span>
+<span id="cb54-4"><a href="#cb54-4" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span>(<span class="kw">let</span> gap <span class="op">=</span> <span class="bu">Math</span><span class="op">.</span><span class="fu">floor</span>(len <span class="op">/</span> <span class="dv">2</span>)<span class="op">;</span> gap <span class="op">&gt;</span> <span class="dv">0</span> <span class="op">;</span> gap <span class="op">=</span> <span class="bu">Math</span><span class="op">.</span><span class="fu">floor</span>(gap <span class="op">/</span> <span class="dv">2</span>)){</span>
+<span id="cb54-5"><a href="#cb54-5" aria-hidden="true" tabindex="-1"></a>        <span class="cf">for</span>(<span class="kw">let</span> i <span class="op">=</span> gap<span class="op">;</span>i <span class="op">&lt;</span> len<span class="op">;</span> i<span class="op">++</span>){</span>
+<span id="cb54-6"><a href="#cb54-6" aria-hidden="true" tabindex="-1"></a>            <span class="kw">let</span> j <span class="op">=</span> i<span class="op">;</span></span>
+<span id="cb54-7"><a href="#cb54-7" aria-hidden="true" tabindex="-1"></a>            <span class="kw">let</span> current <span class="op">=</span> arr[i]</span>
+<span id="cb54-8"><a href="#cb54-8" aria-hidden="true" tabindex="-1"></a>            <span class="cf">while</span>(j <span class="op">-</span> gap <span class="op">&gt;=</span> <span class="dv">0</span> <span class="op">&amp;&amp;</span> ((order <span class="op">&amp;&amp;</span> current <span class="op">&lt;</span> arr[j <span class="op">-</span> gap]) <span class="op">||</span> (<span class="op">!</span>order <span class="op">&amp;&amp;</span> current <span class="op">&gt;</span> arr[j <span class="op">-</span> gap]))){</span>
+<span id="cb54-9"><a href="#cb54-9" aria-hidden="true" tabindex="-1"></a>                arr[i] <span class="op">=</span> arr[j <span class="op">-</span> gap]</span>
+<span id="cb54-10"><a href="#cb54-10" aria-hidden="true" tabindex="-1"></a>                j <span class="op">=</span> j <span class="op">-</span> gap</span>
+<span id="cb54-11"><a href="#cb54-11" aria-hidden="true" tabindex="-1"></a>            }</span>
+<span id="cb54-12"><a href="#cb54-12" aria-hidden="true" tabindex="-1"></a>            arr[j] <span class="op">=</span> current</span>
+<span id="cb54-13"><a href="#cb54-13" aria-hidden="true" tabindex="-1"></a>        }</span>
+<span id="cb54-14"><a href="#cb54-14" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb54-15"><a href="#cb54-15" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div>
+<h2 id="选择排序">151、选择排序</h2>
+<div class="sourceCode" id="cb55"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb55-1"><a href="#cb55-1" aria-hidden="true" tabindex="-1"></a><span class="kw">function</span> <span class="fu">SelectSort</span>(arr<span class="op">,</span>order <span class="op">=</span> <span class="kw">true</span>){</span>
+<span id="cb55-2"><a href="#cb55-2" aria-hidden="true" tabindex="-1"></a>    <span class="kw">let</span> len <span class="op">=</span> arr<span class="op">.</span><span class="at">length</span></span>
+<span id="cb55-3"><a href="#cb55-3" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span>(arr<span class="op">.</span><span class="at">length</span> <span class="op">&lt;=</span> <span class="dv">1</span>) <span class="cf">return</span></span>
+<span id="cb55-4"><a href="#cb55-4" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span>(<span class="kw">let</span> i <span class="op">=</span> <span class="dv">0</span><span class="op">;</span>i <span class="op">&lt;</span> len <span class="op">-</span> <span class="dv">1</span> <span class="op">;</span>i<span class="op">++</span>){</span>
+<span id="cb55-5"><a href="#cb55-5" aria-hidden="true" tabindex="-1"></a>        <span class="kw">let</span> selectIndex <span class="op">=</span> i</span>
+<span id="cb55-6"><a href="#cb55-6" aria-hidden="true" tabindex="-1"></a>        <span class="cf">for</span>(<span class="kw">let</span> j <span class="op">=</span> i <span class="op">+</span> <span class="dv">1</span><span class="op">;</span>j <span class="op">&lt;</span> len<span class="op">;</span>j<span class="op">++</span>){</span>
+<span id="cb55-7"><a href="#cb55-7" aria-hidden="true" tabindex="-1"></a>            <span class="cf">if</span>((order <span class="op">&amp;&amp;</span> arr[selectIndex] <span class="op">&gt;</span> arr[j]) <span class="op">||</span> (<span class="op">!</span>order <span class="op">&amp;&amp;</span> arr[selectIndex] <span class="op">&lt;</span> arr[j])){</span>
+<span id="cb55-8"><a href="#cb55-8" aria-hidden="true" tabindex="-1"></a>                selectIndex <span class="op">=</span> j</span>
+<span id="cb55-9"><a href="#cb55-9" aria-hidden="true" tabindex="-1"></a>            }</span>
+<span id="cb55-10"><a href="#cb55-10" aria-hidden="true" tabindex="-1"></a>        }</span>
+<span id="cb55-11"><a href="#cb55-11" aria-hidden="true" tabindex="-1"></a>        <span class="kw">let</span> temp <span class="op">=</span> arr[i]</span>
+<span id="cb55-12"><a href="#cb55-12" aria-hidden="true" tabindex="-1"></a>        arr[i] <span class="op">=</span> arr[selectIndex]</span>
+<span id="cb55-13"><a href="#cb55-13" aria-hidden="true" tabindex="-1"></a>        arr[selectIndex] <span class="op">=</span> temp</span>
+<span id="cb55-14"><a href="#cb55-14" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb55-15"><a href="#cb55-15" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div>
+<h2 id="堆排序">152、堆排序</h2>
+<div class="sourceCode" id="cb56"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb56-1"><a href="#cb56-1" aria-hidden="true" tabindex="-1"></a><span class="co">// 交换两个节点</span></span>
+<span id="cb56-2"><a href="#cb56-2" aria-hidden="true" tabindex="-1"></a><span class="kw">function</span> <span class="fu">swap</span>(A<span class="op">,</span> i<span class="op">,</span> j) {</span>
+<span id="cb56-3"><a href="#cb56-3" aria-hidden="true" tabindex="-1"></a>  <span class="kw">let</span> temp <span class="op">=</span> A[i]<span class="op">;</span></span>
+<span id="cb56-4"><a href="#cb56-4" aria-hidden="true" tabindex="-1"></a>  A[i] <span class="op">=</span> A[j]<span class="op">;</span></span>
+<span id="cb56-5"><a href="#cb56-5" aria-hidden="true" tabindex="-1"></a>  A[j] <span class="op">=</span> temp<span class="op">;</span> </span>
+<span id="cb56-6"><a href="#cb56-6" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb56-7"><a href="#cb56-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb56-8"><a href="#cb56-8" aria-hidden="true" tabindex="-1"></a><span class="co">// 将 i 结点以下的堆整理为大顶堆，注意这一步实现的基础实际上是：</span></span>
+<span id="cb56-9"><a href="#cb56-9" aria-hidden="true" tabindex="-1"></a><span class="co">// 假设 结点 i 以下的子堆已经是一个大顶堆，shiftDown函数实现的</span></span>
+<span id="cb56-10"><a href="#cb56-10" aria-hidden="true" tabindex="-1"></a><span class="co">// 功能是实际上是：找到 结点 i 在包括结点 i 的堆中的正确位置。后面</span></span>
+<span id="cb56-11"><a href="#cb56-11" aria-hidden="true" tabindex="-1"></a><span class="co">// 将写一个 for 循环，从第一个非叶子结点开始，对每一个非叶子结点</span></span>
+<span id="cb56-12"><a href="#cb56-12" aria-hidden="true" tabindex="-1"></a><span class="co">// 都执行 shiftDown操作，所以就满足了结点 i 以下的子堆已经是一大</span></span>
+<span id="cb56-13"><a href="#cb56-13" aria-hidden="true" tabindex="-1"></a><span class="co">//顶堆</span></span>
+<span id="cb56-14"><a href="#cb56-14" aria-hidden="true" tabindex="-1"></a><span class="kw">function</span> <span class="fu">shiftDown</span>(A<span class="op">,</span> i<span class="op">,</span> length) {</span>
+<span id="cb56-15"><a href="#cb56-15" aria-hidden="true" tabindex="-1"></a>  <span class="kw">let</span> temp <span class="op">=</span> A[i]<span class="op">;</span> <span class="co">// 当前父节点</span></span>
+<span id="cb56-16"><a href="#cb56-16" aria-hidden="true" tabindex="-1"></a><span class="co">// j&lt;length 的目的是对结点 i 以下的结点全部做顺序调整</span></span>
+<span id="cb56-17"><a href="#cb56-17" aria-hidden="true" tabindex="-1"></a>  <span class="cf">for</span>(<span class="kw">let</span> j <span class="op">=</span> <span class="dv">2</span><span class="op">*</span>i<span class="op">+</span><span class="dv">1</span><span class="op">;</span> j<span class="op">&lt;</span>length<span class="op">;</span> j <span class="op">=</span> <span class="dv">2</span><span class="op">*</span>j<span class="op">+</span><span class="dv">1</span>) {</span>
+<span id="cb56-18"><a href="#cb56-18" aria-hidden="true" tabindex="-1"></a>    temp <span class="op">=</span> A[i]<span class="op">;</span>  <span class="co">// 将 A[i] 取出，整个过程相当于找到 A[i] 应处于的位置</span></span>
+<span id="cb56-19"><a href="#cb56-19" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span>(j<span class="op">+</span><span class="dv">1</span> <span class="op">&lt;</span> length <span class="op">&amp;&amp;</span> A[j] <span class="op">&lt;</span> A[j<span class="op">+</span><span class="dv">1</span>]) { </span>
+<span id="cb56-20"><a href="#cb56-20" aria-hidden="true" tabindex="-1"></a>      j<span class="op">++;</span>   <span class="co">// 找到两个孩子中较大的一个，再与父节点比较</span></span>
+<span id="cb56-21"><a href="#cb56-21" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb56-22"><a href="#cb56-22" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span>(temp <span class="op">&lt;</span> A[j]) {</span>
+<span id="cb56-23"><a href="#cb56-23" aria-hidden="true" tabindex="-1"></a>      <span class="fu">swap</span>(A<span class="op">,</span> i<span class="op">,</span> j) <span class="co">// 如果父节点小于子节点:交换；否则跳出</span></span>
+<span id="cb56-24"><a href="#cb56-24" aria-hidden="true" tabindex="-1"></a>      i <span class="op">=</span> j<span class="op">;</span>  <span class="co">// 交换后，temp 的下标变为 j</span></span>
+<span id="cb56-25"><a href="#cb56-25" aria-hidden="true" tabindex="-1"></a>    } <span class="cf">else</span> {</span>
+<span id="cb56-26"><a href="#cb56-26" aria-hidden="true" tabindex="-1"></a>      <span class="cf">break</span><span class="op">;</span></span>
+<span id="cb56-27"><a href="#cb56-27" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb56-28"><a href="#cb56-28" aria-hidden="true" tabindex="-1"></a>  }</span>
+<span id="cb56-29"><a href="#cb56-29" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb56-30"><a href="#cb56-30" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb56-31"><a href="#cb56-31" aria-hidden="true" tabindex="-1"></a><span class="co">// 堆排序</span></span>
+<span id="cb56-32"><a href="#cb56-32" aria-hidden="true" tabindex="-1"></a><span class="kw">function</span> <span class="fu">heapSort</span>(A) {</span>
+<span id="cb56-33"><a href="#cb56-33" aria-hidden="true" tabindex="-1"></a>  <span class="co">// 初始化大顶堆，从第一个非叶子结点开始</span></span>
+<span id="cb56-34"><a href="#cb56-34" aria-hidden="true" tabindex="-1"></a>  <span class="cf">for</span>(<span class="kw">let</span> i <span class="op">=</span> <span class="bu">Math</span><span class="op">.</span><span class="fu">floor</span>(A<span class="op">.</span><span class="at">length</span><span class="op">/</span><span class="dv">2</span><span class="op">-</span><span class="dv">1</span>)<span class="op">;</span> i<span class="op">&gt;=</span><span class="dv">0</span><span class="op">;</span> i<span class="op">--</span>) {</span>
+<span id="cb56-35"><a href="#cb56-35" aria-hidden="true" tabindex="-1"></a>    <span class="fu">shiftDown</span>(A<span class="op">,</span> i<span class="op">,</span> A<span class="op">.</span><span class="at">length</span>)<span class="op">;</span></span>
+<span id="cb56-36"><a href="#cb56-36" aria-hidden="true" tabindex="-1"></a>  }</span>
+<span id="cb56-37"><a href="#cb56-37" aria-hidden="true" tabindex="-1"></a>  <span class="co">// 排序，每一次for循环找出一个当前最大值，数组长度减一</span></span>
+<span id="cb56-38"><a href="#cb56-38" aria-hidden="true" tabindex="-1"></a>  <span class="cf">for</span>(<span class="kw">let</span> i <span class="op">=</span> <span class="bu">Math</span><span class="op">.</span><span class="fu">floor</span>(A<span class="op">.</span><span class="at">length</span><span class="op">-</span><span class="dv">1</span>)<span class="op">;</span> i<span class="op">&gt;</span><span class="dv">0</span><span class="op">;</span> i<span class="op">--</span>) {</span>
+<span id="cb56-39"><a href="#cb56-39" aria-hidden="true" tabindex="-1"></a>    <span class="fu">swap</span>(A<span class="op">,</span> <span class="dv">0</span><span class="op">,</span> i)<span class="op">;</span> <span class="co">// 根节点与最后一个节点交换</span></span>
+<span id="cb56-40"><a href="#cb56-40" aria-hidden="true" tabindex="-1"></a>    <span class="fu">shiftDown</span>(A<span class="op">,</span> <span class="dv">0</span><span class="op">,</span> i)<span class="op">;</span> <span class="co">// 从根节点开始调整，并且最后一个结点已经为当</span></span>
+<span id="cb56-41"><a href="#cb56-41" aria-hidden="true" tabindex="-1"></a>                         <span class="co">// 前最大值，不需要再参与比较，所以第三个参数</span></span>
+<span id="cb56-42"><a href="#cb56-42" aria-hidden="true" tabindex="-1"></a>                         <span class="co">// 为 i，即比较到最后一个结点前一个即可</span></span>
+<span id="cb56-43"><a href="#cb56-43" aria-hidden="true" tabindex="-1"></a>  }</span>
+<span id="cb56-44"><a href="#cb56-44" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb56-45"><a href="#cb56-45" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb56-46"><a href="#cb56-46" aria-hidden="true" tabindex="-1"></a><span class="kw">let</span> Arr <span class="op">=</span> [<span class="dv">4</span><span class="op">,</span> <span class="dv">6</span><span class="op">,</span> <span class="dv">8</span><span class="op">,</span> <span class="dv">5</span><span class="op">,</span> <span class="dv">9</span><span class="op">,</span> <span class="dv">1</span><span class="op">,</span> <span class="dv">2</span><span class="op">,</span> <span class="dv">5</span><span class="op">,</span> <span class="dv">3</span><span class="op">,</span> <span class="dv">2</span>]<span class="op">;</span></span>
+<span id="cb56-47"><a href="#cb56-47" aria-hidden="true" tabindex="-1"></a><span class="fu">heapSort</span>(Arr)<span class="op">;</span></span>
+<span id="cb56-48"><a href="#cb56-48" aria-hidden="true" tabindex="-1"></a><span class="fu">alert</span>(Arr)<span class="op">;</span></span></code></pre></div>
+<h2 id="冒泡排序-1">153、冒泡排序</h2>
+<div class="sourceCode" id="cb57"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb57-1"><a href="#cb57-1" aria-hidden="true" tabindex="-1"></a><span class="kw">function</span> <span class="fu">BubbleSort</span>(arr<span class="op">,</span> order <span class="op">=</span> <span class="kw">false</span>){</span>
+<span id="cb57-2"><a href="#cb57-2" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span>(<span class="kw">let</span> i <span class="op">=</span> <span class="dv">0</span><span class="op">;</span>i <span class="op">&lt;</span> arr<span class="op">.</span><span class="at">length</span> <span class="op">-</span> <span class="dv">1</span><span class="op">;</span>i<span class="op">++</span>){</span>
+<span id="cb57-3"><a href="#cb57-3" aria-hidden="true" tabindex="-1"></a>        <span class="cf">for</span>(<span class="kw">let</span> j <span class="op">=</span> <span class="dv">0</span><span class="op">;</span> j <span class="op">&lt;</span> arr<span class="op">.</span><span class="at">length</span> <span class="op">-</span> i <span class="op">-</span> <span class="dv">1</span><span class="op">;</span>j<span class="op">++</span>){</span>
+<span id="cb57-4"><a href="#cb57-4" aria-hidden="true" tabindex="-1"></a>            <span class="cf">if</span>((order <span class="op">&amp;&amp;</span> arr[j] <span class="op">&gt;</span>  arr[j <span class="op">+</span> <span class="dv">1</span>]) <span class="op">||</span> (<span class="op">!</span>order <span class="op">&amp;&amp;</span> arr[j] <span class="op">&lt;</span> arr[j <span class="op">+</span> <span class="dv">1</span>])){</span>
+<span id="cb57-5"><a href="#cb57-5" aria-hidden="true" tabindex="-1"></a>                <span class="kw">let</span> temp <span class="op">=</span> arr[j]</span>
+<span id="cb57-6"><a href="#cb57-6" aria-hidden="true" tabindex="-1"></a>                arr[j] <span class="op">=</span> arr[j <span class="op">+</span> <span class="dv">1</span>]</span>
+<span id="cb57-7"><a href="#cb57-7" aria-hidden="true" tabindex="-1"></a>                arr[j <span class="op">+</span> <span class="dv">1</span>] <span class="op">=</span> temp</span>
+<span id="cb57-8"><a href="#cb57-8" aria-hidden="true" tabindex="-1"></a>            }</span>
+<span id="cb57-9"><a href="#cb57-9" aria-hidden="true" tabindex="-1"></a>        }</span>
+<span id="cb57-10"><a href="#cb57-10" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb57-11"><a href="#cb57-11" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div>
+<h2 id="快速排序坑位法">154、快速排序(坑位法)</h2>
+<div class="sourceCode" id="cb58"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb58-1"><a href="#cb58-1" aria-hidden="true" tabindex="-1"></a><span class="kw">function</span> <span class="fu">QuickSort</span>(arr<span class="op">,</span> left<span class="op">,</span> right<span class="op">,</span> order <span class="op">=</span> <span class="kw">true</span>){</span>
+<span id="cb58-2"><a href="#cb58-2" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span>(left <span class="op">&gt;</span> right) <span class="cf">return</span></span>
+<span id="cb58-3"><a href="#cb58-3" aria-hidden="true" tabindex="-1"></a>    <span class="kw">let</span> temp <span class="op">=</span> arr[left]</span>
+<span id="cb58-4"><a href="#cb58-4" aria-hidden="true" tabindex="-1"></a>    <span class="kw">let</span> i <span class="op">=</span> left</span>
+<span id="cb58-5"><a href="#cb58-5" aria-hidden="true" tabindex="-1"></a>    <span class="kw">let</span> j <span class="op">=</span> right</span>
+<span id="cb58-6"><a href="#cb58-6" aria-hidden="true" tabindex="-1"></a>    <span class="cf">while</span>(i <span class="op">&lt;</span> j){</span>
+<span id="cb58-7"><a href="#cb58-7" aria-hidden="true" tabindex="-1"></a>        <span class="cf">while</span>(((order <span class="op">&amp;&amp;</span> arr[j] <span class="op">&gt;</span> temp) <span class="op">||</span> (<span class="op">!</span>order <span class="op">&amp;&amp;</span>  arr[j] <span class="op">&lt;</span> temp)) <span class="op">&amp;&amp;</span> i <span class="op">&lt;</span> j) j<span class="op">--</span></span>
+<span id="cb58-8"><a href="#cb58-8" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span>(i <span class="op">&lt;</span> j) arr[i<span class="op">++</span>] <span class="op">=</span> arr[j]</span>
+<span id="cb58-9"><a href="#cb58-9" aria-hidden="true" tabindex="-1"></a>        <span class="cf">while</span>(((order <span class="op">&amp;&amp;</span> arr[i] <span class="op">&lt;</span> temp) <span class="op">||</span> (<span class="op">!</span>order <span class="op">&amp;&amp;</span>  arr[i] <span class="op">&gt;</span> temp)) <span class="op">&amp;&amp;</span> i <span class="op">&lt;</span> j) i<span class="op">++</span></span>
+<span id="cb58-10"><a href="#cb58-10" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span>(i <span class="op">&lt;</span> j) arr[j<span class="op">--</span>] <span class="op">=</span> arr[i]</span>
+<span id="cb58-11"><a href="#cb58-11" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb58-12"><a href="#cb58-12" aria-hidden="true" tabindex="-1"></a>    arr[i] <span class="op">=</span> temp</span>
+<span id="cb58-13"><a href="#cb58-13" aria-hidden="true" tabindex="-1"></a>    <span class="fu">QuickSort</span>(arr<span class="op">,</span>left<span class="op">,</span>i <span class="op">-</span> <span class="dv">1</span><span class="op">,</span>order)</span>
+<span id="cb58-14"><a href="#cb58-14" aria-hidden="true" tabindex="-1"></a>    <span class="fu">QuickSort</span>(arr<span class="op">,</span>j <span class="op">+</span> <span class="dv">1</span><span class="op">,</span>right<span class="op">,</span>order)</span>
+<span id="cb58-15"><a href="#cb58-15" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div>
+<h2 id="归并排序">155、归并排序</h2>
+<div class="sourceCode" id="cb59"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb59-1"><a href="#cb59-1" aria-hidden="true" tabindex="-1"></a><span class="kw">function</span> <span class="fu">MergeSort</span>(arr<span class="op">,</span>order <span class="op">=</span> <span class="kw">true</span>){</span>
+<span id="cb59-2"><a href="#cb59-2" aria-hidden="true" tabindex="-1"></a>    <span class="kw">function</span> <span class="fu">compareList</span>(arr1<span class="op">,</span>arr2<span class="op">,</span>order <span class="op">=</span> <span class="kw">true</span>){</span>
+<span id="cb59-3"><a href="#cb59-3" aria-hidden="true" tabindex="-1"></a>        <span class="kw">let</span> len <span class="op">=</span> arr1<span class="op">.</span><span class="at">length</span> <span class="op">+</span> arr2<span class="op">.</span><span class="at">length</span></span>
+<span id="cb59-4"><a href="#cb59-4" aria-hidden="true" tabindex="-1"></a>        <span class="kw">let</span> temp <span class="op">=</span> []</span>
+<span id="cb59-5"><a href="#cb59-5" aria-hidden="true" tabindex="-1"></a>        <span class="cf">for</span>(<span class="kw">let</span> i <span class="op">=</span> <span class="dv">0</span><span class="op">;</span> i <span class="op">&lt;</span> len<span class="op">;</span> i<span class="op">++</span>){</span>
+<span id="cb59-6"><a href="#cb59-6" aria-hidden="true" tabindex="-1"></a>            <span class="cf">if</span>(arr1<span class="op">.</span><span class="at">length</span> <span class="op">!==</span> <span class="dv">0</span> <span class="op">&amp;&amp;</span> arr2<span class="op">.</span><span class="at">length</span> <span class="op">!==</span> <span class="dv">0</span>){</span>
+<span id="cb59-7"><a href="#cb59-7" aria-hidden="true" tabindex="-1"></a>                <span class="cf">if</span>(arr1[<span class="dv">0</span>] <span class="op">&gt;</span> arr2[<span class="dv">0</span>]) {</span>
+<span id="cb59-8"><a href="#cb59-8" aria-hidden="true" tabindex="-1"></a>                    temp<span class="op">.</span><span class="fu">push</span>(order <span class="op">?</span> arr2<span class="op">.</span><span class="fu">shift</span>() <span class="op">:</span> arr1<span class="op">.</span><span class="fu">shift</span>())</span>
+<span id="cb59-9"><a href="#cb59-9" aria-hidden="true" tabindex="-1"></a>                }</span>
+<span id="cb59-10"><a href="#cb59-10" aria-hidden="true" tabindex="-1"></a>                <span class="cf">else</span>{</span>
+<span id="cb59-11"><a href="#cb59-11" aria-hidden="true" tabindex="-1"></a>                    temp<span class="op">.</span><span class="fu">push</span>(order <span class="op">?</span> arr1<span class="op">.</span><span class="fu">shift</span>() <span class="op">:</span> arr2<span class="op">.</span><span class="fu">shift</span>())</span>
+<span id="cb59-12"><a href="#cb59-12" aria-hidden="true" tabindex="-1"></a>                }</span>
+<span id="cb59-13"><a href="#cb59-13" aria-hidden="true" tabindex="-1"></a>            }<span class="cf">else</span>{</span>
+<span id="cb59-14"><a href="#cb59-14" aria-hidden="true" tabindex="-1"></a>                <span class="cf">break</span></span>
+<span id="cb59-15"><a href="#cb59-15" aria-hidden="true" tabindex="-1"></a>            }</span>
+<span id="cb59-16"><a href="#cb59-16" aria-hidden="true" tabindex="-1"></a>        }</span>
+<span id="cb59-17"><a href="#cb59-17" aria-hidden="true" tabindex="-1"></a>        temp <span class="op">=</span> temp<span class="op">.</span><span class="fu">concat</span>(arr1)</span>
+<span id="cb59-18"><a href="#cb59-18" aria-hidden="true" tabindex="-1"></a>        temp <span class="op">=</span> temp<span class="op">.</span><span class="fu">concat</span>(arr2)</span>
+<span id="cb59-19"><a href="#cb59-19" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> temp</span>
+<span id="cb59-20"><a href="#cb59-20" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb59-21"><a href="#cb59-21" aria-hidden="true" tabindex="-1"></a>    <span class="kw">let</span> length <span class="op">=</span> arr<span class="op">.</span><span class="at">length</span></span>
+<span id="cb59-22"><a href="#cb59-22" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> (length <span class="op">&lt;=</span> <span class="dv">1</span>) {</span>
+<span id="cb59-23"><a href="#cb59-23" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span><span class="op">;</span></span>
+<span id="cb59-24"><a href="#cb59-24" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb59-25"><a href="#cb59-25" aria-hidden="true" tabindex="-1"></a>    <span class="cf">while</span>(<span class="kw">true</span>){</span>
+<span id="cb59-26"><a href="#cb59-26" aria-hidden="true" tabindex="-1"></a>        <span class="kw">let</span> len <span class="op">=</span> arr<span class="op">.</span><span class="at">length</span></span>
+<span id="cb59-27"><a href="#cb59-27" aria-hidden="true" tabindex="-1"></a>        <span class="cf">for</span>(<span class="kw">let</span> i <span class="op">=</span> <span class="dv">0</span><span class="op">;</span> i <span class="op">&lt;</span> <span class="bu">Math</span><span class="op">.</span><span class="fu">floor</span>(len <span class="op">/</span> <span class="dv">2</span>)<span class="op">;</span> i<span class="op">++</span>){</span>
+<span id="cb59-28"><a href="#cb59-28" aria-hidden="true" tabindex="-1"></a>            <span class="kw">let</span> arr1 <span class="op">=</span> arr<span class="op">.</span><span class="fu">shift</span>()</span>
+<span id="cb59-29"><a href="#cb59-29" aria-hidden="true" tabindex="-1"></a>            <span class="kw">let</span> arr2 <span class="op">=</span> arr<span class="op">.</span><span class="fu">shift</span>()</span>
+<span id="cb59-30"><a href="#cb59-30" aria-hidden="true" tabindex="-1"></a>            arr1 <span class="op">=</span> <span class="bu">Array</span><span class="op">.</span><span class="fu">isArray</span>(arr1) <span class="op">?</span> arr1 <span class="op">:</span> [arr1]</span>
+<span id="cb59-31"><a href="#cb59-31" aria-hidden="true" tabindex="-1"></a>            arr2 <span class="op">=</span> <span class="bu">Array</span><span class="op">.</span><span class="fu">isArray</span>(arr2) <span class="op">?</span> arr2 <span class="op">:</span> [arr2]</span>
+<span id="cb59-32"><a href="#cb59-32" aria-hidden="true" tabindex="-1"></a>            <span class="kw">let</span> temp <span class="op">=</span> <span class="fu">compareList</span>(arr1<span class="op">,</span>arr2<span class="op">,</span>order)</span>
+<span id="cb59-33"><a href="#cb59-33" aria-hidden="true" tabindex="-1"></a>            arr<span class="op">.</span><span class="fu">push</span>(temp)</span>
+<span id="cb59-34"><a href="#cb59-34" aria-hidden="true" tabindex="-1"></a>        }</span>
+<span id="cb59-35"><a href="#cb59-35" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span>(arr<span class="op">.</span><span class="at">length</span> <span class="op">===</span> <span class="dv">1</span>){</span>
+<span id="cb59-36"><a href="#cb59-36" aria-hidden="true" tabindex="-1"></a>            <span class="kw">let</span> temp <span class="op">=</span> [<span class="op">...</span>arr[<span class="dv">0</span>]]</span>
+<span id="cb59-37"><a href="#cb59-37" aria-hidden="true" tabindex="-1"></a>            arr<span class="op">.</span><span class="at">length</span> <span class="op">=</span> <span class="dv">0</span></span>
+<span id="cb59-38"><a href="#cb59-38" aria-hidden="true" tabindex="-1"></a>            arr<span class="op">.</span><span class="fu">push</span>(<span class="op">...</span>temp)</span>
+<span id="cb59-39"><a href="#cb59-39" aria-hidden="true" tabindex="-1"></a>            <span class="cf">return</span></span>
+<span id="cb59-40"><a href="#cb59-40" aria-hidden="true" tabindex="-1"></a>        }</span>
+<span id="cb59-41"><a href="#cb59-41" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb59-42"><a href="#cb59-42" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div>
+<h2 id="计数排序">156、计数排序</h2>
+<div class="sourceCode" id="cb60"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb60-1"><a href="#cb60-1" aria-hidden="true" tabindex="-1"></a><span class="kw">function</span> <span class="fu">CountSort</span>(arr<span class="op">,</span> order <span class="op">=</span> <span class="kw">true</span>){</span>
+<span id="cb60-2"><a href="#cb60-2" aria-hidden="true" tabindex="-1"></a>    <span class="kw">let</span> max <span class="op">=</span> arr[<span class="dv">0</span>]</span>
+<span id="cb60-3"><a href="#cb60-3" aria-hidden="true" tabindex="-1"></a>    <span class="kw">let</span> min <span class="op">=</span> arr[<span class="dv">0</span>]</span>
+<span id="cb60-4"><a href="#cb60-4" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span>(<span class="kw">let</span> i <span class="kw">of</span> arr){</span>
+<span id="cb60-5"><a href="#cb60-5" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span>(i <span class="op">&gt;</span> max) max <span class="op">=</span> i</span>
+<span id="cb60-6"><a href="#cb60-6" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span>(i <span class="op">&lt;</span> min) min <span class="op">=</span> i</span>
+<span id="cb60-7"><a href="#cb60-7" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb60-8"><a href="#cb60-8" aria-hidden="true" tabindex="-1"></a>    <span class="kw">let</span> tempList <span class="op">=</span> <span class="kw">new</span> <span class="bu">Array</span>(<span class="bu">Math</span><span class="op">.</span><span class="fu">floor</span>(max <span class="op">-</span> min) <span class="op">+</span> <span class="dv">1</span>)<span class="op">.</span><span class="fu">fill</span>(<span class="dv">0</span>)</span>
+<span id="cb60-9"><a href="#cb60-9" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span>(<span class="kw">let</span> i <span class="kw">of</span> arr){</span>
+<span id="cb60-10"><a href="#cb60-10" aria-hidden="true" tabindex="-1"></a>        tempList[i <span class="op">-</span> min]<span class="op">++</span></span>
+<span id="cb60-11"><a href="#cb60-11" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb60-12"><a href="#cb60-12" aria-hidden="true" tabindex="-1"></a>    arr<span class="op">.</span><span class="at">length</span> <span class="op">=</span> <span class="dv">0</span></span>
+<span id="cb60-13"><a href="#cb60-13" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span>(<span class="kw">let</span> i <span class="kw">in</span> tempList){</span>
+<span id="cb60-14"><a href="#cb60-14" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span>(tempList[i] <span class="op">!==</span> <span class="dv">0</span>){</span>
+<span id="cb60-15"><a href="#cb60-15" aria-hidden="true" tabindex="-1"></a>            <span class="cf">for</span>(<span class="kw">let</span> t <span class="op">=</span> <span class="dv">0</span><span class="op">;</span>t <span class="op">&lt;</span> tempList[i]<span class="op">;</span> t<span class="op">++</span>){</span>
+<span id="cb60-16"><a href="#cb60-16" aria-hidden="true" tabindex="-1"></a>                <span class="cf">if</span>(order){</span>
+<span id="cb60-17"><a href="#cb60-17" aria-hidden="true" tabindex="-1"></a>                    arr<span class="op">.</span><span class="fu">push</span>(<span class="pp">parseInt</span>(min <span class="op">+</span> i))</span>
+<span id="cb60-18"><a href="#cb60-18" aria-hidden="true" tabindex="-1"></a>                }<span class="cf">else</span>{</span>
+<span id="cb60-19"><a href="#cb60-19" aria-hidden="true" tabindex="-1"></a>                    arr<span class="op">.</span><span class="fu">unshift</span>(<span class="pp">parseInt</span>(min <span class="op">+</span> i))</span>
+<span id="cb60-20"><a href="#cb60-20" aria-hidden="true" tabindex="-1"></a>                }</span>
+<span id="cb60-21"><a href="#cb60-21" aria-hidden="true" tabindex="-1"></a>            }</span>
+<span id="cb60-22"><a href="#cb60-22" aria-hidden="true" tabindex="-1"></a>        }</span>
+<span id="cb60-23"><a href="#cb60-23" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb60-24"><a href="#cb60-24" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div>
+<h2 id="力扣70爬楼梯动态规划">157、力扣70、<a href="https://leetcode.cn/problems/climbing-stairs/">爬楼梯</a>（动态规划）</h2>
+<div class="sourceCode" id="cb61"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb61-1"><a href="#cb61-1" aria-hidden="true" tabindex="-1"></a><span class="kw">var</span> climbStairs <span class="op">=</span> <span class="kw">function</span>(n) {</span>
+<span id="cb61-2"><a href="#cb61-2" aria-hidden="true" tabindex="-1"></a>    <span class="kw">let</span> arr <span class="op">=</span> <span class="kw">new</span> <span class="bu">Array</span>(n <span class="op">+</span> <span class="dv">1</span>)<span class="op">.</span><span class="fu">fill</span>(<span class="dv">1</span>)</span>
+<span id="cb61-3"><a href="#cb61-3" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span>(<span class="kw">let</span> i <span class="op">=</span> <span class="dv">2</span><span class="op">;</span> i <span class="op">&lt;=</span> n <span class="op">;</span>i<span class="op">++</span>){</span>
+<span id="cb61-4"><a href="#cb61-4" aria-hidden="true" tabindex="-1"></a>        arr[i] <span class="op">=</span> arr[i <span class="op">-</span> <span class="dv">1</span>] <span class="op">+</span> arr[i <span class="op">-</span> <span class="dv">2</span>]</span>
+<span id="cb61-5"><a href="#cb61-5" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb61-6"><a href="#cb61-6" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> arr[n]</span>
+<span id="cb61-7"><a href="#cb61-7" aria-hidden="true" tabindex="-1"></a>}<span class="op">;</span></span></code></pre></div>
+<h2 id="力扣746使用最小花费爬楼梯动态规划">158、力扣746、<a href="https://leetcode.cn/problems/min-cost-climbing-stairs/">使用最小花费爬楼梯</a>（动态规划）</h2>
+<div class="sourceCode" id="cb62"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb62-1"><a href="#cb62-1" aria-hidden="true" tabindex="-1"></a><span class="kw">var</span> minCostClimbingStairs <span class="op">=</span> <span class="kw">function</span>(cost) {</span>
+<span id="cb62-2"><a href="#cb62-2" aria-hidden="true" tabindex="-1"></a>    cost<span class="op">.</span><span class="fu">push</span>(<span class="dv">0</span>)</span>
+<span id="cb62-3"><a href="#cb62-3" aria-hidden="true" tabindex="-1"></a>    <span class="kw">let</span> dp <span class="op">=</span> []</span>
+<span id="cb62-4"><a href="#cb62-4" aria-hidden="true" tabindex="-1"></a>    <span class="kw">let</span> n <span class="op">=</span> cost<span class="op">.</span><span class="at">length</span></span>
+<span id="cb62-5"><a href="#cb62-5" aria-hidden="true" tabindex="-1"></a>    dp[<span class="dv">0</span>] <span class="op">=</span> cost[<span class="dv">0</span>]</span>
+<span id="cb62-6"><a href="#cb62-6" aria-hidden="true" tabindex="-1"></a>    dp[<span class="dv">1</span>] <span class="op">=</span> cost[<span class="dv">1</span>]</span>
+<span id="cb62-7"><a href="#cb62-7" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span>(<span class="kw">let</span> i <span class="op">=</span> <span class="dv">2</span><span class="op">;</span>i <span class="op">&lt;</span> n<span class="op">;</span>i<span class="op">++</span>){</span>
+<span id="cb62-8"><a href="#cb62-8" aria-hidden="true" tabindex="-1"></a>        dp[i] <span class="op">=</span> <span class="bu">Math</span><span class="op">.</span><span class="fu">min</span>(dp[i <span class="op">-</span> <span class="dv">1</span>]<span class="op">,</span> dp[i <span class="op">-</span> <span class="dv">2</span>]) <span class="op">+</span> cost[i]</span>
+<span id="cb62-9"><a href="#cb62-9" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb62-10"><a href="#cb62-10" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> dp[n <span class="op">-</span> <span class="dv">1</span>]</span>
+<span id="cb62-11"><a href="#cb62-11" aria-hidden="true" tabindex="-1"></a>}<span class="op">;</span></span></code></pre></div>
+</body>
+</html>
